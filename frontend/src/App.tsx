@@ -684,7 +684,7 @@ async function runPrediction() {
   withConflict: boolean
 ) => {
   const response = await fetch(
-    'http://127.0.0.1:8000/predict',
+    'https://poland-relief-backend.onrender.com',
     {
       method: 'POST',
       headers: {
