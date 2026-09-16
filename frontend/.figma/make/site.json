@@ -1,0 +1,10 @@
+{
+  "description": "Simplifies humanitarian logistics by forecasting refugee inflows and optimizing weekly relief supply distribution across key hubs with clear Korean UI.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
