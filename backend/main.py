@@ -35,6 +35,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:8443",
         "http://127.0.0.1:8443",
+        "https://ime-olive.vercel.app",  # <-- 이 주소를 추가!
     ],
     allow_credentials=True,
     allow_methods=["*"],
