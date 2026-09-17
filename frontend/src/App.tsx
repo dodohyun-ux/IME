@@ -684,7 +684,7 @@ async function runPrediction() {
   withConflict: boolean
 ) => {
   const response = await fetch(
-    'https://poland-relief-backend.onrender.com',
+    'https://poland-relief-backend.onrender.com/predict',
     {
       method: 'POST',
       headers: {
@@ -929,7 +929,7 @@ async function runOptimization() {
     console.log('최적화 요청값:', requestBody)
 
     const response = await fetch(
-      'http://127.0.0.1:8000/optimize',
+      'https://poland-relief-backend.onrender.com/optimize',
       {
         method: 'POST',
         headers: {
