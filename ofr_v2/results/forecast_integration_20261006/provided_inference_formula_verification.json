@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "unchanged_function_ast": [
+    "weekly_to_daily",
+    "hub_weekly_inflow",
+    "build_conflict_history",
+    "inverse_target",
+    "build_feature_row",
+    "predict_hub",
+    "validate_prediction_request"
+  ],
+  "model_sha256": "87c8953c7bd6abe5406c0513f23243cebdc305771681a33a488b4e17fbb606aa"
+}

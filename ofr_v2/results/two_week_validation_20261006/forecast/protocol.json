@@ -1,0 +1,37 @@
+{
+  "model_sha256": "87c8953c7bd6abe5406c0513f23243cebdc305771681a33a488b4e17fbb606aa",
+  "weights_frozen": true,
+  "training_end_declared": "2025-05-09",
+  "primary_first_origin": "2025-05-12",
+  "primary_last_origin": "2026-01-26",
+  "input_weeks": 2,
+  "horizons": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "baselines": [
+    "last_week",
+    "mean_two_weeks",
+    "two_week_linear_trend_clipped_at_zero"
+  ],
+  "metrics": [
+    "WAPE",
+    "MAE",
+    "RMSE",
+    "bias_pct",
+    "underprediction_fraction"
+  ],
+  "bootstrap": {
+    "method": "moving blocks of forecast origins; paired model-naive WAPE difference",
+    "block_origins": 4,
+    "replications": 2000,
+    "seed": 20261006
+  },
+  "interval_scope": "total only; reported calibration period overlaps main origins; coverage descriptive",
+  "later_target_check": "2026-02-23 only (last target week after stated calibration targets)",
+  "not_retrained": true,
+  "not_tuned_using_results": true,
+  "training_dataset_provenance_independently_verified": false
+}

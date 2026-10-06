@@ -1,0 +1,183 @@
+- complementary:
+  - generic: 폴란드 구호 플래너
+  - generic: Poland Relief Planner
+  - navigation:
+    - button "01 데이터 입력":
+      - generic: "01"
+      - generic: 데이터 입력
+    - button "02 4주 수요 예측":
+      - generic: "02"
+      - generic: 4주 수요 예측
+    - button "03 구호품 계획":
+      - generic: "03"
+      - generic: 구호품 계획
+    - button "04 최적화 결과":
+      - generic: "04"
+      - generic: 최적화 결과
+  - generic: 구호소
+  - generic: Medyka
+  - generic: Dorohusk
+  - generic: Korczowa
+- main:
+  - generic: STEP 02
+  - generic: ·
+  - generic: 4주 수요 예측
+  - heading "향후 4주 난민 및 구호소 수요 예측" [level=1]
+  - generic: 시연용 예시 유입량·분쟁 정보로 생성한 모델 예측 · 실제 운영값 아님
+  - generic: 새 예측모델은 최근 주간 유입을 일별 평균으로 변환해 28일을 재귀 예측합니다. 유입 특징은 최근 14일(최근 2주)까지 사용합니다. 분쟁 특징은 기준 주 수준과 1~2일 시차·7일 평균이며, 미래 분쟁 수준은 기준 주 수준이 유지된다고 가정합니다. 실제 미래 예측 정확도는 별도 검증이 필요합니다. 입력한 기준 주 분쟁 사건 수·사망자 수를 반영했습니다. 제공 백엔드에 명시된 학습 종료일 2025-05-09 이후의 예측입니다. 학습 기간은 번들 자체에서 독립 확인되지 않았습니다. 80% 구간은 팀이 제공한 총 유입 백테스트 잔차 보정값입니다. 구호소별 구간·새 모델 WAPE는 제공되지 않았습니다.
+  - generic: 주차별 국경 유입량 예측
+  - generic: 1주 후
+  - generic: 5,020명
+  - generic: 02.02 – 02.08
+  - generic: 80% 예측범위
+  - generic: 4,071 ~ 6,291명
+  - button "수정":
+    - generic: 수정
+  - generic: 2주 후
+  - generic: 5,154명
+  - generic: 02.09 – 02.15
+  - generic: 80% 예측범위
+  - generic: 3,978 ~ 6,633명
+  - button "수정":
+    - generic: 수정
+  - generic: 3주 후
+  - generic: 5,199명
+  - generic: 02.16 – 02.22
+  - generic: 80% 예측범위
+  - generic: 3,828 ~ 7,107명
+  - button "수정":
+    - generic: 수정
+  - generic: 4주 후
+  - generic: 5,235명
+  - generic: 02.23 – 03.01
+  - generic: 80% 예측범위
+  - generic: 3,853 ~ 7,513명
+  - button "수정":
+    - generic: 수정
+  - generic: 4주 총 예상 유입량
+  - generic: 20,608
+  - generic: 명
+  - status:
+    - paragraph: 4주 후
+    - list:
+      - listitem: "예측 유입 : 5,235명"
+      - listitem: "80% 예측범위 : 3,853 ~ 7,513명"
+  - application:
+    - generic: 1주 전
+    - generic: 기준 주
+    - generic: 1주 후
+    - generic: 2주 후
+    - generic: 3주 후
+    - generic: 4주 후
+    - generic: "0"
+    - generic: 2.0k
+    - generic: 4.0k
+    - generic: 6.0k
+    - generic: 8.0k
+  - generic: 최근 2주 유입 (3개 구호소 합계)
+  - generic: 향후 4주 예측
+  - generic: 구호소별 예측
+  - table:
+    - rowgroup:
+      - row "구호소 1주 후 2주 후 3주 후 4주 후":
+        - columnheader "구호소"
+        - columnheader "1주 후"
+        - columnheader "2주 후"
+        - columnheader "3주 후"
+        - columnheader "4주 후"
+    - rowgroup:
+      - row "Medyka 2,106 2,117 2,122 2,121":
+        - cell "Medyka":
+          - generic: Medyka
+        - cell "2,106":
+          - generic: 2,106
+        - cell "2,117":
+          - generic: 2,117
+        - cell "2,122":
+          - generic: 2,122
+        - cell "2,121":
+          - generic: 2,121
+      - row "Dorohusk 1,607 1,732 1,772 1,810":
+        - cell "Dorohusk":
+          - generic: Dorohusk
+        - cell "1,607":
+          - generic: 1,607
+        - cell "1,732":
+          - generic: 1,732
+        - cell "1,772":
+          - generic: 1,772
+        - cell "1,810":
+          - generic: 1,810
+      - row "Korczowa 1,307 1,305 1,305 1,304":
+        - cell "Korczowa":
+          - generic: Korczowa
+        - cell "1,307":
+          - generic: 1,307
+        - cell "1,305":
+          - generic: 1,305
+        - cell "1,305":
+          - generic: 1,305
+        - cell "1,304":
+          - generic: 1,304
+  - generic: "구호소별 예측값을 표시합니다. 새 모델의 80% 예측범위는 위의 3개 구호소 총 유입량에만 제공됩니다. (단위: 명)"
+  - generic: 구호소 운영 시나리오
+  - generic: 국경 유입자 중 구호소 이용률
+  - button "5%"
+  - button "10%"
+  - button "20%"
+  - generic: 평균 체류기간
+  - button "1일"
+  - button "2일"
+  - button "3일"
+  - button "4일"
+  - generic: 주차별 운영수요
+  - table:
+    - rowgroup:
+      - row "주차 예상 유입 (명) 구호소 이용 예상인원 (명) 평균 체류기간 (일) 총 체류수요 (인·일)":
+        - columnheader "주차"
+        - columnheader "예상 유입 (명)"
+        - columnheader "구호소 이용 예상인원 (명)"
+        - columnheader "평균 체류기간 (일)"
+        - columnheader "총 체류수요 (인·일)"
+    - rowgroup:
+      - row "1주 후 02.02 – 02.08 5,020 502 3 1,506":
+        - cell "1주 후 02.02 – 02.08":
+          - generic: 1주 후
+          - generic: 02.02 – 02.08
+        - cell "5,020"
+        - cell "502"
+        - cell "3"
+        - cell "1,506"
+      - row "2주 후 02.09 – 02.15 5,154 516 3 1,548":
+        - cell "2주 후 02.09 – 02.15":
+          - generic: 2주 후
+          - generic: 02.09 – 02.15
+        - cell "5,154"
+        - cell "516"
+        - cell "3"
+        - cell "1,548"
+      - row "3주 후 02.16 – 02.22 5,199 520 3 1,560":
+        - cell "3주 후 02.16 – 02.22":
+          - generic: 3주 후
+          - generic: 02.16 – 02.22
+        - cell "5,199"
+        - cell "520"
+        - cell "3"
+        - cell "1,560"
+      - row "4주 후 02.23 – 03.01 5,235 524 3 1,572":
+        - cell "4주 후 02.23 – 03.01":
+          - generic: 4주 후
+          - generic: 02.23 – 03.01
+        - cell "5,235"
+        - cell "524"
+        - cell "3"
+        - cell "1,572"
+      - row "합계 20,608 2,062 — 6,186인·일":
+        - cell "합계"
+        - cell "20,608"
+        - cell "2,062"
+        - cell "—"
+        - cell "6,186인·일"
+  - button "구호품 계획 설정으로 이동":
+    - text: 구호품 계획 설정으로 이동
+- generic: "0"

@@ -1,0 +1,830 @@
+{
+  "speed_benchmarks": [
+    {
+      "year": 2022,
+      "station": "06034",
+      "road": "12",
+      "vehicle_class": "L",
+      "source_id": "gddkia_speed_2022",
+      "pdf_page": 2,
+      "median_bin_kph": [
+        80,
+        90
+      ],
+      "p10_bin_kph": [
+        70,
+        80
+      ],
+      "p90_bin_kph": [
+        100,
+        110
+      ],
+      "below_60_pct": 1.3,
+      "route_matched": false,
+      "whole_trip_eta_validation": false
+    },
+    {
+      "year": 2022,
+      "station": "06034",
+      "road": "12",
+      "vehicle_class": "C",
+      "source_id": "gddkia_speed_2022",
+      "pdf_page": 2,
+      "median_bin_kph": [
+        80,
+        90
+      ],
+      "p10_bin_kph": [
+        70,
+        80
+      ],
+      "p90_bin_kph": [
+        90,
+        100
+      ],
+      "below_60_pct": 1.6,
+      "route_matched": false,
+      "whole_trip_eta_validation": false
+    },
+    {
+      "year": 2022,
+      "station": "06060",
+      "road": "17",
+      "vehicle_class": "L",
+      "source_id": "gddkia_speed_2022",
+      "pdf_page": 2,
+      "median_bin_kph": [
+        70,
+        80
+      ],
+      "p10_bin_kph": [
+        60,
+        70
+      ],
+      "p90_bin_kph": [
+        80,
+        90
+      ],
+      "below_60_pct": 7.4,
+      "route_matched": false,
+      "whole_trip_eta_validation": false
+    },
+    {
+      "year": 2022,
+      "station": "06060",
+      "road": "17",
+      "vehicle_class": "C",
+      "source_id": "gddkia_speed_2022",
+      "pdf_page": 2,
+      "median_bin_kph": [
+        70,
+        80
+      ],
+      "p10_bin_kph": [
+        60,
+        70
+      ],
+      "p90_bin_kph": [
+        80,
+        90
+      ],
+      "below_60_pct": 8.6,
+      "route_matched": false,
+      "whole_trip_eta_validation": false
+    },
+    {
+      "year": 2022,
+      "station": "18069",
+      "road": "77",
+      "vehicle_class": "L",
+      "source_id": "gddkia_speed_2022",
+      "pdf_page": 4,
+      "median_bin_kph": [
+        70,
+        80
+      ],
+      "p10_bin_kph": [
+        60,
+        70
+      ],
+      "p90_bin_kph": [
+        100,
+        110
+      ],
+      "below_60_pct": 8.8,
+      "route_matched": false,
+      "whole_trip_eta_validation": false
+    },
+    {
+      "year": 2022,
+      "station": "18069",
+      "road": "77",
+      "vehicle_class": "C",
+      "source_id": "gddkia_speed_2022",
+      "pdf_page": 4,
+      "median_bin_kph": [
+        70,
+        80
+      ],
+      "p10_bin_kph": [
+        60,
+        70
+      ],
+      "p90_bin_kph": [
+        90,
+        100
+      ],
+      "below_60_pct": 9.6,
+      "route_matched": false,
+      "whole_trip_eta_validation": false
+    },
+    {
+      "year": 2025,
+      "station": "06034",
+      "road": "12",
+      "vehicle_class": "L",
+      "source_id": "gddkia_speed_2025",
+      "pdf_page": 3,
+      "median_bin_kph": [
+        80,
+        90
+      ],
+      "p10_bin_kph": [
+        70,
+        80
+      ],
+      "p90_bin_kph": [
+        100,
+        110
+      ],
+      "below_60_pct": 1.54,
+      "route_matched": false,
+      "whole_trip_eta_validation": false
+    },
+    {
+      "year": 2025,
+      "station": "06034",
+      "road": "12",
+      "vehicle_class": "C",
+      "source_id": "gddkia_speed_2025",
+      "pdf_page": 3,
+      "median_bin_kph": [
+        70,
+        80
+      ],
+      "p10_bin_kph": [
+        60,
+        70
+      ],
+      "p90_bin_kph": [
+        80,
+        90
+      ],
+      "below_60_pct": 1.43,
+      "route_matched": false,
+      "whole_trip_eta_validation": false
+    },
+    {
+      "year": 2025,
+      "station": "06060",
+      "road": "17",
+      "vehicle_class": "L",
+      "source_id": "gddkia_speed_2025",
+      "pdf_page": 3,
+      "median_bin_kph": [
+        70,
+        80
+      ],
+      "p10_bin_kph": [
+        50,
+        60
+      ],
+      "p90_bin_kph": [
+        80,
+        90
+      ],
+      "below_60_pct": 10.34,
+      "route_matched": false,
+      "whole_trip_eta_validation": false
+    },
+    {
+      "year": 2025,
+      "station": "06060",
+      "road": "17",
+      "vehicle_class": "C",
+      "source_id": "gddkia_speed_2025",
+      "pdf_page": 3,
+      "median_bin_kph": [
+        70,
+        80
+      ],
+      "p10_bin_kph": [
+        50,
+        60
+      ],
+      "p90_bin_kph": [
+        80,
+        90
+      ],
+      "below_60_pct": 12.73,
+      "route_matched": false,
+      "whole_trip_eta_validation": false
+    },
+    {
+      "year": 2025,
+      "station": "18069",
+      "road": "77",
+      "vehicle_class": "L",
+      "source_id": "gddkia_speed_2025",
+      "pdf_page": 5,
+      "median_bin_kph": [
+        60,
+        70
+      ],
+      "p10_bin_kph": [
+        50,
+        60
+      ],
+      "p90_bin_kph": [
+        70,
+        80
+      ],
+      "below_60_pct": 22.78,
+      "route_matched": false,
+      "whole_trip_eta_validation": false
+    },
+    {
+      "year": 2025,
+      "station": "18069",
+      "road": "77",
+      "vehicle_class": "C",
+      "source_id": "gddkia_speed_2025",
+      "pdf_page": 5,
+      "median_bin_kph": [
+        60,
+        70
+      ],
+      "p10_bin_kph": [
+        50,
+        60
+      ],
+      "p90_bin_kph": [
+        70,
+        80
+      ],
+      "below_60_pct": 26.12,
+      "route_matched": false,
+      "whole_trip_eta_validation": false
+    }
+  ],
+  "cost_benchmarks": [
+    {
+      "warehouse": "przemysl-lwowska-36",
+      "destination": "medyka-hall-293",
+      "round_trip_km": 20.538050413336258,
+      "model_transport_usd": 120.53805041333626,
+      "tariff_component_net_pln": 75.6,
+      "tariff_component_gross_pln": 93.03,
+      "model_over_tariff_net_ratio": 5.945108843600622,
+      "model_over_tariff_gross_ratio": 4.831239692316531,
+      "observed_cost": false,
+      "tariff_source": "zgl_tariff_2026",
+      "fx_source": "nbp_usd_20260316"
+    },
+    {
+      "warehouse": "przemysl-wodna-11",
+      "destination": "medyka-hall-293",
+      "round_trip_km": 26.24896405731751,
+      "model_transport_usd": 126.24896405731751,
+      "tariff_component_net_pln": 97.2,
+      "tariff_component_gross_pln": 119.61,
+      "model_over_tariff_net_ratio": 4.843050537865429,
+      "model_over_tariff_gross_ratio": 3.935661836640078,
+      "observed_cost": false,
+      "tariff_source": "zgl_tariff_2026",
+      "fx_source": "nbp_usd_20260316"
+    },
+    {
+      "warehouse": "przemysl-lwowska-36",
+      "destination": "korczowa-hall-155",
+      "round_trip_km": 70.30235591007207,
+      "model_transport_usd": 170.30235591007207,
+      "tariff_component_net_pln": 255.6,
+      "tariff_component_gross_pln": 314.53,
+      "model_over_tariff_net_ratio": 2.4843755652655934,
+      "model_over_tariff_gross_ratio": 2.0189056512316337,
+      "observed_cost": false,
+      "tariff_source": "zgl_tariff_2026",
+      "fx_source": "nbp_usd_20260316"
+    },
+    {
+      "warehouse": "przemysl-wodna-11",
+      "destination": "korczowa-hall-155",
+      "round_trip_km": 74.47829446506726,
+      "model_transport_usd": 174.47829446506728,
+      "tariff_component_net_pln": 270.0,
+      "tariff_component_gross_pln": 332.25,
+      "model_over_tariff_net_ratio": 2.409545246562579,
+      "model_over_tariff_gross_ratio": 1.9580954599605607,
+      "observed_cost": false,
+      "tariff_source": "zgl_tariff_2026",
+      "fx_source": "nbp_usd_20260316"
+    },
+    {
+      "warehouse": "przemysl-lwowska-36",
+      "destination": "dorohusk-parkowa-5",
+      "round_trip_km": 409.8858217310519,
+      "model_transport_usd": 509.8858217310519,
+      "tariff_component_net_pln": 1476.0,
+      "tariff_component_gross_pln": 1816.3,
+      "model_over_tariff_net_ratio": 1.288083511848627,
+      "model_over_tariff_gross_ratio": 1.0467495807347758,
+      "observed_cost": false,
+      "tariff_source": "zgl_tariff_2026",
+      "fx_source": "nbp_usd_20260316"
+    },
+    {
+      "warehouse": "przemysl-wodna-11",
+      "destination": "dorohusk-parkowa-5",
+      "round_trip_km": 409.12077075734095,
+      "model_transport_usd": 509.12077075734095,
+      "tariff_component_net_pln": 1476.0,
+      "tariff_component_gross_pln": 1816.3,
+      "model_over_tariff_net_ratio": 1.2861508251510143,
+      "model_over_tariff_gross_ratio": 1.0451790001227204,
+      "observed_cost": false,
+      "tariff_source": "zgl_tariff_2026",
+      "fx_source": "nbp_usd_20260316"
+    }
+  ],
+  "fx": {
+    "table": "A",
+    "currency": "dolar amerykański",
+    "code": "USD",
+    "rates": [
+      {
+        "no": "051/A/NBP/2026",
+        "effectiveDate": "2026-03-16",
+        "mid": 3.7287
+      }
+    ]
+  },
+  "public_sources": [
+    {
+      "id": "gddkia_speed_2025",
+      "file": "gddkia_speed_2025.pdf",
+      "url": "https://www.gov.pl/attachment/6911d70c-9c8f-428d-b32a-2f6fe0149c28",
+      "publisher": "GDDKiA",
+      "kind": "spot_speed_distribution",
+      "bytes": 1035864,
+      "sha256": "d75f59c58904a3cf8df2e056d3c3af433e3e1cb006175aa148c480c9a3645fab",
+      "retrieved_on": "2026-10-04",
+      "trip_ground_truth": false
+    },
+    {
+      "id": "gddkia_speed_2022",
+      "file": "gddkia_speed_2022.pdf",
+      "url": "https://www.gov.pl/attachment/e57e0ab2-39e7-4f7a-9ae9-6c317dbaa1ba",
+      "publisher": "GDDKiA",
+      "kind": "spot_speed_distribution",
+      "bytes": 659589,
+      "sha256": "6980b9f0c5ff044721767da4d5b151fb6b5939d661b04e553fcccd8b79dadf27",
+      "retrieved_on": "2026-10-04",
+      "trip_ground_truth": false
+    },
+    {
+      "id": "swiecie_award_2025",
+      "file": "swiecie_award_2025.pdf",
+      "url": "https://ezamowienia.gov.pl/mo-board/api/v1/Board/GetNoticePdfById?noticeId=08dd2aff-000f-d14b-aa0d-d80001d3af5e",
+      "publisher": "Polish public procurement BZP / Powiat Swiecki",
+      "kind": "awarded_annual_contract",
+      "bytes": 73281,
+      "sha256": "51141899a7fa592d58a5a7f170ab4b3b013b55dcf549c64ec59adb61d65d4d99",
+      "retrieved_on": "2026-10-04",
+      "trip_ground_truth": false
+    },
+    {
+      "id": "zgl_tariff_2026",
+      "file": "zgl_tariff_2026.pdf",
+      "url": "https://www.zglbp.pl/page/92405102/edytor/file/cennik-uslug-dodatkowych.pdf",
+      "publisher": "ZGL Biala Podlaska official company site",
+      "kind": "published_tariff",
+      "bytes": 233623,
+      "sha256": "f59a1f411e7ea40b28d34ecc847b1f23faa054a27580e1eec9d7f71e6272621a",
+      "retrieved_on": "2026-10-04",
+      "trip_ground_truth": false
+    },
+    {
+      "id": "nbp_usd_20260316",
+      "file": "nbp_usd_20260316.json",
+      "url": "https://api.nbp.pl/api/exchangerates/rates/a/usd/2026-03-16/?format=json",
+      "publisher": "Narodowy Bank Polski",
+      "kind": "historical_mid_fx",
+      "bytes": 134,
+      "sha256": "c01f6feaae959d600773f6ff7b0df94b8c592b96fdc34116a750857dd9f39609",
+      "retrieved_on": "2026-10-04",
+      "trip_ground_truth": false
+    },
+    {
+      "id": "logcluster_annual_2022",
+      "file": "logcluster_annual_2022.pdf",
+      "url": "https://logcluster.org/sites/default/files/public/2023-05/logistics-clusterukraineannual-overview-2022_230519.pdf",
+      "publisher": "WFP-led Logistics Cluster",
+      "kind": "aggregate_field_activity",
+      "bytes": 1053463,
+      "sha256": "26cfa34e6527c496917b312865107f5d1ba53254d1e88278d48df8121827829b",
+      "retrieved_on": "2026-10-04",
+      "trip_ground_truth": false
+    },
+    {
+      "id": "logcluster_gna_2022",
+      "file": "logcluster_gna_2022.pdf",
+      "url": "https://logcluster.org/sites/default/files/public/2022-07/logisticsclusterukrainegaps-and-needs-analysisgna-june-2022.pdf",
+      "publisher": "WFP-led Logistics Cluster",
+      "kind": "field_needs_analysis",
+      "bytes": 2449135,
+      "sha256": "dfccdb10a599361cb94238ab4b7f7203251c047560cd21f0415f6e486d968b0e",
+      "retrieved_on": "2026-10-04",
+      "trip_ground_truth": false
+    }
+  ],
+  "matched_public_trips": 0,
+  "speed_row_count": 12,
+  "independent_observed_delivery_count": 0,
+  "generated_at": "2026-10-04T08:59:39.084646+00:00",
+  "inputs_sha256": {
+    "sources.json": "22f263f5dd588889febd6d7a3dfb492fa4617779ddea2953a66e4727934aa0ab",
+    "speed_observations.json": "fa7d99ec7f526af72c78fd7fc20c26470ef7a9b0d9c48df1929d0117fe7b644f",
+    "cost_references.json": "c6c47713729e84552b885d17b63fe9ee4187c3461b76afcdae072d357b543b47"
+  },
+  "trips_input_sha256": "785d8805edded4c4ca6328b8248b1ea914b77869211a18d1e8e7fd1b26b14207",
+  "trip_validation": {
+    "input_records": 0,
+    "time_minutes": {
+      "n": 0,
+      "mae": null,
+      "bias": null,
+      "wape_pct": null
+    },
+    "cost_usd": {
+      "n": 0,
+      "mae": null,
+      "bias": null,
+      "wape_pct": null
+    },
+    "exclusions": [],
+    "field_effect_identified": false,
+    "operational_ready": false,
+    "verdict": "no_matched_operating_records"
+  },
+  "sensitivity": {
+    "cases": [
+      {
+        "site": "Medyka",
+        "scenario": "current",
+        "speed_kph": 60,
+        "usd_per_km": 1,
+        "fixed_usd": 100,
+        "fulfillment_pct": 99.99999750138888,
+        "worst_shortage_pct": 9.999999999999999e-06,
+        "cost": 9841.075920926673,
+        "trips": 2,
+        "distance_km": 41.076100826672516,
+        "max_gap": 0,
+        "status": "pass",
+        "violations": [],
+        "operational_ready": false,
+        "transport_cost": 241.07610082667253,
+        "max_trip_driving_minutes": 25.0,
+        "max_trip_elapsed_minutes": 160.0
+      },
+      {
+        "site": "Medyka",
+        "scenario": "slow",
+        "speed_kph": 45,
+        "usd_per_km": 1,
+        "fixed_usd": 100,
+        "fulfillment_pct": 99.99999750138888,
+        "worst_shortage_pct": 9.999999999999999e-06,
+        "cost": 9841.075920926673,
+        "trips": 2,
+        "distance_km": 41.076100826672516,
+        "max_gap": 0,
+        "status": "pass",
+        "violations": [],
+        "operational_ready": false,
+        "transport_cost": 241.07610082667253,
+        "max_trip_driving_minutes": 32.83333333333333,
+        "max_trip_elapsed_minutes": 167.83333333333334
+      },
+      {
+        "site": "Medyka",
+        "scenario": "very-slow",
+        "speed_kph": 30,
+        "usd_per_km": 1,
+        "fixed_usd": 100,
+        "fulfillment_pct": 99.99999750138888,
+        "worst_shortage_pct": 9.999999999999999e-06,
+        "cost": 9841.075920926673,
+        "trips": 2,
+        "distance_km": 41.076100826672516,
+        "max_gap": 0,
+        "status": "pass",
+        "violations": [],
+        "operational_ready": false,
+        "transport_cost": 241.07610082667253,
+        "max_trip_driving_minutes": 45.166666666666664,
+        "max_trip_elapsed_minutes": 180.16666666666666
+      },
+      {
+        "site": "Medyka",
+        "scenario": "faster",
+        "speed_kph": 75,
+        "usd_per_km": 1,
+        "fixed_usd": 100,
+        "fulfillment_pct": 99.99999750138888,
+        "worst_shortage_pct": 9.999999999999999e-06,
+        "cost": 9841.075920926673,
+        "trips": 2,
+        "distance_km": 41.076100826672516,
+        "max_gap": 0,
+        "status": "pass",
+        "violations": [],
+        "operational_ready": false,
+        "transport_cost": 241.07610082667253,
+        "max_trip_driving_minutes": 21.5,
+        "max_trip_elapsed_minutes": 156.5
+      },
+      {
+        "site": "Medyka",
+        "scenario": "tariff-net-component",
+        "speed_kph": 60,
+        "usd_per_km": 0.9654839488293507,
+        "fixed_usd": 0,
+        "fulfillment_pct": 99.99999750138878,
+        "worst_shortage_pct": 9.999999999999999e-06,
+        "cost": 9639.65813612864,
+        "trips": 2,
+        "distance_km": 41.076100826672516,
+        "max_gap": 0,
+        "status": "pass",
+        "violations": [],
+        "operational_ready": false,
+        "transport_cost": 39.658316028648336,
+        "max_trip_driving_minutes": 25.0,
+        "max_trip_elapsed_minutes": 160.0
+      },
+      {
+        "site": "Medyka",
+        "scenario": "tariff-gross-component",
+        "speed_kph": 60,
+        "usd_per_km": 1.1880816370316731,
+        "fixed_usd": 0,
+        "fulfillment_pct": 99.9999981263889,
+        "worst_shortage_pct": 9.999999999999999e-06,
+        "cost": 9648.801626213031,
+        "trips": 2,
+        "distance_km": 41.076100826672516,
+        "max_gap": 4.663791296364643e-09,
+        "status": "pass",
+        "violations": [],
+        "operational_ready": false,
+        "transport_cost": 48.80176111303114,
+        "max_trip_driving_minutes": 25.0,
+        "max_trip_elapsed_minutes": 160.0
+      },
+      {
+        "site": "Korczowa",
+        "scenario": "current",
+        "speed_kph": 60,
+        "usd_per_km": 1,
+        "fixed_usd": 100,
+        "fulfillment_pct": 99.99999750138888,
+        "worst_shortage_pct": 9.999999999999999e-06,
+        "cost": 9940.604531920144,
+        "trips": 2,
+        "distance_km": 140.60471182014413,
+        "max_gap": 0,
+        "status": "pass",
+        "violations": [],
+        "operational_ready": false,
+        "transport_cost": 340.60471182014413,
+        "max_trip_driving_minutes": 87.16666666666666,
+        "max_trip_elapsed_minutes": 222.16666666666666
+      },
+      {
+        "site": "Korczowa",
+        "scenario": "slow",
+        "speed_kph": 45,
+        "usd_per_km": 1,
+        "fixed_usd": 100,
+        "fulfillment_pct": 99.99999750138888,
+        "worst_shortage_pct": 9.999999999999999e-06,
+        "cost": 9940.604531920144,
+        "trips": 2,
+        "distance_km": 140.60471182014413,
+        "max_gap": 0,
+        "status": "pass",
+        "violations": [],
+        "operational_ready": false,
+        "transport_cost": 340.60471182014413,
+        "max_trip_driving_minutes": 111.5,
+        "max_trip_elapsed_minutes": 246.5
+      },
+      {
+        "site": "Korczowa",
+        "scenario": "very-slow",
+        "speed_kph": 30,
+        "usd_per_km": 1,
+        "fixed_usd": 100,
+        "fulfillment_pct": 99.99999750138888,
+        "worst_shortage_pct": 9.999999999999999e-06,
+        "cost": 9940.604531920144,
+        "trips": 2,
+        "distance_km": 140.60471182014413,
+        "max_gap": 0,
+        "status": "pass",
+        "violations": [],
+        "operational_ready": false,
+        "transport_cost": 340.60471182014413,
+        "max_trip_driving_minutes": 156.83333333333331,
+        "max_trip_elapsed_minutes": 291.8333333333333
+      },
+      {
+        "site": "Korczowa",
+        "scenario": "faster",
+        "speed_kph": 75,
+        "usd_per_km": 1,
+        "fixed_usd": 100,
+        "fulfillment_pct": 99.99999750138888,
+        "worst_shortage_pct": 9.999999999999999e-06,
+        "cost": 9940.604531920144,
+        "trips": 2,
+        "distance_km": 140.60471182014413,
+        "max_gap": 0,
+        "status": "pass",
+        "violations": [],
+        "operational_ready": false,
+        "transport_cost": 340.60471182014413,
+        "max_trip_driving_minutes": 73.66666666666666,
+        "max_trip_elapsed_minutes": 208.66666666666666
+      },
+      {
+        "site": "Korczowa",
+        "scenario": "tariff-net-component",
+        "speed_kph": 60,
+        "usd_per_km": 0.9654839488293507,
+        "fixed_usd": 0,
+        "fulfillment_pct": 99.9999981263889,
+        "worst_shortage_pct": 9.999999999999999e-06,
+        "cost": 9735.751457492126,
+        "trips": 2,
+        "distance_km": 140.60471182014413,
+        "max_gap": 4.622139055331733e-09,
+        "status": "pass",
+        "violations": [],
+        "operational_ready": false,
+        "transport_cost": 135.75159239212564,
+        "max_trip_driving_minutes": 87.16666666666666,
+        "max_trip_elapsed_minutes": 222.16666666666666
+      },
+      {
+        "site": "Korczowa",
+        "scenario": "tariff-gross-component",
+        "speed_kph": 60,
+        "usd_per_km": 1.1880816370316731,
+        "fixed_usd": 0,
+        "fulfillment_pct": 99.99999750138892,
+        "worst_shortage_pct": 9.999999999999999e-06,
+        "cost": 9767.049696293645,
+        "trips": 2,
+        "distance_km": 140.60471182014413,
+        "max_gap": 0,
+        "status": "pass",
+        "violations": [],
+        "operational_ready": false,
+        "transport_cost": 167.04987619364348,
+        "max_trip_driving_minutes": 87.16666666666666,
+        "max_trip_elapsed_minutes": 222.16666666666666
+      },
+      {
+        "site": "Dorohusk",
+        "scenario": "current",
+        "speed_kph": 60,
+        "usd_per_km": 1,
+        "fixed_usd": 100,
+        "fulfillment_pct": 99.99999750138892,
+        "worst_shortage_pct": 9.999999999999999e-06,
+        "cost": 10619.771463562105,
+        "trips": 2,
+        "distance_km": 819.7716434621038,
+        "max_gap": 0,
+        "status": "pass",
+        "violations": [],
+        "operational_ready": false,
+        "transport_cost": 1019.7716434621038,
+        "max_trip_driving_minutes": 507.3333333333333,
+        "max_trip_elapsed_minutes": 687.3333333333334
+      },
+      {
+        "site": "Dorohusk",
+        "scenario": "slow",
+        "speed_kph": 45,
+        "usd_per_km": 1,
+        "fixed_usd": 100,
+        "fulfillment_pct": 0.0,
+        "worst_shortage_pct": 100.0,
+        "cost": 0.0,
+        "trips": 0,
+        "distance_km": 0,
+        "max_gap": 0,
+        "status": "pass",
+        "violations": [],
+        "operational_ready": false,
+        "transport_cost": 0,
+        "max_trip_driving_minutes": 0,
+        "max_trip_elapsed_minutes": 0
+      },
+      {
+        "site": "Dorohusk",
+        "scenario": "very-slow",
+        "speed_kph": 30,
+        "usd_per_km": 1,
+        "fixed_usd": 100,
+        "fulfillment_pct": 0.0,
+        "worst_shortage_pct": 100.0,
+        "cost": 0.0,
+        "trips": 0,
+        "distance_km": 0,
+        "max_gap": 0,
+        "status": "pass",
+        "violations": [],
+        "operational_ready": false,
+        "transport_cost": 0,
+        "max_trip_driving_minutes": 0,
+        "max_trip_elapsed_minutes": 0
+      },
+      {
+        "site": "Dorohusk",
+        "scenario": "faster",
+        "speed_kph": 75,
+        "usd_per_km": 1,
+        "fixed_usd": 100,
+        "fulfillment_pct": 99.99999750138892,
+        "worst_shortage_pct": 9.999999999999999e-06,
+        "cost": 10619.771463562105,
+        "trips": 2,
+        "distance_km": 819.7716434621038,
+        "max_gap": 0,
+        "status": "pass",
+        "violations": [],
+        "operational_ready": false,
+        "transport_cost": 1019.7716434621038,
+        "max_trip_driving_minutes": 426.16666666666663,
+        "max_trip_elapsed_minutes": 606.1666666666666
+      },
+      {
+        "site": "Dorohusk",
+        "scenario": "tariff-net-component",
+        "speed_kph": 60,
+        "usd_per_km": 0.9654839488293507,
+        "fixed_usd": 0,
+        "fulfillment_pct": 99.99999750138902,
+        "worst_shortage_pct": 9.999999999999999e-06,
+        "cost": 10391.476183568127,
+        "trips": 2,
+        "distance_km": 819.7716434621038,
+        "max_gap": 0,
+        "status": "pass",
+        "violations": [],
+        "operational_ready": false,
+        "transport_cost": 791.4763634681186,
+        "max_trip_driving_minutes": 507.3333333333333,
+        "max_trip_elapsed_minutes": 687.3333333333334
+      },
+      {
+        "site": "Dorohusk",
+        "scenario": "tariff-gross-component",
+        "speed_kph": 60,
+        "usd_per_km": 1.1880816370316731,
+        "fixed_usd": 0,
+        "fulfillment_pct": 99.99999750138888,
+        "worst_shortage_pct": 9.999999999999999e-06,
+        "cost": 10573.9554562566,
+        "trips": 2,
+        "distance_km": 819.7716434621038,
+        "max_gap": 0,
+        "status": "pass",
+        "violations": [],
+        "operational_ready": false,
+        "transport_cost": 973.9556361566014,
+        "max_trip_driving_minutes": 507.3333333333333,
+        "max_trip_elapsed_minutes": 687.3333333333334
+      }
+    ],
+    "frozen_assets_unchanged": true,
+    "caveat": "Re-optimized declared scenarios with synthetic demand; no field improvement identified. Tariff scenarios omit rounding/minimum/extra services."
+  },
+  "operational_ready": false,
+  "field_effect_identified": false
+}

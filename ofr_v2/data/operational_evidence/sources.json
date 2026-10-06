@@ -1,0 +1,79 @@
+[
+  {
+    "id": "gddkia_speed_2025",
+    "file": "gddkia_speed_2025.pdf",
+    "url": "https://www.gov.pl/attachment/6911d70c-9c8f-428d-b32a-2f6fe0149c28",
+    "publisher": "GDDKiA",
+    "kind": "spot_speed_distribution",
+    "bytes": 1035864,
+    "sha256": "d75f59c58904a3cf8df2e056d3c3af433e3e1cb006175aa148c480c9a3645fab",
+    "retrieved_on": "2026-10-04",
+    "trip_ground_truth": false
+  },
+  {
+    "id": "gddkia_speed_2022",
+    "file": "gddkia_speed_2022.pdf",
+    "url": "https://www.gov.pl/attachment/e57e0ab2-39e7-4f7a-9ae9-6c317dbaa1ba",
+    "publisher": "GDDKiA",
+    "kind": "spot_speed_distribution",
+    "bytes": 659589,
+    "sha256": "6980b9f0c5ff044721767da4d5b151fb6b5939d661b04e553fcccd8b79dadf27",
+    "retrieved_on": "2026-10-04",
+    "trip_ground_truth": false
+  },
+  {
+    "id": "swiecie_award_2025",
+    "file": "swiecie_award_2025.pdf",
+    "url": "https://ezamowienia.gov.pl/mo-board/api/v1/Board/GetNoticePdfById?noticeId=08dd2aff-000f-d14b-aa0d-d80001d3af5e",
+    "publisher": "Polish public procurement BZP / Powiat Swiecki",
+    "kind": "awarded_annual_contract",
+    "bytes": 73281,
+    "sha256": "51141899a7fa592d58a5a7f170ab4b3b013b55dcf549c64ec59adb61d65d4d99",
+    "retrieved_on": "2026-10-04",
+    "trip_ground_truth": false
+  },
+  {
+    "id": "zgl_tariff_2026",
+    "file": "zgl_tariff_2026.pdf",
+    "url": "https://www.zglbp.pl/page/92405102/edytor/file/cennik-uslug-dodatkowych.pdf",
+    "publisher": "ZGL Biala Podlaska official company site",
+    "kind": "published_tariff",
+    "bytes": 233623,
+    "sha256": "f59a1f411e7ea40b28d34ecc847b1f23faa054a27580e1eec9d7f71e6272621a",
+    "retrieved_on": "2026-10-04",
+    "trip_ground_truth": false
+  },
+  {
+    "id": "nbp_usd_20260316",
+    "file": "nbp_usd_20260316.json",
+    "url": "https://api.nbp.pl/api/exchangerates/rates/a/usd/2026-03-16/?format=json",
+    "publisher": "Narodowy Bank Polski",
+    "kind": "historical_mid_fx",
+    "bytes": 134,
+    "sha256": "c01f6feaae959d600773f6ff7b0df94b8c592b96fdc34116a750857dd9f39609",
+    "retrieved_on": "2026-10-04",
+    "trip_ground_truth": false
+  },
+  {
+    "id": "logcluster_annual_2022",
+    "file": "logcluster_annual_2022.pdf",
+    "url": "https://logcluster.org/sites/default/files/public/2023-05/logistics-clusterukraineannual-overview-2022_230519.pdf",
+    "publisher": "WFP-led Logistics Cluster",
+    "kind": "aggregate_field_activity",
+    "bytes": 1053463,
+    "sha256": "26cfa34e6527c496917b312865107f5d1ba53254d1e88278d48df8121827829b",
+    "retrieved_on": "2026-10-04",
+    "trip_ground_truth": false
+  },
+  {
+    "id": "logcluster_gna_2022",
+    "file": "logcluster_gna_2022.pdf",
+    "url": "https://logcluster.org/sites/default/files/public/2022-07/logisticsclusterukrainegaps-and-needs-analysisgna-june-2022.pdf",
+    "publisher": "WFP-led Logistics Cluster",
+    "kind": "field_needs_analysis",
+    "bytes": 2449135,
+    "sha256": "dfccdb10a599361cb94238ab4b7f7203251c047560cd21f0415f6e486d968b0e",
+    "retrieved_on": "2026-10-04",
+    "trip_ground_truth": false
+  }
+]

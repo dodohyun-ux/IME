@@ -1,0 +1,62 @@
+Budget changed from 110000 to 0 without recalculation:
+- complementary:
+  - generic: 폴란드 구호 플래너
+  - generic: Poland Relief Planner
+  - navigation:
+    - button "01 데이터 입력":
+      - generic: "01"
+      - generic: 데이터 입력
+    - button "02 4주 수요 예측":
+      - generic: "02"
+      - generic: 4주 수요 예측
+    - button "03 구호품 계획":
+      - generic: "03"
+      - generic: 구호품 계획
+    - button "04 최적화 결과" [active]:
+      - generic: "04"
+      - generic: 최적화 결과
+  - generic: 구호소
+  - generic: Medyka
+  - generic: Dorohusk
+  - generic: Korczowa
+- main:
+  - generic: STEP 04
+  - generic: ·
+  - generic: 최적화 결과
+  - heading "4주 구호품 배분 최적화 결과" [level=1]
+  - generic: 계획 구호소 · Medyka · 구호소 이용률 · 10% · 평균 체류기간 · 3일
+  - generic: 계획 구호소
+  - generic: Medyka
+  - generic: 선택 구호소
+  - generic: 4주 총 구호소 이용자
+  - generic: "900"
+  - generic: 명
+  - generic: 예측값 × 이용률
+  - generic: 전체 수요 충족률
+  - generic: "73.5"
+  - generic: "%"
+  - generic: 미충족 수요 존재
+  - generic: 총 조달·운송·폐기비
+  - generic: $57,827
+  - generic: 잔여 예산 $52,173
+  - generic: 트럭별 적재·운행 계획
+  - paragraph:
+    - text: Wodna 11, Przemyśl, Poland → Sports hall, Medyka 293, 37-732 Medyka
+    - text: 총 16회 운행 · 모든 시각은 폴란드 현지 시간 · 실제 도로 선형을 사용하는 프로젝트 시나리오 · 평균 60km/h 가정
+  - paragraph: 운송비는 입력한 비용 성분의 합계입니다. 기본값은 세전 거리비 참고값이며 누락된 숙박·기사·세금 등과 실제 지급 총비용은 검증되지 않았습니다. 경로 중간과 도착지의 휴식은 시나리오 가정입니다.
+  - table:
+    - rowgroup:
+      - row "차량 / 운행 물 (L) 식량 (1일분) 위생키트 (개) 담요 (개) 적재 kg / m³ 출발 · 도착 · 복귀 왕복 km":
+        - columnheader "차량 / 운행"
+        - columnheader "물 (L)"
+        - columnheader "식량 (1일분)"
+        - columnheader "위생키트 (개)"
+        - columnheader "담요 (개)"
+        - columnheader "적재 kg / m³"
+        - columnheader "출발 · 도착 · 복귀"
+        - columnheader "왕복 km"
+    - rowgroup:
+      - row "truck-01 1번째 운행 경로 보기 952 440 0 0 1,235 / 1.8 출발 02. 02. 09:00 도착 02. 02. 09:18 복귀 02. 02. 10:06 26.2":
+        - cell "truck-01 1번째 운행 경로 보기":
+          - button "truck-01 1번째 운행 경로 보기":
+            - text: truck-01

@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-10-06T14:21:08.401229+00:00",
+  "branch": "validation/two-week-20261006",
+  "comparison_commit": "a035f10",
+  "input_weeks": 2,
+  "model_weights_unchanged": true,
+  "model_sha256": "87c8953c7bd6abe5406c0513f23243cebdc305771681a33a488b4e17fbb606aa",
+  "optimizer_six_module_sha256": {
+    "ofr_v2/app/backend/optimization.py": "31977af6816058f24ad1478410758817d795baddb11fd0fd149f1bf67eefc702",
+    "ofr_v2/app/backend/logistics.py": "d14f9fff82243410d2a5c899a5323723d1e3b03958883031e37e1476032ec7f5",
+    "ofr_v2/app/backend/road_network.py": "b1325aa53ea8988077503ea97ddaf01020eeff89d93f0e972702353b7fcc602b",
+    "ofr_v2/app/backend/road_paths.py": "26a5311ddb1b37dc7090d393485678a7664ab2dc3d0ea05761de86bfd05f0751",
+    "ofr_v2/app/backend/poland_roads.py": "4beab8e9c12de775d7583763845daee46e6ca077492fefcc7c5d92a7e8c264fb",
+    "ofr_v2/app/backend/road_planner.py": "8f2164cb4f2db035fb46550070a84b9fd32ae725b88c33cfdd0ec2921b0db103"
+  },
+  "optimizer_six_modules_unchanged": true,
+  "python_selected_forecast_and_optimize_api": {
+    "tests": 43,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "evidence": "api-tests.xml"
+  },
+  "node_ui": {
+    "tests": 15,
+    "passed": 15,
+    "evidence": "node-tests.txt"
+  },
+  "typescript_no_emit": {
+    "exit_code": 0,
+    "evidence": "typescript-check.txt"
+  },
+  "vite_build": {
+    "exit_code": 0,
+    "evidence": "build-check.txt",
+    "warnings": [
+      "future native config loader compatibility",
+      "bundle >500 kB"
+    ]
+  },
+  "browser": {
+    "input_cells": 6,
+    "history_rows": 2,
+    "forecast_total": [
+      5006,
+      5031,
+      5029,
+      5060
+    ],
+    "site": "Medyka",
+    "dispatches": 16,
+    "fulfillment_display_pct": 80.3,
+    "cost_display_usd": 57764,
+    "console_errors": 0,
+    "screenshots": [
+      "ui-two-week-input.jpg",
+      "ui-four-week-forecast.jpg",
+      "ui-optimized-result.jpg"
+    ]
+  },
+  "optimizer_cases": 124,
+  "transport_cases": 24,
+  "pipeline_cases": 4,
+  "individual_input_perturbations": 6,
+  "fixed_plan_stress_cases": 24,
+  "model_training_provenance_verified": false,
+  "matched_operating_records": 0,
+  "operational_ready": false,
+  "scope": "Selected current integration tests, full optimizer/transport scenario suites. Not a rerun of every historical prediction test. No training, tuning, field observations, push or deployment.",
+  "direct_backend_smoke": {
+    "script": "scripts/smoke_backend.py",
+    "input_weeks": 2,
+    "exit_code": 0
+  }
+}

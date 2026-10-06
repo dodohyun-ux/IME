@@ -1,0 +1,23 @@
+[
+  {
+    "hub": "medyka",
+    "max_bin_threshold_days_since_war": 1163.5,
+    "declared_training_end_days_since_war": 1170,
+    "threshold_beyond_declared_training_end": false,
+    "interpretation": "Internal fitted bin thresholds are a consistency check, not proof of training dates or dataset identity."
+  },
+  {
+    "hub": "dorohusk",
+    "max_bin_threshold_days_since_war": 1163.5,
+    "declared_training_end_days_since_war": 1170,
+    "threshold_beyond_declared_training_end": false,
+    "interpretation": "Internal fitted bin thresholds are a consistency check, not proof of training dates or dataset identity."
+  },
+  {
+    "hub": "korczowa",
+    "max_bin_threshold_days_since_war": 1163.5,
+    "declared_training_end_days_since_war": 1170,
+    "threshold_beyond_declared_training_end": false,
+    "interpretation": "Internal fitted bin thresholds are a consistency check, not proof of training dates or dataset identity."
+  }
+]

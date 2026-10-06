@@ -1,0 +1,44 @@
+{
+  "fx_source": "nbp_usd_20260316",
+  "fx": {
+    "table": "A",
+    "currency": "dolar amerykański",
+    "code": "USD",
+    "rates": [
+      {
+        "no": "051/A/NBP/2026",
+        "effectiveDate": "2026-03-16",
+        "mid": 3.7287
+      }
+    ]
+  },
+  "tariff": {
+    "source_id": "zgl_tariff_2026",
+    "pdf_page": 5,
+    "effective_date": "2026-03-16",
+    "vehicle": "tipper <=3.5 tonnes; not the configured Ford van",
+    "currency": "PLN",
+    "net_per_started_km": 3.6,
+    "gross_per_started_km": 4.43,
+    "billing_scope": "base departure to base return",
+    "observed_invoice": false,
+    "minimum_dojazd_net": 25,
+    "minimum_application_uncertain": true
+  },
+  "award": {
+    "source_id": "swiecie_award_2025",
+    "pdf_page": 3,
+    "notice": "2025/BZP 00000270/01",
+    "signed_on": "2024-12-31",
+    "period_start": "2025-01-01",
+    "period_end": "2025-12-31",
+    "contract_value_pln": 277586.4,
+    "vehicles": 2,
+    "minimum_payload_kg": 700,
+    "includes": "crew transport, materials, driver auxiliary work and operating costs",
+    "actual_paid": null,
+    "actual_km": null,
+    "actual_hours": null,
+    "unit_rate": null
+  }
+}

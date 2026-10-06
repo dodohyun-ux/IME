@@ -1,0 +1,233 @@
+[
+  {
+    "query": "Przemyśl, Lwowska 36",
+    "url": "https://services.gugik.gov.pl/uug/?request=GetAddress&address=Przemy%C5%9Bl%2C+Lwowska+36",
+    "response": {
+      "type": "address",
+      "max results limit": 15,
+      "min accuracy limit": 0.4,
+      "only exact numbers": 1,
+      "found objects": 15,
+      "returned objects": 1,
+      "results": {
+        "1": {
+          "city": "Przemyśl",
+          "citypart": null,
+          "street": "Lwowska",
+          "number": "36",
+          "teryt": "186201",
+          "simc": "0971672",
+          "ulic": "11467",
+          "code": "37-700",
+          "jednostka": "{Polska,podkarpackie,Przemyśl,Przemyśl}",
+          "x": "773958.14",
+          "y": "219719.29",
+          "geometry_wkt": "POINT(773958.14 219719.29)",
+          "accuracy": "1",
+          "city_accuracy": "1",
+          "street_part_accuracy": "1",
+          "street_accuracy": "1",
+          "id": 1
+        }
+      },
+      "request time": 0.002001082897186279
+    }
+  },
+  {
+    "query": "Przemyśl, Wodna 11",
+    "url": "https://services.gugik.gov.pl/uug/?request=GetAddress&address=Przemy%C5%9Bl%2C+Wodna+11",
+    "response": {
+      "type": "address",
+      "max results limit": 15,
+      "min accuracy limit": 0.4,
+      "only exact numbers": 1,
+      "found objects": 15,
+      "returned objects": 2,
+      "results": {
+        "1": {
+          "city": "Przemyśl",
+          "citypart": null,
+          "street": "Wodna",
+          "number": "11",
+          "teryt": "186201",
+          "simc": "0971672",
+          "ulic": "24550",
+          "code": "37-700",
+          "jednostka": "{Polska,podkarpackie,Przemyśl,Przemyśl}",
+          "x": "771236.43",
+          "y": "219763.64",
+          "geometry_wkt": "POINT(771236.43 219763.64)",
+          "accuracy": "1",
+          "city_accuracy": "1",
+          "street_part_accuracy": "1",
+          "street_accuracy": "1",
+          "id": 1
+        },
+        "2": {
+          "city": "Przemyśl",
+          "citypart": null,
+          "street": "Swobodna",
+          "number": "11",
+          "teryt": "186201",
+          "simc": "0971672",
+          "ulic": "21625",
+          "code": "37-700",
+          "jednostka": "{Polska,podkarpackie,Przemyśl,Przemyśl}",
+          "x": "769411.86",
+          "y": "220769.44",
+          "geometry_wkt": "POINT(769411.86 220769.44)",
+          "accuracy": "0.625",
+          "city_accuracy": "1",
+          "street_part_accuracy": "0.333333",
+          "street_accuracy": "0.25",
+          "id": 2
+        }
+      },
+      "request time": 0.0027323166529337564
+    }
+  },
+  {
+    "query": "Medyka 293",
+    "url": "https://services.gugik.gov.pl/uug/?request=GetAddress&address=Medyka+293",
+    "response": {
+      "type": "address",
+      "max results limit": 15,
+      "min accuracy limit": 0.4,
+      "only exact numbers": 1,
+      "found objects": 15,
+      "returned objects": 1,
+      "results": {
+        "1": {
+          "city": "Medyka",
+          "citypart": null,
+          "street": null,
+          "number": "293",
+          "teryt": "181306",
+          "simc": "0606576",
+          "ulic": null,
+          "code": "37-732",
+          "jednostka": "{Polska,podkarpackie,przemyski,Medyka}",
+          "x": "782731.67",
+          "y": "222774.18",
+          "geometry_wkt": "POINT(782731.67 222774.18)",
+          "accuracy": "1",
+          "city_accuracy": "1",
+          "id": 1
+        }
+      },
+      "request time": 0.0008088986078898112
+    }
+  },
+  {
+    "query": "Medyka 285",
+    "url": "https://services.gugik.gov.pl/uug/?request=GetAddress&address=Medyka+285",
+    "response": {
+      "type": "address",
+      "max results limit": 15,
+      "min accuracy limit": 0.4,
+      "only exact numbers": 1,
+      "found objects": 15,
+      "returned objects": 1,
+      "results": {
+        "1": {
+          "city": "Medyka",
+          "citypart": null,
+          "street": null,
+          "number": "285",
+          "teryt": "181306",
+          "simc": "0606576",
+          "ulic": null,
+          "code": "37-732",
+          "jednostka": "{Polska,podkarpackie,przemyski,Medyka}",
+          "x": "782768.51",
+          "y": "222739.81",
+          "geometry_wkt": "POINT(782768.51 222739.81)",
+          "accuracy": "1",
+          "city_accuracy": "1",
+          "id": 1
+        }
+      },
+      "request time": 0.0009318987528483073
+    }
+  },
+  {
+    "query": "Korczowa 155",
+    "url": "https://services.gugik.gov.pl/uug/?request=GetAddress&address=Korczowa+155",
+    "response": {
+      "type": "address",
+      "max results limit": 15,
+      "min accuracy limit": 0.4,
+      "only exact numbers": 1,
+      "found objects": 15,
+      "returned objects": 1,
+      "results": {
+        "1": {
+          "city": "Korczowa",
+          "citypart": null,
+          "street": null,
+          "number": "155",
+          "teryt": "180408",
+          "simc": "0609497",
+          "ulic": null,
+          "code": "37-552",
+          "jednostka": "{Polska,podkarpackie,jarosławski,Radymno}",
+          "x": "792493.86",
+          "y": "240070.72",
+          "geometry_wkt": "POINT(792493.86 240070.72)",
+          "accuracy": "1",
+          "city_accuracy": "1",
+          "id": 1
+        }
+      },
+      "request time": 0.0019418676694234213
+    }
+  },
+  {
+    "query": "Dorohusk, Parkowa 5",
+    "url": "https://services.gugik.gov.pl/uug/?request=GetAddress&address=Dorohusk%2C+Parkowa+5",
+    "response": {
+      "type": "address",
+      "max results limit": 15,
+      "min accuracy limit": 0.4,
+      "only exact numbers": 1,
+      "found objects": 15,
+      "returned objects": 0,
+      "results": null,
+      "request time": 0.0018904487291971843
+    }
+  },
+  {
+    "query": "Dorohusk-Osada, Parkowa 5",
+    "url": "https://services.gugik.gov.pl/uug/?request=GetAddress&address=Dorohusk-Osada%2C+Parkowa+5",
+    "response": {
+      "type": "address",
+      "max results limit": 15,
+      "min accuracy limit": 0.4,
+      "only exact numbers": 1,
+      "found objects": 15,
+      "returned objects": 1,
+      "results": {
+        "1": {
+          "city": "Dorohusk-Osada",
+          "citypart": null,
+          "street": "Parkowa",
+          "number": "5",
+          "teryt": "060304",
+          "simc": "0102500",
+          "ulic": "15710",
+          "code": "22-175",
+          "jednostka": "{Polska,lubelskie,chełmski,Dorohusk}",
+          "x": "835749.97",
+          "y": "377481.47",
+          "geometry_wkt": "POINT(835749.97 377481.47)",
+          "accuracy": "1",
+          "city_accuracy": "1",
+          "street_part_accuracy": "1",
+          "street_accuracy": "1",
+          "id": 1
+        }
+      },
+      "request time": 0.0023107488950093588
+    }
+  }
+]

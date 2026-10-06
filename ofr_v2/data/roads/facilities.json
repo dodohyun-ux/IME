@@ -1,0 +1,146 @@
+{
+  "checked_at": "2026-10-02",
+  "status": "Research candidates only; current service, storage capacity and truck entrances unconfirmed",
+  "warehouse_candidates": [
+    {
+      "id": "przemysl-lwowska-36",
+      "name": "Przemyśl municipal aid warehouse, former Tesco",
+      "address": "Lwowska 36, Przemyśl, Poland",
+      "geocode_query": "Przemyśl, Lwowska 36",
+      "city": "Przemyśl",
+      "number": "36",
+      "street": "Lwowska",
+      "priority_for_review": 1,
+      "evidence_date": "2022-03-25",
+      "publisher": "City of Przemyśl",
+      "source_url": "https://przemysl.pl/64115/pomagamy-uchodzcom-z-ukrainy-aktualizacja.html",
+      "selection_reason": "Municipal source identifies it as an aid warehouse. Regional location makes it a candidate for Medyka and Korczowa; suitability is an inference, not a measured comparison.",
+      "current_availability_verified": false,
+      "coordinates": [
+        22.807095480755677,
+        49.782239020318805
+      ],
+      "coordinate_source_url": "https://services.gugik.gov.pl/uug/?request=GetAddress&address=Przemy%C5%9Bl%2C+Lwowska+36",
+      "coordinate_kind": "Official UUG address point; NOT approved truck entrance"
+    },
+    {
+      "id": "przemysl-wodna-11",
+      "name": "Przemyśl municipal aid warehouse, municipal building",
+      "address": "Wodna 11, Przemyśl, Poland",
+      "geocode_query": "Przemyśl, Wodna 11",
+      "city": "Przemyśl",
+      "number": "11",
+      "street": "Wodna",
+      "priority_for_review": 2,
+      "evidence_date": "2022-03-25",
+      "publisher": "City of Przemyśl",
+      "source_url": "https://przemysl.pl/64115/pomagamy-uchodzcom-z-ukrainy-aktualizacja.html",
+      "selection_reason": "Second municipally documented aid warehouse; dock access, fleet handling and capacity unconfirmed.",
+      "current_availability_verified": false,
+      "coordinates": [
+        22.769390672853827,
+        49.7838725830573
+      ],
+      "coordinate_source_url": "https://services.gugik.gov.pl/uug/?request=GetAddress&address=Przemy%C5%9Bl%2C+Wodna+11",
+      "coordinate_kind": "Official UUG address point; NOT approved truck entrance"
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "name": "WFP / Logistics Cluster Rzeszów common storage service",
+      "reason": "Official 17 August 2022 meeting minutes announce closure on 31 August 2022. Do not assume available in 2026.",
+      "publisher": "WFP Logistics Cluster",
+      "source_url": "https://s3.eu-west-1.amazonaws.com/logcluster-web-prod-files/public/2022-08/Logistics%20Cluster_Ukraine_Kyiv_Coordination%20Meeting_220817.pdf"
+    }
+  ],
+  "destinations": [
+    {
+      "id": "medyka-hall-293",
+      "site": "Medyka",
+      "address": "Sports hall, Medyka 293, 37-732 Medyka",
+      "geocode_query": "Medyka 293",
+      "city": "Medyka",
+      "number": "293",
+      "publisher": "Municipality of Medyka",
+      "source_url": "https://samorzad.gov.pl/web/gmina-medyka/akcja-pomocy-dla-osob-objetych-konfliktem-na-terytorium-ukrainy",
+      "address_conflict": "Other official 2022 lists identify Medyka 285. Exact receiving facility/entrance must be resolved, not silently selected.",
+      "alternative_source_url": "https://torun.praca.gov.pl/documents/1790411/17410339/Wersja%2Bpo%2Bangielsku.pdf/5cb0f36e-2b71-49e3-aeb2-dc872e9efa38?t=1646226842000",
+      "current_availability_verified": false,
+      "coordinates": [
+        22.930942206574027,
+        49.80559354656615
+      ],
+      "coordinate_source_url": "https://services.gugik.gov.pl/uug/?request=GetAddress&address=Medyka+293",
+      "coordinate_kind": "Official UUG address point; NOT approved truck entrance"
+    },
+    {
+      "id": "korczowa-hall-155",
+      "site": "Korczowa",
+      "address": "Community hall, Korczowa 155, 37-552 Korczowa",
+      "geocode_query": "Korczowa 155",
+      "city": "Korczowa",
+      "number": "155",
+      "publisher": "Powiatowy Urząd Pracy w Jarosławiu",
+      "source_url": "https://jaroslaw.praca.gov.pl/rynek-pracy/aktualnosci/aktualnosc/-/asset_publisher/5CI48Qxw9jwJ/content/id/17346376/pop_up",
+      "address_conflict": "Hala Kijowska at Młyny 90 was a separate reception facility. Border crossing, village hall and reception mall are not interchangeable destinations.",
+      "alternative_source_url": "https://bip.brpo.gov.pl/pl/content/RPO-wizyty-przy-granicy-polsko-ukraina",
+      "current_availability_verified": false,
+      "coordinates": [
+        23.079394069691677,
+        49.956137827245556
+      ],
+      "coordinate_source_url": "https://services.gugik.gov.pl/uug/?request=GetAddress&address=Korczowa+155",
+      "coordinate_kind": "Official UUG address point; NOT approved truck entrance"
+    },
+    {
+      "id": "dorohusk-parkowa-5",
+      "site": "Dorohusk",
+      "address": "Pałac Suchodolskich / GOKiT, Parkowa 5, 22-175 Dorohusk-Osada",
+      "geocode_query": "Dorohusk-Osada, Parkowa 5",
+      "city": "Dorohusk-Osada",
+      "number": "5",
+      "street": "Parkowa",
+      "publisher": "Powiat Kraśnicki / samorzad.gov.pl",
+      "source_url": "https://samorzad.gov.pl/web/powiat-krasnicki/pomoc-dla-obywateli-ukrainy---informacje---",
+      "address_conflict": "Historical reception address; receiving dock, 2026 service and distinction from the border crossing require confirmation.",
+      "current_availability_verified": false,
+      "coordinates": [
+        23.804560693498864,
+        51.16528536144829
+      ],
+      "coordinate_source_url": "https://services.gugik.gov.pl/uug/?request=GetAddress&address=Dorohusk-Osada%2C+Parkowa+5",
+      "coordinate_kind": "Official UUG address point; NOT approved truck entrance"
+    }
+  ],
+  "food_partner_candidates": [
+    {
+      "id": "rzeszow-konopnickiej-18",
+      "name": "Podkarpacki Bank Żywności / Rodzina Rodzin food distribution site",
+      "address": "Konopnickiej 18, Rzeszów",
+      "publisher": "Podkarpacki Bank Żywności",
+      "source_url": "https://www.rzeszow.bankizywnosci.pl/",
+      "government_activity_source_url": "https://erzeszow.pl/1059-konkursy/116471-wyniki-otwartego-konkursu-ofert-na-realizacje-zadania-publicznego-w-2025-roku-pnzapewnienie-dostaw-zywnosci-dla-rodzin-najubozszych.html",
+      "recent_activity_evidence": "Food distributions 25 and 28 September 2026; older same-source notices identify this as a food warehouse",
+      "office_not_warehouse": "Rynek 17 is the office; do not substitute it for the physical distribution site",
+      "supported_items_documented": [
+        "food"
+      ],
+      "our_project_availability_verified": false,
+      "coordinates": null
+    },
+    {
+      "id": "chelm-mopr-kolejowa-8",
+      "name": "Miejski Ośrodek Pomocy Rodzinie w Chełmie, food-program local partner",
+      "address": "Kolejowa 8, Chełm",
+      "publisher": "Bank Żywności w Lublinie",
+      "source_url": "https://bankzywnoscilublin.pl/popz/fepz2025/",
+      "recent_activity_evidence": "2025 FEPŻ local partner food receipt/distribution list",
+      "supported_items_documented": [
+        "food"
+      ],
+      "warehouse_capacity_verified": false,
+      "our_project_availability_verified": false,
+      "coordinates": null
+    }
+  ]
+}

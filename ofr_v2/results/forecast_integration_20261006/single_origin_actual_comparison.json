@@ -1,0 +1,16 @@
+{
+  "scope": "one retrospective origin, 12 hub-horizon points; not an independent accuracy certificate",
+  "reference_date": "2026-01-26",
+  "model": {
+    "n": 12,
+    "mae": 243.58333333333334,
+    "wape_pct": 13.335462384232857
+  },
+  "last_week_naive": {
+    "n": 12,
+    "mae": 270.5833333333333,
+    "wape_pct": 14.813632008759523
+  },
+  "interval_calibration_overlap_possible": true,
+  "training_end_only_declared_in_team_code": true
+}

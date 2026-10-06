@@ -1,0 +1,614 @@
+- complementary:
+  - generic: 폴란드 구호 플래너
+  - generic: Poland Relief Planner
+  - navigation:
+    - button "01 데이터 입력":
+      - generic: "01"
+      - generic: 데이터 입력
+    - button "02 4주 수요 예측":
+      - generic: "02"
+      - generic: 4주 수요 예측
+    - button "03 구호품 계획":
+      - generic: "03"
+      - generic: 구호품 계획
+    - button "04 최적화 결과":
+      - generic: "04"
+      - generic: 최적화 결과
+  - generic: 구호소
+  - generic: Medyka
+  - generic: Dorohusk
+  - generic: Korczowa
+- main:
+  - generic: STEP 04
+  - generic: ·
+  - generic: 최적화 결과
+  - heading "4주 구호품 배분 최적화 결과" [level=1]
+  - generic: 계획 구호소 · Medyka · 구호소 이용률 · 10% · 평균 체류기간 · 3일
+  - generic: 계획 구호소
+  - generic: Medyka
+  - generic: 선택 구호소
+  - generic: 4주 총 구호소 이용자
+  - generic: "826"
+  - generic: 명
+  - generic: 예측값 × 이용률
+  - generic: 전체 수요 충족률
+  - generic: "80.1"
+  - generic: "%"
+  - generic: 미충족 수요 존재
+  - generic: 총 조달·운송·폐기비
+  - generic: $57,565
+  - generic: 잔여 예산 $52,435
+  - generic: 트럭별 적재·운행 계획
+  - paragraph:
+    - text: Lwowska 36, Przemyśl, Poland → Sports hall, Medyka 293, 37-732 Medyka
+    - text: 총 16회 운행 · 모든 시각은 폴란드 현지 시간 · 공식 도로 선형을 사용하는 프로젝트 시나리오 · 평균 60km/h 가정
+  - paragraph: 운송비는 입력한 비용 성분의 합계입니다. 기본값은 세전 거리비 참고값이며 누락된 숙박·기사·세금 등과 실제 지급 총비용은 검증되지 않았습니다. 경로 중간과 도착지의 휴식은 시나리오 가정입니다.
+  - paragraph: 확보한 도로의 연결과 입력한 출발 후보 안에서 계산합니다. 일방통행·현장 진입·실시간 교통은 검증하지 않았습니다.
+  - table:
+    - rowgroup:
+      - row "차량 / 운행 물 (L) 식량 (1일분) 위생키트 (개) 담요 (개) 적재 kg / m³ 출발 · 도착 · 복귀 왕복 km":
+        - columnheader "차량 / 운행"
+        - columnheader "물 (L)"
+        - columnheader "식량 (1일분)"
+        - columnheader "위생키트 (개)"
+        - columnheader "담요 (개)"
+        - columnheader "적재 kg / m³"
+        - columnheader "출발 · 도착 · 복귀"
+        - columnheader "왕복 km"
+    - rowgroup:
+      - row "truck-01 1번째 운행 경로 보기 727.8 821 0 0 1,235 / 2.4 출발 02. 02. 09:00 도착 02. 02. 09:12 복귀 02. 02. 09:55 20.5":
+        - cell "truck-01 1번째 운행 경로 보기":
+          - button "truck-01 1번째 운행 경로 보기":
+            - text: truck-01
+            - text: 운행 1
+        - cell "727.8"
+        - cell "821"
+        - cell "0"
+        - cell "0"
+        - cell "1,235 / 2.4"
+        - cell "출발 02. 02. 09:00 도착 02. 02. 09:12 복귀 02. 02. 09:55":
+          - text: 출발 02. 02. 09:00
+          - text: 도착 02. 02. 09:12
+          - text: 복귀 02. 02. 09:55
+        - cell "20.5"
+      - row "truck-02 2번째 운행 경로 보기 1,142.8 103 15 0 1,235 / 1.5 출발 02. 02. 09:00 도착 02. 02. 09:12 복귀 02. 02. 09:55 20.5":
+        - cell "truck-02 2번째 운행 경로 보기":
+          - button "truck-02 2번째 운행 경로 보기":
+            - text: truck-02
+            - text: 운행 2
+        - cell "1,142.8"
+        - cell "103"
+        - cell "15"
+        - cell "0"
+        - cell "1,235 / 1.5"
+        - cell "출발 02. 02. 09:00 도착 02. 02. 09:12 복귀 02. 02. 09:55":
+          - text: 출발 02. 02. 09:00
+          - text: 도착 02. 02. 09:12
+          - text: 복귀 02. 02. 09:55
+        - cell "20.5"
+      - row "truck-01 3번째 운행 경로 보기 1,099 190 0 0 1,235 / 1.5 출발 02. 05. 09:00 도착 02. 05. 09:12 복귀 02. 05. 09:55 20.5":
+        - cell "truck-01 3번째 운행 경로 보기":
+          - button "truck-01 3번째 운행 경로 보기":
+            - text: truck-01
+            - text: 운행 3
+        - cell "1,099"
+        - cell "190"
+        - cell "0"
+        - cell "0"
+        - cell "1,235 / 1.5"
+        - cell "출발 02. 05. 09:00 도착 02. 05. 09:12 복귀 02. 05. 09:55":
+          - text: 출발 02. 05. 09:00
+          - text: 도착 02. 05. 09:12
+          - text: 복귀 02. 05. 09:55
+        - cell "20.5"
+      - row "truck-02 4번째 운행 경로 보기 1,210.8 0 0 0 1,235 / 1.2 출발 02. 05. 09:00 도착 02. 05. 09:12 복귀 02. 05. 09:55 20.5":
+        - cell "truck-02 4번째 운행 경로 보기":
+          - button "truck-02 4번째 운행 경로 보기":
+            - text: truck-02
+            - text: 운행 4
+        - cell "1,210.8"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "1,235 / 1.2"
+        - cell "출발 02. 05. 09:00 도착 02. 05. 09:12 복귀 02. 05. 09:55":
+          - text: 출발 02. 05. 09:00
+          - text: 도착 02. 05. 09:12
+          - text: 복귀 02. 05. 09:55
+        - cell "20.5"
+      - row "truck-01 5번째 운행 경로 보기 1,210.8 0 0 0 1,235 / 1.2 출발 02. 09. 09:00 도착 02. 09. 09:12 복귀 02. 09. 09:55 20.5":
+        - cell "truck-01 5번째 운행 경로 보기":
+          - button "truck-01 5번째 운행 경로 보기":
+            - text: truck-01
+            - text: 운행 5
+        - cell "1,210.8"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "1,235 / 1.2"
+        - cell "출발 02. 09. 09:00 도착 02. 09. 09:12 복귀 02. 09. 09:55":
+          - text: 출발 02. 09. 09:00
+          - text: 도착 02. 09. 09:12
+          - text: 복귀 02. 09. 09:55
+        - cell "20.5"
+      - row "truck-02 6번째 운행 경로 보기 1,164.7 0 94 0 1,235 / 2.1 출발 02. 09. 09:00 도착 02. 09. 09:12 복귀 02. 09. 09:55 20.5":
+        - cell "truck-02 6번째 운행 경로 보기":
+          - button "truck-02 6번째 운행 경로 보기":
+            - text: truck-02
+            - text: 운행 6
+        - cell "1,164.7"
+        - cell "0"
+        - cell "94"
+        - cell "0"
+        - cell "1,235 / 2.1"
+        - cell "출발 02. 09. 09:00 도착 02. 09. 09:12 복귀 02. 09. 09:55":
+          - text: 출발 02. 09. 09:00
+          - text: 도착 02. 09. 09:12
+          - text: 복귀 02. 09. 09:55
+        - cell "20.5"
+      - row "truck-01 7번째 운행 경로 보기 1,176 0 71 0 1,235 / 1.9 출발 02. 12. 09:00 도착 02. 12. 09:12 복귀 02. 12. 09:55 20.5":
+        - cell "truck-01 7번째 운행 경로 보기":
+          - button "truck-01 7번째 운행 경로 보기":
+            - text: truck-01
+            - text: 운행 7
+        - cell "1,176"
+        - cell "0"
+        - cell "71"
+        - cell "0"
+        - cell "1,235 / 1.9"
+        - cell "출발 02. 12. 09:00 도착 02. 12. 09:12 복귀 02. 12. 09:55":
+          - text: 출발 02. 12. 09:00
+          - text: 도착 02. 12. 09:12
+          - text: 복귀 02. 12. 09:55
+        - cell "20.5"
+      - row "truck-02 8번째 운행 경로 보기 787.3 70 0 260 1,235 / 6.1 출발 02. 12. 09:00 도착 02. 12. 09:12 복귀 02. 12. 09:55 20.5":
+        - cell "truck-02 8번째 운행 경로 보기":
+          - button "truck-02 8번째 운행 경로 보기":
+            - text: truck-02
+            - text: 운행 8
+        - cell "787.3"
+        - cell "70"
+        - cell "0"
+        - cell "260"
+        - cell "1,235 / 6.1"
+        - cell "출발 02. 12. 09:00 도착 02. 12. 09:12 복귀 02. 12. 09:55":
+          - text: 출발 02. 12. 09:00
+          - text: 도착 02. 12. 09:12
+          - text: 복귀 02. 12. 09:55
+        - cell "20.5"
+      - row "truck-01 9번째 운행 경로 보기 1,180.4 0 62 0 1,235 / 1.8 출발 02. 16. 09:00 도착 02. 16. 09:12 복귀 02. 16. 09:55 20.5":
+        - cell "truck-01 9번째 운행 경로 보기":
+          - button "truck-01 9번째 운행 경로 보기":
+            - text: truck-01
+            - text: 운행 9
+        - cell "1,180.4"
+        - cell "0"
+        - cell "62"
+        - cell "0"
+        - cell "1,235 / 1.8"
+        - cell "출발 02. 16. 09:00 도착 02. 16. 09:12 복귀 02. 16. 09:55":
+          - text: 출발 02. 16. 09:00
+          - text: 도착 02. 16. 09:12
+          - text: 복귀 02. 16. 09:55
+        - cell "20.5"
+      - row "truck-02 10번째 운행 경로 보기 1,129.4 0 166 0 1,235 / 2.8 출발 02. 16. 09:00 도착 02. 16. 09:12 복귀 02. 16. 09:55 20.5":
+        - cell "truck-02 10번째 운행 경로 보기":
+          - button "truck-02 10번째 운행 경로 보기":
+            - text: truck-02
+            - text: 운행 10
+        - cell "1,129.4"
+        - cell "0"
+        - cell "166"
+        - cell "0"
+        - cell "1,235 / 2.8"
+        - cell "출발 02. 16. 09:00 도착 02. 16. 09:12 복귀 02. 16. 09:55":
+          - text: 출발 02. 16. 09:00
+          - text: 도착 02. 16. 09:12
+          - text: 복귀 02. 16. 09:55
+        - cell "20.5"
+      - row "truck-01 11번째 운행 경로 보기 833.3 0 104 222 1,235 / 6.3 출발 02. 19. 09:00 도착 02. 19. 09:12 복귀 02. 19. 09:55 20.5":
+        - cell "truck-01 11번째 운행 경로 보기":
+          - button "truck-01 11번째 운행 경로 보기":
+            - text: truck-01
+            - text: 운행 11
+        - cell "833.3"
+        - cell "0"
+        - cell "104"
+        - cell "222"
+        - cell "1,235 / 6.3"
+        - cell "출발 02. 19. 09:00 도착 02. 19. 09:12 복귀 02. 19. 09:55":
+          - text: 출발 02. 19. 09:00
+          - text: 도착 02. 19. 09:12
+          - text: 복귀 02. 19. 09:55
+        - cell "20.5"
+      - row "truck-02 12번째 운행 경로 보기 1,210.8 0 0 0 1,235 / 1.2 출발 02. 19. 09:00 도착 02. 19. 09:12 복귀 02. 19. 09:55 20.5":
+        - cell "truck-02 12번째 운행 경로 보기":
+          - button "truck-02 12번째 운행 경로 보기":
+            - text: truck-02
+            - text: 운행 12
+        - cell "1,210.8"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "1,235 / 1.2"
+        - cell "출발 02. 19. 09:00 도착 02. 19. 09:12 복귀 02. 19. 09:55":
+          - text: 출발 02. 19. 09:00
+          - text: 도착 02. 19. 09:12
+          - text: 복귀 02. 19. 09:55
+        - cell "20.5"
+      - row "truck-01 13번째 운행 경로 보기 1,210.8 0 0 0 1,235 / 1.2 출발 02. 23. 09:00 도착 02. 23. 09:12 복귀 02. 23. 09:55 20.5":
+        - cell "truck-01 13번째 운행 경로 보기":
+          - button "truck-01 13번째 운행 경로 보기":
+            - text: truck-01
+            - text: 운행 13
+        - cell "1,210.8"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "1,235 / 1.2"
+        - cell "출발 02. 23. 09:00 도착 02. 23. 09:12 복귀 02. 23. 09:55":
+          - text: 출발 02. 23. 09:00
+          - text: 도착 02. 23. 09:12
+          - text: 복귀 02. 23. 09:55
+        - cell "20.5"
+      - row "truck-02 14번째 운행 경로 보기 1,210.8 0 0 0 1,235 / 1.2 출발 02. 23. 09:00 도착 02. 23. 09:12 복귀 02. 23. 09:55 20.5":
+        - cell "truck-02 14번째 운행 경로 보기":
+          - button "truck-02 14번째 운행 경로 보기":
+            - text: truck-02
+            - text: 운행 14
+        - cell "1,210.8"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "1,235 / 1.2"
+        - cell "출발 02. 23. 09:00 도착 02. 23. 09:12 복귀 02. 23. 09:55":
+          - text: 출발 02. 23. 09:00
+          - text: 도착 02. 23. 09:12
+          - text: 복귀 02. 23. 09:55
+        - cell "20.5"
+      - row "truck-01 15번째 운행 경로 보기 1,210.8 0 0 0 1,235 / 1.2 출발 02. 26. 09:00 도착 02. 26. 09:12 복귀 02. 26. 09:55 20.5":
+        - cell "truck-01 15번째 운행 경로 보기":
+          - button "truck-01 15번째 운행 경로 보기":
+            - text: truck-01
+            - text: 운행 15
+        - cell "1,210.8"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "1,235 / 1.2"
+        - cell "출발 02. 26. 09:00 도착 02. 26. 09:12 복귀 02. 26. 09:55":
+          - text: 출발 02. 26. 09:00
+          - text: 도착 02. 26. 09:12
+          - text: 복귀 02. 26. 09:55
+        - cell "20.5"
+      - row "truck-02 16번째 운행 경로 보기 1,210.8 0 0 0 1,235 / 1.2 출발 02. 26. 09:00 도착 02. 26. 09:12 복귀 02. 26. 09:55 20.5":
+        - cell "truck-02 16번째 운행 경로 보기":
+          - button "truck-02 16번째 운행 경로 보기":
+            - text: truck-02
+            - text: 운행 16
+        - cell "1,210.8"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "1,235 / 1.2"
+        - cell "출발 02. 26. 09:00 도착 02. 26. 09:12 복귀 02. 26. 09:55":
+          - text: 출발 02. 26. 09:00
+          - text: 도착 02. 26. 09:12
+          - text: 복귀 02. 26. 09:55
+        - cell "20.5"
+  - strong: truck-01의 선택 운행 경로
+  - button "배송 경로" [pressed]
+  - button "복귀 경로"
+  - region "지도 위의 배송 경로":
+    - generic: 배송 경로
+    - generic: 창고
+    - generic: 구호소
+    - button "전체 경로 보기"
+    - tooltip "출발 창고"
+    - tooltip "도착 구호소"
+    - button "Zoom in": +
+    - button "Zoom out": −
+    - generic: 1 km
+    - link "Leaflet":
+      - /url: https://leafletjs.com
+      - text: Leaflet
+    - text: "| ©"
+    - link "OpenStreetMap":
+      - /url: https://www.openstreetmap.org/copyright
+    - text: contributors
+  - paragraph: 선택 운행 비용 $46.8 · 고정 $0 · 거리 $46.8 · 시간 $0 · 최소요금 보정 $0 · 야간 $0 · 통행 $0
+  - paragraph: "경로: GUGiK 도로 선형 · 배경지도: OpenStreetMap · 실시간 교통은 반영하지 않습니다. 표시는 창고·구호소 주소 가까이 연결한 도로 끝점입니다."
+  - generic: 기사 휴식 · 출발 창고 · 02. 02. 09:55 ~ 02. 02. 10:40
+  - generic: 운송과 재고 기한
+  - paragraph: 조달 $56,816 · 운송 $749 · 폐기 $0. 폐기 예정량은 현장 승인 및 실제 처리 확인이 필요합니다.
+  - table:
+    - rowgroup:
+      - row "주 품목 발주량 만료량 폐기량 격리 잔여량":
+        - columnheader "주"
+        - columnheader "품목"
+        - columnheader "발주량"
+        - columnheader "만료량"
+        - columnheader "폐기량"
+        - columnheader "격리 잔여량"
+    - rowgroup:
+      - row "1 물 (L) 9,649 0 0 0":
+        - cell "1"
+        - cell "물 (L)"
+        - cell "9,649"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "1 식량 (1일분) 1,114 0 0 0":
+        - cell "1"
+        - cell "식량 (1일분)"
+        - cell "1,114"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "1 위생키트 (개) 350 0 0 0":
+        - cell "1"
+        - cell "위생키트 (개)"
+        - cell "350"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "1 담요 (개) 165 0 0 0":
+        - cell "1"
+        - cell "담요 (개)"
+        - cell "165"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "2 물 (L) 2,604 0 0 0":
+        - cell "2"
+        - cell "물 (L)"
+        - cell "2,604"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "2 식량 (1일분) 70 0 0 0":
+        - cell "2"
+        - cell "식량 (1일분)"
+        - cell "70"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "2 위생키트 (개) 110 0 0 0":
+        - cell "2"
+        - cell "위생키트 (개)"
+        - cell "110"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "2 담요 (개) 212 0 0 0":
+        - cell "2"
+        - cell "담요 (개)"
+        - cell "212"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "3 물 (L) 3,042 0 0 0":
+        - cell "3"
+        - cell "물 (L)"
+        - cell "3,042"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "3 식량 (1일분) 0 0 0 0":
+        - cell "3"
+        - cell "식량 (1일분)"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "3 위생키트 (개) 52 0 0 0":
+        - cell "3"
+        - cell "위생키트 (개)"
+        - cell "52"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "3 담요 (개) 105 0 0 0":
+        - cell "3"
+        - cell "담요 (개)"
+        - cell "105"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "4 물 (L) 2,422 0 0 0":
+        - cell "4"
+        - cell "물 (L)"
+        - cell "2,422"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "4 식량 (1일분) 0 0 0 0":
+        - cell "4"
+        - cell "식량 (1일분)"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "4 위생키트 (개) 0 0 0 0":
+        - cell "4"
+        - cell "위생키트 (개)"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+      - row "4 담요 (개) 0 0 0 0":
+        - cell "4"
+        - cell "담요 (개)"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+        - cell "0"
+  - generic: 주차별 최적화 결과
+  - table:
+    - rowgroup:
+      - row "주차 예측 유입량 구호소 이용자 최저 품목 충족률 미충족 품목":
+        - columnheader "주차"
+        - columnheader "예측 유입량"
+        - columnheader "구호소 이용자"
+        - columnheader "최저 품목 충족률"
+        - columnheader "미충족 품목"
+    - rowgroup:
+      - row "1주차 2,056명 206명 79.9% 4개":
+        - cell "1주차":
+          - generic: 1주차
+        - cell "2,056명"
+        - cell "206명"
+        - cell "79.9%":
+          - generic: 79.9%
+        - cell "4개":
+          - generic: 4개
+      - row "2주차 2,060명 206명 79.9% 4개":
+        - cell "2주차":
+          - generic: 2주차
+        - cell "2,060명"
+        - cell "206명"
+        - cell "79.9%":
+          - generic: 79.9%
+        - cell "4개":
+          - generic: 4개
+      - row "3주차 2,064명 207명 79.9% 4개":
+        - cell "3주차":
+          - generic: 3주차
+        - cell "2,064명"
+        - cell "207명"
+        - cell "79.9%":
+          - generic: 79.9%
+        - cell "4개":
+          - generic: 4개
+      - row "4주차 2,063명 207명 79.9% 4개":
+        - cell "4주차":
+          - generic: 4주차
+        - cell "2,063명"
+        - cell "207명"
+        - cell "79.9%":
+          - generic: 79.9%
+        - cell "4개":
+          - generic: 4개
+  - generic: 주차별 물품 배분 계획
+  - button "1주차"
+  - button "2주차"
+  - button "3주차"
+  - button "4주차"
+  - table:
+    - rowgroup:
+      - row "품목 필요량 추천 공급량 계획 충족량 미충족 기말재고 충족률":
+        - columnheader "품목"
+        - columnheader "필요량"
+        - columnheader "추천 공급량"
+        - columnheader "계획 충족량"
+        - columnheader "미충족"
+        - columnheader "기말재고"
+        - columnheader "충족률"
+    - rowgroup:
+      - row "물 9,270 L 4,180 L 7,411 1,859 8,769 79.9%":
+        - cell "물"
+        - cell "9,270 L"
+        - cell "4,180 L"
+        - cell "7,411"
+        - cell "1,859"
+        - cell "8,769"
+        - cell "79.9%":
+          - generic: 79.9%
+      - row "식량 618 1일분 1,114 1일분 495 123 1,419 80.1%":
+        - cell "식량"
+        - cell "618 1일분"
+        - cell "1,114 1일분"
+        - cell "495"
+        - cell "123"
+        - cell "1,419"
+        - cell "80.1%":
+          - generic: 80.1%
+      - row "위생키트 206 개 15 개 165 41 0 80.1%":
+        - cell "위생키트"
+        - cell "206 개"
+        - cell "15 개"
+        - cell "165"
+        - cell "41"
+        - cell "0"
+        - cell "80.1%":
+          - generic: 80.1%
+      - row "담요 206 개 0 개 165 41 15 80.1%":
+        - cell "담요"
+        - cell "206 개"
+        - cell "0 개"
+        - cell "165"
+        - cell "41"
+        - cell "15"
+        - cell "80.1%":
+          - generic: 80.1%
+  - generic: 품목별 4주 수요 충족 현황
+  - table:
+    - rowgroup:
+      - row "품목 총 수요 총 충족량 총 미충족량 충족률":
+        - columnheader "품목"
+        - columnheader "총 수요"
+        - columnheader "총 충족량"
+        - columnheader "총 미충족량"
+        - columnheader "충족률"
+    - rowgroup:
+      - row "물 37,170 29,716 7,454 79.9%":
+        - cell "물"
+        - cell "37,170"
+        - cell "29,716"
+        - cell "7,454"
+        - cell "79.9%":
+          - generic: 79.9%
+      - row "식량 2,478 1,984 494 80.1%":
+        - cell "식량"
+        - cell "2,478"
+        - cell "1,984"
+        - cell "494"
+        - cell "80.1%":
+          - generic: 80.1%
+      - row "위생키트 826 662 164 80.1%":
+        - cell "위생키트"
+        - cell "826"
+        - cell "662"
+        - cell "164"
+        - cell "80.1%":
+          - generic: 80.1%
+      - row "담요 826 662 164 80.1%":
+        - cell "담요"
+        - cell "826"
+        - cell "662"
+        - cell "164"
+        - cell "80.1%":
+          - generic: 80.1%
+  - generic: 창고 용량 사용 현황
+  - table:
+    - rowgroup:
+      - row "주차 최대 보관량 창고용량 사용률":
+        - columnheader "주차"
+        - columnheader "최대 보관량"
+        - columnheader "창고용량"
+        - columnheader "사용률"
+    - rowgroup:
+      - row "1주차 25.26㎥ 45.00㎥ 56.1%":
+        - cell "1주차"
+        - cell "25.26㎥"
+        - cell "45.00㎥"
+        - cell "56.1%"
+      - row "2주차 23.24㎥ 45.00㎥ 51.6%":
+        - cell "2주차"
+        - cell "23.24㎥"
+        - cell "45.00㎥"
+        - cell "51.6%"
+      - row "3주차 22.00㎥ 45.00㎥ 48.9%":
+        - cell "3주차"
+        - cell "22.00㎥"
+        - cell "45.00㎥"
+        - cell "48.9%"
+      - row "4주차 13.42㎥ 45.00㎥ 29.8%":
+        - cell "4주차"
+        - cell "13.42㎥"
+        - cell "45.00㎥"
+        - cell "29.8%"
+  - generic: 최적화 결과 요약
+  - generic: "Medyka: 운송·리드타임·기한·폐기를 반영한 4주 계획. 총비용 57,565.37, 수요 충족률 80.1%."
+  - button "구호품 계획 수정"
+- generic: "0"

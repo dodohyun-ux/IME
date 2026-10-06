@@ -1,0 +1,435 @@
+{
+  "utilization_rate": 0.2,
+  "stay_days": 1,
+  "initial_inventory": {
+    "Medyka": {
+      "water": 0,
+      "food": 0,
+      "hygiene_kit": 0,
+      "blanket": 0
+    }
+  },
+  "weekly_supply": {
+    "water": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    "food": {
+      "1": 10,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    "hygiene_kit": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    "blanket": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    }
+  },
+  "unit_cost": {
+    "water": 1.0,
+    "food": 10.0,
+    "hygiene_kit": 25.0,
+    "blanket": 30.0
+  },
+  "total_budget": 100000,
+  "warehouse_capacity_m3": {
+    "Medyka": 45.0
+  },
+  "selected_site": "Medyka",
+  "ml_forecast": {
+    "Medyka": {
+      "1": 50,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    }
+  },
+  "item_volume_m3": {
+    "water": 0.001,
+    "food": 0.002,
+    "hygiene_kit": 0.01,
+    "blanket": 0.02
+  },
+  "logistics": {
+    "item_weight_kg": {
+      "water": 1.02,
+      "food": 0.6,
+      "hygiene_kit": 0.5,
+      "blanket": 1.5
+    },
+    "procurement_lead_days": {
+      "water": 0,
+      "food": 0,
+      "hygiene_kit": 0,
+      "blanket": 0
+    },
+    "shelf_life_days": {
+      "water": 365,
+      "food": 180,
+      "hygiene_kit": null,
+      "blanket": null
+    },
+    "initial_lots": [],
+    "pipeline_lots": [],
+    "disposal_cost": {
+      "water": 0.1,
+      "food": 0.1,
+      "hygiene_kit": 0.1,
+      "blanket": 0.1
+    },
+    "disposal_capacity": {
+      "water": {
+        "1": 100000,
+        "2": 100000,
+        "3": 100000,
+        "4": 100000
+      },
+      "food": {
+        "1": 100000,
+        "2": 100000,
+        "3": 100000,
+        "4": 100000
+      },
+      "hygiene_kit": {
+        "1": 100000,
+        "2": 100000,
+        "3": 100000,
+        "4": 100000
+      },
+      "blanket": {
+        "1": 100000,
+        "2": 100000,
+        "3": 100000,
+        "4": 100000
+      }
+    },
+    "road_network": {
+      "planning_start": "2026-10-05T00:00:00+02:00",
+      "slot_minutes": 30,
+      "destination_site": "Medyka",
+      "depot_node": "depot",
+      "destination_node": "site",
+      "nodes": [
+        {
+          "id": "depot",
+          "label": "Synthetic depot",
+          "rest_allowed": true
+        },
+        {
+          "id": "north",
+          "label": "Synthetic north",
+          "rest_allowed": true
+        },
+        {
+          "id": "south",
+          "label": "Synthetic south",
+          "rest_allowed": true
+        },
+        {
+          "id": "site",
+          "label": "Synthetic site",
+          "rest_allowed": true
+        }
+      ],
+      "edges": [
+        {
+          "id": "depot-north",
+          "from_node": "depot",
+          "to_node": "north",
+          "road_name": "Synthetic road depot-north",
+          "distance_km": 20,
+          "travel_minutes": 60,
+          "toll_cost": 0,
+          "max_gross_weight_kg": 10000,
+          "max_height_m": 4.5,
+          "max_width_m": 3,
+          "allowed_vehicle_types": [
+            "rigid"
+          ],
+          "allowed_items": [
+            "water",
+            "food",
+            "hygiene_kit",
+            "blanket"
+          ],
+          "open_windows": [
+            {
+              "start_hour": 0,
+              "end_hour": 672
+            }
+          ],
+          "capacity_resource": null,
+          "source_id": null
+        },
+        {
+          "id": "north-depot",
+          "from_node": "north",
+          "to_node": "depot",
+          "road_name": "Synthetic road north-depot",
+          "distance_km": 20,
+          "travel_minutes": 60,
+          "toll_cost": 0,
+          "max_gross_weight_kg": 10000,
+          "max_height_m": 4.5,
+          "max_width_m": 3,
+          "allowed_vehicle_types": [
+            "rigid"
+          ],
+          "allowed_items": [
+            "water",
+            "food",
+            "hygiene_kit",
+            "blanket"
+          ],
+          "open_windows": [
+            {
+              "start_hour": 0,
+              "end_hour": 672
+            }
+          ],
+          "capacity_resource": null,
+          "source_id": null
+        },
+        {
+          "id": "north-site",
+          "from_node": "north",
+          "to_node": "site",
+          "road_name": "Synthetic road north-site",
+          "distance_km": 20,
+          "travel_minutes": 60,
+          "toll_cost": 0,
+          "max_gross_weight_kg": 10000,
+          "max_height_m": 4.5,
+          "max_width_m": 3,
+          "allowed_vehicle_types": [
+            "rigid"
+          ],
+          "allowed_items": [
+            "water",
+            "food",
+            "hygiene_kit",
+            "blanket"
+          ],
+          "open_windows": [
+            {
+              "start_hour": 0,
+              "end_hour": 672
+            }
+          ],
+          "capacity_resource": null,
+          "source_id": null
+        },
+        {
+          "id": "site-north",
+          "from_node": "site",
+          "to_node": "north",
+          "road_name": "Synthetic road site-north",
+          "distance_km": 20,
+          "travel_minutes": 60,
+          "toll_cost": 0,
+          "max_gross_weight_kg": 10000,
+          "max_height_m": 4.5,
+          "max_width_m": 3,
+          "allowed_vehicle_types": [
+            "rigid"
+          ],
+          "allowed_items": [
+            "water",
+            "food",
+            "hygiene_kit",
+            "blanket"
+          ],
+          "open_windows": [
+            {
+              "start_hour": 0,
+              "end_hour": 672
+            }
+          ],
+          "capacity_resource": null,
+          "source_id": null
+        },
+        {
+          "id": "depot-south",
+          "from_node": "depot",
+          "to_node": "south",
+          "road_name": "Synthetic road depot-south",
+          "distance_km": 30,
+          "travel_minutes": 90,
+          "toll_cost": 0,
+          "max_gross_weight_kg": 10000,
+          "max_height_m": 4.5,
+          "max_width_m": 3,
+          "allowed_vehicle_types": [
+            "rigid"
+          ],
+          "allowed_items": [
+            "water",
+            "food",
+            "hygiene_kit",
+            "blanket"
+          ],
+          "open_windows": [
+            {
+              "start_hour": 0,
+              "end_hour": 672
+            }
+          ],
+          "capacity_resource": null,
+          "source_id": null
+        },
+        {
+          "id": "south-depot",
+          "from_node": "south",
+          "to_node": "depot",
+          "road_name": "Synthetic road south-depot",
+          "distance_km": 30,
+          "travel_minutes": 90,
+          "toll_cost": 0,
+          "max_gross_weight_kg": 10000,
+          "max_height_m": 4.5,
+          "max_width_m": 3,
+          "allowed_vehicle_types": [
+            "rigid"
+          ],
+          "allowed_items": [
+            "water",
+            "food",
+            "hygiene_kit",
+            "blanket"
+          ],
+          "open_windows": [
+            {
+              "start_hour": 0,
+              "end_hour": 672
+            }
+          ],
+          "capacity_resource": null,
+          "source_id": null
+        },
+        {
+          "id": "south-site",
+          "from_node": "south",
+          "to_node": "site",
+          "road_name": "Synthetic road south-site",
+          "distance_km": 30,
+          "travel_minutes": 90,
+          "toll_cost": 0,
+          "max_gross_weight_kg": 10000,
+          "max_height_m": 4.5,
+          "max_width_m": 3,
+          "allowed_vehicle_types": [
+            "rigid"
+          ],
+          "allowed_items": [
+            "water",
+            "food",
+            "hygiene_kit",
+            "blanket"
+          ],
+          "open_windows": [
+            {
+              "start_hour": 0,
+              "end_hour": 672
+            }
+          ],
+          "capacity_resource": null,
+          "source_id": null
+        },
+        {
+          "id": "site-south",
+          "from_node": "site",
+          "to_node": "south",
+          "road_name": "Synthetic road site-south",
+          "distance_km": 30,
+          "travel_minutes": 90,
+          "toll_cost": 0,
+          "max_gross_weight_kg": 10000,
+          "max_height_m": 4.5,
+          "max_width_m": 3,
+          "allowed_vehicle_types": [
+            "rigid"
+          ],
+          "allowed_items": [
+            "water",
+            "food",
+            "hygiene_kit",
+            "blanket"
+          ],
+          "open_windows": [
+            {
+              "start_hour": 0,
+              "end_hour": 672
+            }
+          ],
+          "capacity_resource": null,
+          "source_id": null
+        }
+      ],
+      "trucks": [
+        {
+          "id": "truck-01",
+          "vehicle_type": "rigid",
+          "payload_kg": 2000,
+          "tare_kg": 5000,
+          "max_gross_weight_kg": 7500,
+          "volume_m3": 10,
+          "height_m": 3.5,
+          "width_m": 2.5,
+          "loading_minutes": 30,
+          "unloading_minutes": 30,
+          "turnaround_minutes": 30,
+          "fixed_trip_cost": 100,
+          "cost_per_km": 1,
+          "max_continuous_driving_minutes": 270,
+          "break_minutes": 45,
+          "max_weekly_driving_minutes": 3360,
+          "max_two_week_driving_minutes": 5400,
+          "availability": [
+            {
+              "start_hour": 8.5,
+              "end_hour": 21.5,
+              "max_driving_minutes": 540
+            },
+            {
+              "start_hour": 176.5,
+              "end_hour": 189.5,
+              "max_driving_minutes": 540
+            },
+            {
+              "start_hour": 344.5,
+              "end_hour": 357.5,
+              "max_driving_minutes": 540
+            },
+            {
+              "start_hour": 512.5,
+              "end_hour": 525.5,
+              "max_driving_minutes": 540
+            }
+          ]
+        }
+      ],
+      "departure_hours": [
+        9
+      ],
+      "delivery_deadline_hours": {
+        "1": 20,
+        "2": 188,
+        "3": 356,
+        "4": 524
+      },
+      "capacity_resources": {},
+      "data_kind": "synthetic",
+      "sources": []
+    }
+  }
+}

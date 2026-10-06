@@ -1,0 +1,34 @@
+[
+  {
+    "raw_name": "baseline_Dorohusk_result.json",
+    "raw_bytes": 53047790,
+    "raw_sha256": "1e3d95a02110447f16ed204f67be2f60f2acd9d27e5ac4e1809b3d2a706f3ab0",
+    "compressed_name": "baseline_Dorohusk_result.json.gz",
+    "compressed_bytes": 6150979,
+    "compressed_sha256": "9bbf248d1b68189824421688346d985c0e67fb381feef108dd13f5aef00ce4dd"
+  },
+  {
+    "raw_name": "baseline_Korczowa_result.json",
+    "raw_bytes": 7168670,
+    "raw_sha256": "2ab843b225b7c5835bb17fb012d590f22de1930b58694802d5e5b39c7dc5ea84",
+    "compressed_name": "baseline_Korczowa_result.json.gz",
+    "compressed_bytes": 724415,
+    "compressed_sha256": "086aa28d9a416dac7e5109f51c8753ea7ecf258609d2e06018f8ed990dc18a20"
+  },
+  {
+    "raw_name": "baseline_Medyka_result.json",
+    "raw_bytes": 4850668,
+    "raw_sha256": "477f56ae87ccf86bf6de520f38b985ce20afb82c71bb1740838f9669e72149bd",
+    "compressed_name": "baseline_Medyka_result.json.gz",
+    "compressed_bytes": 455398,
+    "compressed_sha256": "71a8b581aaa092dd329f0ecf713da9946efd1626b00fcb9747d3baa8fc8af90c"
+  },
+  {
+    "raw_name": "recent_medyka_x2_Medyka_result.json",
+    "raw_bytes": 4853566,
+    "raw_sha256": "b00e601b83c08a7b6a19f8383715daf9fd6ef7e4600c28be18a22b5c62cb6a89",
+    "compressed_name": "recent_medyka_x2_Medyka_result.json.gz",
+    "compressed_bytes": 455567,
+    "compressed_sha256": "24c190b305a089fa59e4fa245ed6fbe26beab89b26d40a528fd4d0c521586916"
+  }
+]

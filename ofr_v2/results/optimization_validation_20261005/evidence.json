@@ -1,0 +1,4366 @@
+{
+  "seed": 20261003,
+  "quick": false,
+  "official_skipped": false,
+  "generated_at": "2026-10-05T09:39:59.270125+00:00",
+  "frozen_assets": {
+    "ofr_v2/app/backend/optimization.py": "1d3b460482750ac54c53f8fd1a3ad733d777f35621523a33b11fc27e45398298",
+    "ofr_v2/app/backend/logistics.py": "d14f9fff82243410d2a5c899a5323723d1e3b03958883031e37e1476032ec7f5",
+    "ofr_v2/app/backend/road_network.py": "dcba665638e3ab5933475124c6f44c6f1979962c0da23d6877655aa9eba36a4f",
+    "ofr_v2/app/backend/road_paths.py": "26a5311ddb1b37dc7090d393485678a7664ab2dc3d0ea05761de86bfd05f0751",
+    "ofr_v2/app/backend/poland_roads.py": "4beab8e9c12de775d7583763845daee46e6ca077492fefcc7c5d92a7e8c264fb",
+    "ofr_v2/app/backend/road_planner.py": "8f2164cb4f2db035fb46550070a84b9fd32ae725b88c33cfdd0ec2921b0db103",
+    "ofr_v2/app/backend/main.py": "845bb89fb77be2111b3eff83b23555fe4e80c1ded8d66ea669ab80dbaff6c633",
+    "ofr_v2/app/backend/weekly_forecast.py": "106ee2558b3a9a712aa6f0d3d0df77b81ae10f1c396311dc86c49b65b091a02c",
+    "ofr_v2/app/models/calibration.json": "f8c3d84af36306bdc7bc2cab8f96ddb4bea0be14003146fd74c3e3e1bacea6a1",
+    "ofr_v2/app/data/backtest_gbm.csv": "c6714c7352c9bf92e4ffac0896ccda20285eeac152e33e67b5626d8ea273a218",
+    "ofr_v2/app/data/weekly.csv": "5668a82c500a8f3d327413c456c0254f7fb671315e4fda61b1438a9283a04ca8",
+    "ofr_v2/pipeline/ablation.py": "e4f7824442fc53fff9f530ba40e74e22d149e7179d4e201f2cee45f1898bdebf",
+    "ofr_v2/pipeline/backtest.py": "874a088f8fccfbe30fecf7f550590e7146f21200232e8d4dbe57cd936e0ca7ac",
+    "ofr_v2/pipeline/data.py": "b9d4bdbabfec2e516a1ced57b77ef4c3d30b7164df92d3856f0d381b9b8ed0c7",
+    "ofr_v2/pipeline/evaluate.py": "72f9a0e0931ab74d69719ad92a55a2dbd8a14ef2521c6182765d9561b8110fbe",
+    "ofr_v2/pipeline/forecast.py": "83f7cb0531d1fbac6aaf7c95b5d3de4162908b9ceeb4da64d5565f1664f0a702",
+    "ofr_v2/pipeline/run_simulation.py": "6933db50e8ba4804dbe00a331ea78a5a6684c6f917015c36c26dbbd6a748fd2a",
+    "ofr_v2/pipeline/simulate.py": "bd04e071e4a49a1cc6853a97208d783415c7b14bc69dd753b667f1a54989a55a",
+    "ofr_v2/pipeline/train_final.py": "f76dca90eadeaaa891aa8ec0d5e7c7a53f01c3ddd74b647ca50264146a4abfbe",
+    "ofr_v2/results/model_selection.md": "f8b4c7fa181dea5ebaa0458f3c0d8ae120f3c18608e21104fa53b5136ef4ce8e",
+    "ofr_v2/results/holdout_metrics.txt": "930a108587d2604b34655172854b0236234bacf252b8519049b0c36128ca1a91",
+    "ofr_v2/results/validation_metrics.txt": "1149f5372eb6a1b54b7b7ab7e0c2652f100f4a4c09e63de85dc49f594b1d431c",
+    "ofr_v2/results/ablation_metrics.txt": "0d8ee02d6cdd6186b7c338fd1edbb7b97fb5060586b9f5dcecfce442c678d8b0"
+  },
+  "frozen_assets_unchanged": true,
+  "optimizer_cases": 124,
+  "passed": 124,
+  "failures": [],
+  "enumeration": [
+    {
+      "case": "oracle-00",
+      "matched": true,
+      "assignments": 5,
+      "expected": [
+        1.0,
+        21
+      ],
+      "actual": [
+        1.0,
+        21.0
+      ]
+    },
+    {
+      "case": "oracle-01",
+      "matched": true,
+      "assignments": 65,
+      "expected": [
+        0.0,
+        0.0,
+        23.0
+      ],
+      "actual": [
+        0.0,
+        0.0,
+        23.0
+      ]
+    },
+    {
+      "case": "oracle-02",
+      "matched": true,
+      "assignments": 5,
+      "expected": [
+        1.0,
+        1.0,
+        23
+      ],
+      "actual": [
+        1.0,
+        1.0,
+        23.0
+      ]
+    },
+    {
+      "case": "oracle-03",
+      "matched": true,
+      "assignments": 85,
+      "expected": [
+        0.5,
+        40
+      ],
+      "actual": [
+        0.5,
+        40.0
+      ]
+    },
+    {
+      "case": "oracle-04",
+      "matched": true,
+      "assignments": 21,
+      "expected": [
+        0.6666666666666667,
+        1.3333333333333333,
+        23
+      ],
+      "actual": [
+        0.6666666666666666,
+        1.3333333333333333,
+        23.0
+      ]
+    },
+    {
+      "case": "oracle-05",
+      "matched": true,
+      "assignments": 25,
+      "expected": [
+        1.0,
+        1.0,
+        23.0
+      ],
+      "actual": [
+        1.0,
+        1.0,
+        23.0
+      ]
+    },
+    {
+      "case": "oracle-06",
+      "matched": true,
+      "assignments": 17,
+      "expected": [
+        1.0,
+        22
+      ],
+      "actual": [
+        1.0,
+        22.0
+      ]
+    },
+    {
+      "case": "oracle-07",
+      "matched": true,
+      "assignments": 25,
+      "expected": [
+        1.0,
+        1.5,
+        21.0
+      ],
+      "actual": [
+        1.0,
+        1.5,
+        21.0
+      ]
+    },
+    {
+      "case": "oracle-08",
+      "matched": true,
+      "assignments": 13,
+      "expected": [
+        0.0,
+        0.0,
+        22
+      ],
+      "actual": [
+        0.0,
+        0.0,
+        22.0
+      ]
+    },
+    {
+      "case": "oracle-09",
+      "matched": true,
+      "assignments": 185,
+      "expected": [
+        1.0,
+        48
+      ],
+      "actual": [
+        1.0,
+        48.0
+      ]
+    },
+    {
+      "case": "oracle-10",
+      "matched": true,
+      "assignments": 29,
+      "expected": [
+        0.75,
+        1.25,
+        30
+      ],
+      "actual": [
+        0.75,
+        1.25,
+        30.0
+      ]
+    },
+    {
+      "case": "oracle-11",
+      "matched": true,
+      "assignments": 45,
+      "expected": [
+        1.0,
+        1.5,
+        20.0
+      ],
+      "actual": [
+        1.0,
+        1.5,
+        20.0
+      ]
+    },
+    {
+      "case": "oracle-12",
+      "matched": true,
+      "assignments": 9,
+      "expected": [
+        1.5,
+        21
+      ],
+      "actual": [
+        1.5,
+        21.0
+      ]
+    },
+    {
+      "case": "oracle-13",
+      "matched": true,
+      "assignments": 81,
+      "expected": [
+        0.0,
+        0.0,
+        34
+      ],
+      "actual": [
+        0.0,
+        0.0,
+        34.0
+      ]
+    },
+    {
+      "case": "oracle-14",
+      "matched": true,
+      "assignments": 17,
+      "expected": [
+        0.8,
+        1.6,
+        22
+      ],
+      "actual": [
+        0.8,
+        1.6,
+        22.0
+      ]
+    },
+    {
+      "case": "oracle-15",
+      "matched": true,
+      "assignments": 169,
+      "expected": [
+        1.3333333333333333,
+        42
+      ],
+      "actual": [
+        1.3333333333333333,
+        42.0
+      ]
+    },
+    {
+      "case": "oracle-16",
+      "matched": true,
+      "assignments": 5,
+      "expected": [
+        1.0,
+        2.0,
+        0.0
+      ],
+      "actual": [
+        1.0,
+        2.0,
+        0.0
+      ]
+    },
+    {
+      "case": "oracle-17",
+      "matched": true,
+      "assignments": 25,
+      "expected": [
+        1.0,
+        1.0,
+        19.0
+      ],
+      "actual": [
+        1.0,
+        1.0,
+        19.0
+      ]
+    },
+    {
+      "case": "oracle-18",
+      "matched": true,
+      "assignments": 5,
+      "expected": [
+        1.6666666666666665,
+        16
+      ],
+      "actual": [
+        1.6666666666666665,
+        16.0
+      ]
+    },
+    {
+      "case": "oracle-19",
+      "matched": true,
+      "assignments": 325,
+      "expected": [
+        0.8,
+        1.4,
+        31.0
+      ],
+      "actual": [
+        0.8,
+        1.4,
+        31.0
+      ]
+    },
+    {
+      "case": "oracle-20",
+      "matched": true,
+      "assignments": 5,
+      "expected": [
+        1.0,
+        1.0,
+        22
+      ],
+      "actual": [
+        1.0,
+        1.0,
+        22.0
+      ]
+    },
+    {
+      "case": "oracle-21",
+      "matched": true,
+      "assignments": 225,
+      "expected": [
+        1.8333333333333335,
+        20.0
+      ],
+      "actual": [
+        1.8333333333333335,
+        20.0
+      ]
+    },
+    {
+      "case": "oracle-22",
+      "matched": true,
+      "assignments": 25,
+      "expected": [
+        0.75,
+        1.5,
+        25
+      ],
+      "actual": [
+        0.75,
+        1.5,
+        25.0
+      ]
+    },
+    {
+      "case": "oracle-23",
+      "matched": true,
+      "assignments": 153,
+      "expected": [
+        1.0,
+        1.0,
+        27.0
+      ],
+      "actual": [
+        1.0,
+        1.0,
+        27.0
+      ]
+    },
+    {
+      "case": "oracle-24",
+      "matched": true,
+      "assignments": 5,
+      "expected": [
+        2.0,
+        0.0
+      ],
+      "actual": [
+        2.0,
+        0.0
+      ]
+    },
+    {
+      "case": "oracle-25",
+      "matched": true,
+      "assignments": 169,
+      "expected": [
+        1.0,
+        2.0,
+        0.0
+      ],
+      "actual": [
+        1.0,
+        2.0,
+        0.0
+      ]
+    },
+    {
+      "case": "oracle-26",
+      "matched": true,
+      "assignments": 5,
+      "expected": [
+        1.0,
+        1.0,
+        17
+      ],
+      "actual": [
+        1.0,
+        1.0,
+        17.0
+      ]
+    },
+    {
+      "case": "oracle-27",
+      "matched": true,
+      "assignments": 377,
+      "expected": [
+        0.0,
+        54
+      ],
+      "actual": [
+        0.0,
+        54.0
+      ]
+    },
+    {
+      "case": "oracle-28",
+      "matched": true,
+      "assignments": 13,
+      "expected": [
+        1.0,
+        1.0,
+        23
+      ],
+      "actual": [
+        1.0,
+        1.0,
+        23.0
+      ]
+    },
+    {
+      "case": "oracle-29",
+      "matched": true,
+      "assignments": 81,
+      "expected": [
+        0.6666666666666667,
+        1.3333333333333333,
+        36
+      ],
+      "actual": [
+        0.6666666666666666,
+        1.3333333333333333,
+        36.0
+      ]
+    },
+    {
+      "case": "oracle-30",
+      "matched": true,
+      "assignments": 5,
+      "expected": [
+        1.8333333333333335,
+        16
+      ],
+      "actual": [
+        1.8333333333333335,
+        16.0
+      ]
+    },
+    {
+      "case": "oracle-31",
+      "matched": true,
+      "assignments": 169,
+      "expected": [
+        1.0,
+        1.0,
+        54
+      ],
+      "actual": [
+        1.0,
+        1.0,
+        54.0
+      ]
+    },
+    {
+      "case": "oracle-32",
+      "matched": true,
+      "assignments": 5,
+      "expected": [
+        1.0,
+        1.8333333333333335,
+        19
+      ],
+      "actual": [
+        1.0,
+        1.8333333333333335,
+        19.0
+      ]
+    },
+    {
+      "case": "oracle-33",
+      "matched": true,
+      "assignments": 45,
+      "expected": [
+        1.0,
+        40
+      ],
+      "actual": [
+        1.0,
+        40.0
+      ]
+    },
+    {
+      "case": "oracle-34",
+      "matched": true,
+      "assignments": 5,
+      "expected": [
+        1.0,
+        1.8,
+        20
+      ],
+      "actual": [
+        1.0,
+        1.8,
+        20.0
+      ]
+    },
+    {
+      "case": "oracle-35",
+      "matched": true,
+      "assignments": 45,
+      "expected": [
+        1.0,
+        1.5,
+        15.0
+      ],
+      "actual": [
+        1.0,
+        1.5,
+        15.0
+      ]
+    },
+    {
+      "case": "oracle-36",
+      "matched": true,
+      "assignments": 17,
+      "expected": [
+        1.0,
+        23
+      ],
+      "actual": [
+        1.0,
+        23.0
+      ]
+    },
+    {
+      "case": "oracle-37",
+      "matched": true,
+      "assignments": 493,
+      "expected": [
+        0.8,
+        1.6,
+        26.0
+      ],
+      "actual": [
+        0.8,
+        1.6,
+        26.0
+      ]
+    },
+    {
+      "case": "oracle-38",
+      "matched": true,
+      "assignments": 17,
+      "expected": [
+        0.5,
+        1.0,
+        27
+      ],
+      "actual": [
+        0.5,
+        1.0,
+        27.0
+      ]
+    },
+    {
+      "case": "oracle-39",
+      "matched": true,
+      "assignments": 125,
+      "expected": [
+        2.0,
+        0.0
+      ],
+      "actual": [
+        2.0,
+        0.0
+      ]
+    },
+    {
+      "case": "oracle-40",
+      "matched": true,
+      "assignments": 1,
+      "expected": [
+        1.0,
+        2.0,
+        0.0
+      ],
+      "actual": [
+        1.0,
+        2.0,
+        0.0
+      ]
+    },
+    {
+      "case": "oracle-41",
+      "matched": true,
+      "assignments": 325,
+      "expected": [
+        1.0,
+        2.0,
+        0.0
+      ],
+      "actual": [
+        1.0,
+        2.0,
+        0.0
+      ]
+    },
+    {
+      "case": "oracle-42",
+      "matched": true,
+      "assignments": 21,
+      "expected": [
+        1.5,
+        31
+      ],
+      "actual": [
+        1.5,
+        31.0
+      ]
+    },
+    {
+      "case": "oracle-43",
+      "matched": true,
+      "assignments": 221,
+      "expected": [
+        0.75,
+        1.0,
+        46
+      ],
+      "actual": [
+        0.75,
+        1.0,
+        46.0
+      ]
+    },
+    {
+      "case": "oracle-44",
+      "matched": true,
+      "assignments": 17,
+      "expected": [
+        1.0,
+        2.0,
+        0.0
+      ],
+      "actual": [
+        1.0,
+        2.0,
+        0.0
+      ]
+    },
+    {
+      "case": "oracle-45",
+      "matched": true,
+      "assignments": 185,
+      "expected": [
+        1.3333333333333335,
+        31.0
+      ],
+      "actual": [
+        1.3333333333333335,
+        31.0
+      ]
+    },
+    {
+      "case": "oracle-46",
+      "matched": true,
+      "assignments": 33,
+      "expected": [
+        0.6666666666666667,
+        1.0,
+        28
+      ],
+      "actual": [
+        0.6666666666666666,
+        1.0,
+        28.0
+      ]
+    },
+    {
+      "case": "oracle-47",
+      "matched": true,
+      "assignments": 65,
+      "expected": [
+        1.0,
+        2.0,
+        0.0
+      ],
+      "actual": [
+        1.0,
+        2.0,
+        0.0
+      ]
+    }
+  ],
+  "mutations": [
+    {
+      "case": "overweight",
+      "detected": true,
+      "failures": [
+        "truck: reported cargo weight",
+        "truck: reported cargo volume",
+        "truck: payload/gross capacity",
+        "truck: volume capacity"
+      ]
+    },
+    {
+      "case": "broken-route",
+      "detected": true,
+      "failures": [
+        "path: disconnected path",
+        "cost: round-trip km",
+        "cost: distance",
+        "cost: trip cost from edges"
+      ]
+    },
+    {
+      "case": "wrong-cost",
+      "detected": true,
+      "failures": [
+        "cost: total_cost"
+      ]
+    },
+    {
+      "case": "stock-creation",
+      "detected": true,
+      "failures": [
+        "stock: lot/item inventory",
+        "stock: batch material balance",
+        "stock: batch material balance",
+        "warehouse: peak = usable before distribution + retained quarantine"
+      ]
+    },
+    {
+      "case": "demand-creation",
+      "detected": true,
+      "failures": [
+        "demand: served + unmet",
+        "stock: lot/item served"
+      ]
+    },
+    {
+      "case": "wrong-departure",
+      "detected": true,
+      "failures": [
+        "schedule: departure outside declared grid",
+        "schedule: loading duration",
+        "schedule: nonmonotonic times"
+      ]
+    },
+    {
+      "case": "duplicate-trip",
+      "detected": true,
+      "failures": [
+        "schema: duplicate tour ID",
+        "schema: purchased lot split across trips",
+        "schema: purchased lot split across trips",
+        "schema: purchased lot split across trips"
+      ]
+    },
+    {
+      "case": "order-creation",
+      "detected": true,
+      "failures": [
+        "cost: order/truck procurement reconciliation",
+        "supply: weekly order reconciliation",
+        "supply: weekly supplier quota",
+        "cost: total_procurement_cost"
+      ]
+    }
+  ],
+  "audits": [
+    {
+      "case": "oracle-00",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 18,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 21,
+        "lead": 1,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 63,
+        "expiry": 60,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 6,
+        "objective_locks": 5
+      },
+      "total_checks": 436
+    },
+    {
+      "case": "oracle-01",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 24,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 21,
+        "integrality": 116,
+        "cargo": 22,
+        "lead": 2,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 68,
+        "expiry": 64,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 463
+    },
+    {
+      "case": "oracle-02",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 18,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 21,
+        "lead": 1,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 63,
+        "expiry": 60,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 438
+    },
+    {
+      "case": "oracle-03",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 30,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 26,
+        "integrality": 120,
+        "cargo": 27,
+        "lead": 3,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 2,
+        "demand": 32,
+        "stock": 73,
+        "expiry": 68,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 6,
+        "objective_locks": 5
+      },
+      "total_checks": 546
+    },
+    {
+      "case": "oracle-04",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 24,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 22,
+        "lead": 2,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 68,
+        "expiry": 64,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 455
+    },
+    {
+      "case": "oracle-05",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 18,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 21,
+        "integrality": 116,
+        "cargo": 21,
+        "lead": 1,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 63,
+        "expiry": 60,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 446
+    },
+    {
+      "case": "oracle-06",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 18,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 21,
+        "lead": 1,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 63,
+        "expiry": 60,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 6,
+        "objective_locks": 5
+      },
+      "total_checks": 436
+    },
+    {
+      "case": "oracle-07",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 18,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 21,
+        "integrality": 116,
+        "cargo": 21,
+        "lead": 1,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 63,
+        "expiry": 60,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 446
+    },
+    {
+      "case": "oracle-08",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 24,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 22,
+        "lead": 2,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 68,
+        "expiry": 64,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 455
+    },
+    {
+      "case": "oracle-09",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 24,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 26,
+        "integrality": 120,
+        "cargo": 26,
+        "lead": 2,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 2,
+        "demand": 32,
+        "stock": 68,
+        "expiry": 64,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 6,
+        "objective_locks": 5
+      },
+      "total_checks": 529
+    },
+    {
+      "case": "oracle-10",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 24,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 22,
+        "lead": 2,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 68,
+        "expiry": 64,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 455
+    },
+    {
+      "case": "oracle-11",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 18,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 21,
+        "integrality": 116,
+        "cargo": 21,
+        "lead": 1,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 63,
+        "expiry": 60,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 446
+    },
+    {
+      "case": "oracle-12",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 18,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 21,
+        "lead": 1,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 63,
+        "expiry": 60,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 6,
+        "objective_locks": 5
+      },
+      "total_checks": 436
+    },
+    {
+      "case": "oracle-13",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 24,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 26,
+        "integrality": 120,
+        "cargo": 26,
+        "lead": 2,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 2,
+        "demand": 32,
+        "stock": 68,
+        "expiry": 64,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 531
+    },
+    {
+      "case": "oracle-14",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 24,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 22,
+        "lead": 2,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 68,
+        "expiry": 64,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 455
+    },
+    {
+      "case": "oracle-15",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 24,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 26,
+        "integrality": 120,
+        "cargo": 26,
+        "lead": 2,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 2,
+        "demand": 32,
+        "stock": 68,
+        "expiry": 64,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 6,
+        "objective_locks": 5
+      },
+      "total_checks": 529
+    },
+    {
+      "case": "oracle-16",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 12,
+        "rest": 8,
+        "cost": 5,
+        "demand": 32,
+        "stock": 58,
+        "expiry": 56,
+        "supply": 32,
+        "cargo": 16,
+        "integrality": 112,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 353
+    },
+    {
+      "case": "oracle-17",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 18,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 21,
+        "integrality": 116,
+        "cargo": 21,
+        "lead": 1,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 63,
+        "expiry": 60,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 446
+    },
+    {
+      "case": "oracle-18",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 18,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 21,
+        "lead": 1,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 63,
+        "expiry": 60,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 6,
+        "objective_locks": 5
+      },
+      "total_checks": 436
+    },
+    {
+      "case": "oracle-19",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 24,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 21,
+        "integrality": 116,
+        "cargo": 22,
+        "lead": 2,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 68,
+        "expiry": 64,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 463
+    },
+    {
+      "case": "oracle-20",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 18,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 21,
+        "lead": 1,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 63,
+        "expiry": 60,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 438
+    },
+    {
+      "case": "oracle-21",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 18,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 21,
+        "integrality": 116,
+        "cargo": 21,
+        "lead": 1,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 63,
+        "expiry": 60,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 6,
+        "objective_locks": 5
+      },
+      "total_checks": 444
+    },
+    {
+      "case": "oracle-22",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 24,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 22,
+        "lead": 2,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 68,
+        "expiry": 64,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 455
+    },
+    {
+      "case": "oracle-23",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 18,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 21,
+        "integrality": 116,
+        "cargo": 21,
+        "lead": 1,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 63,
+        "expiry": 60,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 446
+    },
+    {
+      "case": "oracle-24",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 12,
+        "rest": 8,
+        "cost": 5,
+        "demand": 32,
+        "stock": 58,
+        "expiry": 56,
+        "supply": 32,
+        "cargo": 16,
+        "integrality": 112,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 6,
+        "objective_locks": 5
+      },
+      "total_checks": 351
+    },
+    {
+      "case": "oracle-25",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 12,
+        "rest": 16,
+        "cost": 5,
+        "demand": 32,
+        "stock": 58,
+        "expiry": 56,
+        "supply": 32,
+        "cargo": 16,
+        "integrality": 112,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 361
+    },
+    {
+      "case": "oracle-26",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 18,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 21,
+        "lead": 1,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 63,
+        "expiry": 60,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 438
+    },
+    {
+      "case": "oracle-27",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 30,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 26,
+        "integrality": 120,
+        "cargo": 27,
+        "lead": 3,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 2,
+        "demand": 32,
+        "stock": 73,
+        "expiry": 68,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 6,
+        "objective_locks": 5
+      },
+      "total_checks": 546
+    },
+    {
+      "case": "oracle-28",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 18,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 21,
+        "lead": 1,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 63,
+        "expiry": 60,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 438
+    },
+    {
+      "case": "oracle-29",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 24,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 26,
+        "integrality": 120,
+        "cargo": 26,
+        "lead": 2,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 2,
+        "demand": 32,
+        "stock": 68,
+        "expiry": 64,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 531
+    },
+    {
+      "case": "oracle-30",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 18,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 21,
+        "lead": 1,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 63,
+        "expiry": 60,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 6,
+        "objective_locks": 5
+      },
+      "total_checks": 436
+    },
+    {
+      "case": "oracle-31",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 24,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 26,
+        "integrality": 120,
+        "cargo": 26,
+        "lead": 2,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 2,
+        "demand": 32,
+        "stock": 68,
+        "expiry": 64,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 531
+    },
+    {
+      "case": "oracle-32",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 18,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 21,
+        "lead": 1,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 63,
+        "expiry": 60,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 438
+    },
+    {
+      "case": "oracle-33",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 24,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 26,
+        "integrality": 120,
+        "cargo": 26,
+        "lead": 2,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 2,
+        "demand": 32,
+        "stock": 68,
+        "expiry": 64,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 6,
+        "objective_locks": 5
+      },
+      "total_checks": 529
+    },
+    {
+      "case": "oracle-34",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 18,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 21,
+        "lead": 1,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 63,
+        "expiry": 60,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 438
+    },
+    {
+      "case": "oracle-35",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 18,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 21,
+        "integrality": 116,
+        "cargo": 21,
+        "lead": 1,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 63,
+        "expiry": 60,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 446
+    },
+    {
+      "case": "oracle-36",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 18,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 21,
+        "lead": 1,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 63,
+        "expiry": 60,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 6,
+        "objective_locks": 5
+      },
+      "total_checks": 436
+    },
+    {
+      "case": "oracle-37",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 24,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 21,
+        "integrality": 116,
+        "cargo": 22,
+        "lead": 2,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 68,
+        "expiry": 64,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 463
+    },
+    {
+      "case": "oracle-38",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 24,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 22,
+        "lead": 2,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 68,
+        "expiry": 64,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 455
+    },
+    {
+      "case": "oracle-39",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 12,
+        "rest": 16,
+        "cost": 5,
+        "demand": 32,
+        "stock": 58,
+        "expiry": 56,
+        "supply": 32,
+        "cargo": 16,
+        "integrality": 112,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 6,
+        "objective_locks": 5
+      },
+      "total_checks": 359
+    },
+    {
+      "case": "oracle-40",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 12,
+        "rest": 8,
+        "cost": 5,
+        "demand": 32,
+        "stock": 58,
+        "expiry": 56,
+        "supply": 32,
+        "cargo": 16,
+        "integrality": 112,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 353
+    },
+    {
+      "case": "oracle-41",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 12,
+        "rest": 16,
+        "cost": 5,
+        "demand": 32,
+        "stock": 58,
+        "expiry": 56,
+        "supply": 32,
+        "cargo": 16,
+        "integrality": 112,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 361
+    },
+    {
+      "case": "oracle-42",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 24,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 22,
+        "lead": 2,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 68,
+        "expiry": 64,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 6,
+        "objective_locks": 5
+      },
+      "total_checks": 453
+    },
+    {
+      "case": "oracle-43",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 30,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 26,
+        "integrality": 120,
+        "cargo": 27,
+        "lead": 3,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 2,
+        "demand": 32,
+        "stock": 73,
+        "expiry": 68,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 548
+    },
+    {
+      "case": "oracle-44",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 12,
+        "rest": 8,
+        "cost": 5,
+        "demand": 32,
+        "stock": 58,
+        "expiry": 56,
+        "supply": 32,
+        "cargo": 16,
+        "integrality": 112,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 353
+    },
+    {
+      "case": "oracle-45",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 24,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 21,
+        "integrality": 116,
+        "cargo": 22,
+        "lead": 2,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 68,
+        "expiry": 64,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 6,
+        "objective_locks": 5
+      },
+      "total_checks": 461
+    },
+    {
+      "case": "oracle-46",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 24,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 22,
+        "lead": 2,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 68,
+        "expiry": 64,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 455
+    },
+    {
+      "case": "oracle-47",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 12,
+        "rest": 16,
+        "cost": 5,
+        "demand": 32,
+        "stock": 58,
+        "expiry": 56,
+        "supply": 32,
+        "cargo": 16,
+        "integrality": 112,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 361
+    },
+    {
+      "case": "unconstrained",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 50,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 18,
+        "integrality": 120,
+        "cargo": 32,
+        "lead": 8,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 88,
+        "expiry": 80,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 596
+    },
+    {
+      "case": "budget-0",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 2,
+        "rest": 8,
+        "cost": 5,
+        "demand": 32,
+        "stock": 48,
+        "expiry": 48,
+        "supply": 32,
+        "cargo": 16,
+        "integrality": 112,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 325
+    },
+    {
+      "case": "budget-1000",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 26,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 24,
+        "lead": 4,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 68,
+        "expiry": 64,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 461
+    },
+    {
+      "case": "budget-4000",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 26,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 24,
+        "lead": 4,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 68,
+        "expiry": 64,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 461
+    },
+    {
+      "case": "budget-8000",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 50,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 18,
+        "integrality": 120,
+        "cargo": 32,
+        "lead": 8,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 88,
+        "expiry": 80,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 596
+    },
+    {
+      "case": "budget-16000",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 50,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 18,
+        "integrality": 120,
+        "cargo": 32,
+        "lead": 8,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 88,
+        "expiry": 80,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 596
+    },
+    {
+      "case": "fleet-1",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 80,
+        "truck": 30,
+        "schedule": 132,
+        "rest": 38,
+        "integrality": 136,
+        "cargo": 55,
+        "lead": 15,
+        "deadline": 6,
+        "path": 42,
+        "road": 54,
+        "cost": 65,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 111,
+        "expiry": 96,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 947
+    },
+    {
+      "case": "fleet-2",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 91,
+        "truck": 30,
+        "schedule": 132,
+        "rest": 46,
+        "integrality": 136,
+        "cargo": 56,
+        "lead": 16,
+        "deadline": 6,
+        "path": 42,
+        "road": 54,
+        "cost": 65,
+        "occupancy": 2,
+        "demand": 32,
+        "stock": 121,
+        "expiry": 105,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 988
+    },
+    {
+      "case": "fleet-3",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 104,
+        "truck": 30,
+        "schedule": 132,
+        "rest": 54,
+        "integrality": 136,
+        "cargo": 57,
+        "lead": 17,
+        "deadline": 6,
+        "path": 42,
+        "road": 54,
+        "cost": 65,
+        "occupancy": 3,
+        "demand": 32,
+        "stock": 133,
+        "expiry": 116,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 1035
+    },
+    {
+      "case": "binding-fleet-1",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 92,
+        "truck": 40,
+        "schedule": 176,
+        "rest": 48,
+        "integrality": 144,
+        "cargo": 68,
+        "lead": 20,
+        "deadline": 8,
+        "path": 56,
+        "road": 72,
+        "cost": 85,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 118,
+        "expiry": 98,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 1112
+    },
+    {
+      "case": "binding-fleet-2",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 118,
+        "truck": 55,
+        "schedule": 242,
+        "rest": 71,
+        "integrality": 156,
+        "cargo": 82,
+        "lead": 22,
+        "deadline": 11,
+        "path": 77,
+        "road": 99,
+        "cost": 115,
+        "occupancy": 2,
+        "demand": 32,
+        "stock": 142,
+        "expiry": 120,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 1398
+    },
+    {
+      "case": "binding-fleet-3",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 119,
+        "truck": 55,
+        "schedule": 242,
+        "rest": 79,
+        "integrality": 156,
+        "cargo": 81,
+        "lead": 21,
+        "deadline": 11,
+        "path": 77,
+        "road": 99,
+        "cost": 115,
+        "occupancy": 3,
+        "demand": 32,
+        "stock": 144,
+        "expiry": 123,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 1411
+    },
+    {
+      "case": "demand-0.5",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 50,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 18,
+        "integrality": 120,
+        "cargo": 32,
+        "lead": 8,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 88,
+        "expiry": 80,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 596
+    },
+    {
+      "case": "demand-1.0",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 58,
+        "truck": 15,
+        "schedule": 66,
+        "rest": 23,
+        "integrality": 124,
+        "cargo": 38,
+        "lead": 10,
+        "deadline": 3,
+        "path": 21,
+        "road": 27,
+        "cost": 35,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 94,
+        "expiry": 84,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 685
+    },
+    {
+      "case": "demand-2.0",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 75,
+        "truck": 25,
+        "schedule": 110,
+        "rest": 33,
+        "integrality": 132,
+        "cargo": 50,
+        "lead": 14,
+        "deadline": 5,
+        "path": 35,
+        "road": 45,
+        "cost": 55,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 107,
+        "expiry": 93,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 866
+    },
+    {
+      "case": "lead-0",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 50,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 18,
+        "integrality": 120,
+        "cargo": 32,
+        "lead": 8,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 88,
+        "expiry": 80,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 596
+    },
+    {
+      "case": "lead-2",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 46,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 18,
+        "integrality": 120,
+        "cargo": 32,
+        "lead": 8,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 84,
+        "expiry": 76,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 584
+    },
+    {
+      "case": "lead-7",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 42,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 18,
+        "integrality": 120,
+        "cargo": 32,
+        "lead": 8,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 80,
+        "expiry": 72,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 572
+    },
+    {
+      "case": "lead-14",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 18,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 24,
+        "lead": 4,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 60,
+        "expiry": 56,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 437
+    },
+    {
+      "case": "travel-time-factor-1",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 50,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 18,
+        "integrality": 120,
+        "cargo": 32,
+        "lead": 8,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 88,
+        "expiry": 80,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 596
+    },
+    {
+      "case": "travel-time-factor-4",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 50,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 18,
+        "integrality": 120,
+        "cargo": 32,
+        "lead": 8,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 88,
+        "expiry": 80,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 596
+    },
+    {
+      "case": "travel-time-factor-10",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 2,
+        "rest": 8,
+        "cost": 5,
+        "demand": 32,
+        "stock": 48,
+        "expiry": 48,
+        "supply": 32,
+        "cargo": 16,
+        "integrality": 112,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 325
+    },
+    {
+      "case": "food-life-1",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 38,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 18,
+        "integrality": 120,
+        "cargo": 30,
+        "lead": 6,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 78,
+        "expiry": 72,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 562
+    },
+    {
+      "case": "food-life-7",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 66,
+        "truck": 20,
+        "schedule": 88,
+        "rest": 28,
+        "integrality": 128,
+        "cargo": 46,
+        "lead": 14,
+        "expiry": 92,
+        "deadline": 4,
+        "path": 28,
+        "road": 36,
+        "cost": 45,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 98,
+        "supply": 32,
+        "warehouse": 8,
+        "FEFO": 6,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 786
+    },
+    {
+      "case": "food-life-14",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 54,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 18,
+        "integrality": 120,
+        "cargo": 35,
+        "lead": 11,
+        "expiry": 84,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 89,
+        "supply": 32,
+        "warehouse": 8,
+        "FEFO": 2,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 613
+    },
+    {
+      "case": "food-life-30",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 44,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 18,
+        "integrality": 120,
+        "cargo": 31,
+        "lead": 7,
+        "expiry": 78,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 83,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 581
+    },
+    {
+      "case": "all-roads-closed",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 2,
+        "rest": 8,
+        "cost": 5,
+        "demand": 32,
+        "stock": 48,
+        "expiry": 48,
+        "supply": 32,
+        "cargo": 16,
+        "integrality": 112,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 325
+    },
+    {
+      "case": "return-closed",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 2,
+        "rest": 8,
+        "cost": 5,
+        "demand": 32,
+        "stock": 48,
+        "expiry": 48,
+        "supply": 32,
+        "cargo": 16,
+        "integrality": 112,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 325
+    },
+    {
+      "case": "truck-unavailable",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 2,
+        "rest": 8,
+        "cost": 5,
+        "demand": 32,
+        "stock": 48,
+        "expiry": 48,
+        "supply": 32,
+        "cargo": 16,
+        "integrality": 112,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 325
+    },
+    {
+      "case": "warehouse-0.1",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 74,
+        "truck": 20,
+        "schedule": 88,
+        "rest": 28,
+        "integrality": 128,
+        "cargo": 48,
+        "lead": 16,
+        "deadline": 4,
+        "path": 28,
+        "road": 36,
+        "cost": 45,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 104,
+        "expiry": 88,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 794
+    },
+    {
+      "case": "warehouse-1",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 74,
+        "truck": 20,
+        "schedule": 88,
+        "rest": 28,
+        "integrality": 128,
+        "cargo": 48,
+        "lead": 16,
+        "deadline": 4,
+        "path": 28,
+        "road": 36,
+        "cost": 45,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 104,
+        "expiry": 88,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 794
+    },
+    {
+      "case": "warehouse-4",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 46,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 18,
+        "integrality": 120,
+        "cargo": 33,
+        "lead": 9,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 83,
+        "expiry": 74,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 583
+    },
+    {
+      "case": "FEFO-and-quarantine",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 59,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 18,
+        "integrality": 120,
+        "cargo": 31,
+        "lead": 7,
+        "expiry": 90,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 98,
+        "supply": 32,
+        "FEFO": 8,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 631
+    },
+    {
+      "case": "shared-capacity",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 50,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 18,
+        "integrality": 120,
+        "cargo": 32,
+        "lead": 8,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 1,
+        "road_capacity": 4,
+        "demand": 32,
+        "stock": 88,
+        "expiry": 80,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 600
+    },
+    {
+      "case": "seeded-00",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 83,
+        "truck": 20,
+        "schedule": 88,
+        "rest": 28,
+        "integrality": 128,
+        "cargo": 51,
+        "lead": 19,
+        "expiry": 101,
+        "deadline": 4,
+        "path": 28,
+        "road": 36,
+        "cost": 45,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 110,
+        "supply": 32,
+        "warehouse": 8,
+        "FEFO": 9,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 837
+    },
+    {
+      "case": "seeded-01",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 36,
+        "truck": 15,
+        "schedule": 66,
+        "rest": 31,
+        "integrality": 124,
+        "cargo": 36,
+        "lead": 8,
+        "expiry": 70,
+        "deadline": 3,
+        "path": 21,
+        "road": 27,
+        "cost": 35,
+        "occupancy": 2,
+        "demand": 32,
+        "stock": 74,
+        "supply": 32,
+        "warehouse": 8,
+        "FEFO": 1,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 635
+    },
+    {
+      "case": "seeded-02",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 63,
+        "truck": 15,
+        "schedule": 66,
+        "rest": 39,
+        "integrality": 124,
+        "cargo": 41,
+        "lead": 13,
+        "deadline": 3,
+        "path": 21,
+        "road": 27,
+        "cost": 35,
+        "expiry": 89,
+        "occupancy": 3,
+        "demand": 32,
+        "stock": 96,
+        "supply": 32,
+        "warehouse": 8,
+        "FEFO": 3,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 724
+    },
+    {
+      "case": "seeded-03",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 86,
+        "truck": 20,
+        "schedule": 88,
+        "rest": 28,
+        "integrality": 128,
+        "cargo": 52,
+        "lead": 20,
+        "expiry": 102,
+        "deadline": 4,
+        "path": 28,
+        "road": 36,
+        "cost": 45,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 112,
+        "supply": 32,
+        "warehouse": 8,
+        "FEFO": 7,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 843
+    },
+    {
+      "case": "seeded-04",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 64,
+        "truck": 20,
+        "schedule": 88,
+        "rest": 36,
+        "integrality": 128,
+        "cargo": 46,
+        "lead": 14,
+        "expiry": 94,
+        "deadline": 4,
+        "path": 28,
+        "road": 36,
+        "cost": 45,
+        "occupancy": 2,
+        "demand": 32,
+        "stock": 96,
+        "supply": 32,
+        "warehouse": 8,
+        "FEFO": 13,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 800
+    },
+    {
+      "case": "seeded-05",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 49,
+        "truck": 20,
+        "schedule": 88,
+        "rest": 44,
+        "integrality": 128,
+        "cargo": 43,
+        "lead": 11,
+        "expiry": 83,
+        "deadline": 4,
+        "path": 28,
+        "road": 36,
+        "cost": 45,
+        "occupancy": 2,
+        "demand": 32,
+        "stock": 84,
+        "supply": 32,
+        "warehouse": 8,
+        "FEFO": 7,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 758
+    },
+    {
+      "case": "seeded-06",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 17,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 23,
+        "lead": 3,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 60,
+        "expiry": 57,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 435
+    },
+    {
+      "case": "seeded-07",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 24,
+        "truck": 15,
+        "schedule": 66,
+        "rest": 31,
+        "integrality": 124,
+        "cargo": 33,
+        "lead": 5,
+        "expiry": 70,
+        "deadline": 3,
+        "path": 21,
+        "road": 27,
+        "cost": 35,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 65,
+        "supply": 32,
+        "warehouse": 8,
+        "FEFO": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 614
+    },
+    {
+      "case": "seeded-08",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 38,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 34,
+        "integrality": 120,
+        "cargo": 34,
+        "lead": 10,
+        "expiry": 72,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 74,
+        "supply": 32,
+        "warehouse": 8,
+        "FEFO": 3,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 585
+    },
+    {
+      "case": "seeded-09",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 38,
+        "truck": 15,
+        "schedule": 66,
+        "rest": 23,
+        "integrality": 124,
+        "cargo": 37,
+        "lead": 9,
+        "deadline": 3,
+        "path": 21,
+        "road": 27,
+        "cost": 35,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 75,
+        "expiry": 66,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 626
+    },
+    {
+      "case": "seeded-10",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 30,
+        "truck": 15,
+        "schedule": 66,
+        "rest": 31,
+        "integrality": 124,
+        "cargo": 34,
+        "lead": 6,
+        "deadline": 3,
+        "path": 21,
+        "road": 27,
+        "cost": 35,
+        "expiry": 66,
+        "occupancy": 2,
+        "demand": 32,
+        "stock": 70,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 616
+    },
+    {
+      "case": "seeded-11",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 46,
+        "truck": 20,
+        "schedule": 88,
+        "rest": 44,
+        "integrality": 128,
+        "cargo": 42,
+        "lead": 10,
+        "expiry": 80,
+        "deadline": 4,
+        "path": 28,
+        "road": 36,
+        "cost": 45,
+        "occupancy": 3,
+        "demand": 32,
+        "stock": 82,
+        "supply": 32,
+        "warehouse": 8,
+        "FEFO": 7,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 749
+    },
+    {
+      "case": "seeded-12",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 41,
+        "truck": 15,
+        "schedule": 66,
+        "rest": 23,
+        "integrality": 124,
+        "cargo": 39,
+        "lead": 11,
+        "deadline": 3,
+        "path": 21,
+        "road": 27,
+        "cost": 35,
+        "expiry": 73,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 76,
+        "supply": 32,
+        "warehouse": 8,
+        "FEFO": 3,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 644
+    },
+    {
+      "case": "seeded-13",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 72,
+        "truck": 20,
+        "schedule": 88,
+        "rest": 36,
+        "integrality": 128,
+        "cargo": 49,
+        "lead": 17,
+        "expiry": 90,
+        "deadline": 4,
+        "path": 28,
+        "road": 36,
+        "cost": 45,
+        "occupancy": 2,
+        "demand": 32,
+        "stock": 101,
+        "supply": 32,
+        "warehouse": 8,
+        "FEFO": 3,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 805
+    },
+    {
+      "case": "seeded-14",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 43,
+        "truck": 15,
+        "schedule": 66,
+        "rest": 39,
+        "integrality": 124,
+        "cargo": 37,
+        "lead": 9,
+        "deadline": 3,
+        "path": 21,
+        "road": 27,
+        "cost": 35,
+        "expiry": 77,
+        "occupancy": 2,
+        "demand": 32,
+        "stock": 80,
+        "supply": 32,
+        "warehouse": 8,
+        "FEFO": 3,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 667
+    },
+    {
+      "case": "seeded-15",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 64,
+        "truck": 20,
+        "schedule": 88,
+        "rest": 28,
+        "integrality": 128,
+        "cargo": 46,
+        "lead": 14,
+        "expiry": 90,
+        "deadline": 4,
+        "path": 28,
+        "road": 36,
+        "cost": 45,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 96,
+        "supply": 32,
+        "warehouse": 8,
+        "FEFO": 6,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 780
+    },
+    {
+      "case": "seeded-16",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 68,
+        "truck": 20,
+        "schedule": 88,
+        "rest": 36,
+        "integrality": 128,
+        "cargo": 48,
+        "lead": 16,
+        "deadline": 4,
+        "path": 28,
+        "road": 36,
+        "cost": 45,
+        "expiry": 88,
+        "occupancy": 2,
+        "demand": 32,
+        "stock": 98,
+        "supply": 32,
+        "warehouse": 8,
+        "FEFO": 3,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 794
+    },
+    {
+      "case": "seeded-17",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 54,
+        "truck": 15,
+        "schedule": 66,
+        "rest": 39,
+        "integrality": 124,
+        "cargo": 39,
+        "lead": 11,
+        "expiry": 86,
+        "deadline": 3,
+        "path": 21,
+        "road": 27,
+        "cost": 35,
+        "occupancy": 2,
+        "demand": 32,
+        "stock": 89,
+        "supply": 32,
+        "warehouse": 8,
+        "FEFO": 5,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 702
+    },
+    {
+      "case": "seeded-18",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 55,
+        "truck": 20,
+        "schedule": 88,
+        "rest": 28,
+        "integrality": 128,
+        "cargo": 44,
+        "lead": 12,
+        "expiry": 85,
+        "deadline": 4,
+        "path": 28,
+        "road": 36,
+        "cost": 45,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 89,
+        "supply": 32,
+        "warehouse": 8,
+        "FEFO": 6,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 755
+    },
+    {
+      "case": "seeded-19",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 46,
+        "truck": 15,
+        "schedule": 66,
+        "rest": 31,
+        "integrality": 124,
+        "cargo": 37,
+        "lead": 9,
+        "expiry": 82,
+        "deadline": 3,
+        "path": 21,
+        "road": 27,
+        "cost": 35,
+        "occupancy": 2,
+        "demand": 32,
+        "stock": 83,
+        "supply": 32,
+        "warehouse": 8,
+        "FEFO": 7,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 674
+    },
+    {
+      "case": "seeded-20",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 38,
+        "truck": 15,
+        "schedule": 66,
+        "rest": 39,
+        "integrality": 124,
+        "cargo": 37,
+        "lead": 9,
+        "expiry": 76,
+        "deadline": 3,
+        "path": 21,
+        "road": 27,
+        "cost": 35,
+        "occupancy": 3,
+        "demand": 32,
+        "stock": 75,
+        "supply": 32,
+        "warehouse": 8,
+        "FEFO": 7,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 661
+    },
+    {
+      "case": "seeded-21",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 15,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 18,
+        "integrality": 120,
+        "cargo": 27,
+        "lead": 3,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 58,
+        "expiry": 55,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 496
+    },
+    {
+      "case": "seeded-22",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 64,
+        "truck": 20,
+        "schedule": 88,
+        "rest": 36,
+        "integrality": 128,
+        "cargo": 46,
+        "lead": 14,
+        "deadline": 4,
+        "path": 28,
+        "road": 36,
+        "cost": 45,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 96,
+        "expiry": 82,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 774
+    },
+    {
+      "case": "seeded-23",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 38,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 34,
+        "integrality": 120,
+        "cargo": 32,
+        "lead": 8,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 2,
+        "demand": 32,
+        "stock": 76,
+        "expiry": 68,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 577
+    },
+    {
+      "case": "easy-same-result",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 26,
+        "truck": 5,
+        "schedule": 22,
+        "rest": 13,
+        "integrality": 116,
+        "cargo": 24,
+        "lead": 4,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 15,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 68,
+        "expiry": 64,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 461
+    },
+    {
+      "case": "easy-same-result-greedy",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 74,
+        "truck": 20,
+        "schedule": 88,
+        "integrality": 128,
+        "cargo": 48,
+        "lead": 16,
+        "deadline": 4,
+        "path": 28,
+        "road": 36,
+        "cost": 13,
+        "rest": 24,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 104,
+        "expiry": 88,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1
+      },
+      "total_checks": 745
+    },
+    {
+      "case": "capacity-limited",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 79,
+        "truck": 20,
+        "schedule": 88,
+        "rest": 28,
+        "integrality": 128,
+        "cargo": 49,
+        "lead": 17,
+        "deadline": 4,
+        "path": 28,
+        "road": 36,
+        "cost": 45,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 108,
+        "expiry": 91,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 808
+    },
+    {
+      "case": "capacity-limited-greedy",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 74,
+        "truck": 20,
+        "schedule": 88,
+        "integrality": 128,
+        "cargo": 48,
+        "lead": 16,
+        "deadline": 4,
+        "path": 28,
+        "road": 36,
+        "cost": 13,
+        "rest": 24,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 104,
+        "expiry": 88,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1
+      },
+      "total_checks": 745
+    },
+    {
+      "case": "one-early-supply",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 50,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 18,
+        "integrality": 120,
+        "cargo": 32,
+        "lead": 8,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 88,
+        "expiry": 80,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 596
+    },
+    {
+      "case": "one-early-supply-greedy",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 26,
+        "truck": 5,
+        "schedule": 22,
+        "integrality": 116,
+        "cargo": 24,
+        "lead": 4,
+        "deadline": 1,
+        "path": 7,
+        "road": 9,
+        "cost": 7,
+        "rest": 12,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 68,
+        "expiry": 64,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1
+      },
+      "total_checks": 439
+    },
+    {
+      "case": "known-week3-supply-outage",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 50,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 18,
+        "integrality": 120,
+        "cargo": 32,
+        "lead": 8,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 88,
+        "expiry": 80,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 596
+    },
+    {
+      "case": "known-week3-supply-outage-greedy",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 58,
+        "truck": 15,
+        "schedule": 66,
+        "integrality": 124,
+        "cargo": 40,
+        "lead": 12,
+        "deadline": 3,
+        "path": 21,
+        "road": 27,
+        "cost": 11,
+        "rest": 20,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 92,
+        "expiry": 80,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1
+      },
+      "total_checks": 643
+    },
+    {
+      "case": "budget-limited",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 44,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 18,
+        "integrality": 120,
+        "cargo": 31,
+        "lead": 7,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 83,
+        "expiry": 76,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 579
+    },
+    {
+      "case": "budget-limited-greedy",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 62,
+        "truck": 15,
+        "schedule": 66,
+        "integrality": 124,
+        "cargo": 40,
+        "lead": 12,
+        "deadline": 3,
+        "path": 21,
+        "road": 27,
+        "cost": 11,
+        "rest": 20,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 96,
+        "expiry": 84,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1
+      },
+      "total_checks": 655
+    },
+    {
+      "case": "seven-day-procurement",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 42,
+        "truck": 10,
+        "schedule": 44,
+        "rest": 18,
+        "integrality": 120,
+        "cargo": 32,
+        "lead": 8,
+        "deadline": 2,
+        "path": 14,
+        "road": 18,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 80,
+        "expiry": 72,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 572
+    },
+    {
+      "case": "seven-day-procurement-greedy",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 2,
+        "rest": 8,
+        "cost": 5,
+        "demand": 32,
+        "stock": 48,
+        "expiry": 48,
+        "supply": 32,
+        "cargo": 16,
+        "integrality": 112,
+        "warehouse": 8,
+        "budget": 1
+      },
+      "total_checks": 312
+    },
+    {
+      "case": "przemysl-lwowska-36-Medyka",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 50,
+        "truck": 10,
+        "schedule": 716,
+        "rest": 242,
+        "integrality": 120,
+        "cargo": 32,
+        "lead": 8,
+        "deadline": 2,
+        "path": 462,
+        "road": 1026,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 88,
+        "expiry": 80,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 2948
+    },
+    {
+      "case": "przemysl-lwowska-36-Korczowa",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 50,
+        "truck": 10,
+        "schedule": 2324,
+        "rest": 778,
+        "integrality": 120,
+        "cargo": 32,
+        "lead": 8,
+        "deadline": 2,
+        "path": 1534,
+        "road": 3438,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 88,
+        "expiry": 80,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 8576
+    },
+    {
+      "case": "przemysl-lwowska-36-Dorohusk",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 50,
+        "truck": 10,
+        "schedule": 12984,
+        "rest": 4332,
+        "integrality": 120,
+        "cargo": 32,
+        "lead": 8,
+        "deadline": 2,
+        "path": 8638,
+        "road": 19422,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 88,
+        "expiry": 80,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 45878
+    },
+    {
+      "case": "przemysl-wodna-11-Medyka",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 50,
+        "truck": 10,
+        "schedule": 1424,
+        "rest": 478,
+        "integrality": 120,
+        "cargo": 32,
+        "lead": 8,
+        "deadline": 2,
+        "path": 934,
+        "road": 2088,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 88,
+        "expiry": 80,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 5426
+    },
+    {
+      "case": "przemysl-wodna-11-Korczowa",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 50,
+        "truck": 10,
+        "schedule": 2036,
+        "rest": 682,
+        "integrality": 120,
+        "cargo": 32,
+        "lead": 8,
+        "deadline": 2,
+        "path": 1342,
+        "road": 3006,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 88,
+        "expiry": 80,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 7568
+    },
+    {
+      "case": "przemysl-wodna-11-Dorohusk",
+      "passed": true,
+      "failures": [],
+      "checks": {
+        "schema": 50,
+        "truck": 10,
+        "schedule": 12828,
+        "rest": 4280,
+        "integrality": 120,
+        "cargo": 32,
+        "lead": 8,
+        "deadline": 2,
+        "path": 8534,
+        "road": 19188,
+        "cost": 25,
+        "occupancy": 1,
+        "demand": 32,
+        "stock": 88,
+        "expiry": 80,
+        "supply": 32,
+        "warehouse": 8,
+        "budget": 1,
+        "solver": 7,
+        "objective_locks": 6
+      },
+      "total_checks": 45332
+    }
+  ],
+  "comparison": [
+    {
+      "case": "easy-same-result",
+      "milp_fulfillment_pct": 100.0,
+      "milp_worst_shortage_pct": 0.0,
+      "milp_cost": 3260.0,
+      "milp_trips": 1,
+      "milp_distance_km": 40.0,
+      "milp_max_gap": 1.8992298665451832e-08,
+      "greedy_fulfillment_pct": 100.0,
+      "greedy_worst_shortage_pct": 0.0,
+      "greedy_cost": 3440.0,
+      "greedy_trips": 4,
+      "greedy_distance_km": 160,
+      "greedy_max_gap": 0
+    },
+    {
+      "case": "capacity-limited",
+      "milp_fulfillment_pct": 68.9983635130719,
+      "milp_worst_shortage_pct": 31.00654594771243,
+      "milp_cost": 22319.607243137256,
+      "milp_trips": 4,
+      "milp_distance_km": 160.0,
+      "milp_max_gap": 0,
+      "greedy_fulfillment_pct": 69.23333333333333,
+      "greedy_worst_shortage_pct": 31.066666666666663,
+      "greedy_cost": 22356.0,
+      "greedy_trips": 4,
+      "greedy_distance_km": 160,
+      "greedy_max_gap": 0
+    },
+    {
+      "case": "one-early-supply",
+      "milp_fulfillment_pct": 99.99999750208327,
+      "milp_worst_shortage_pct": 9.999999999999999e-06,
+      "milp_cost": 6519.999880099997,
+      "milp_trips": 2,
+      "milp_distance_km": 80.0,
+      "milp_max_gap": 0,
+      "greedy_fulfillment_pct": 25.0,
+      "greedy_worst_shortage_pct": 100.0,
+      "greedy_cost": 1660.0,
+      "greedy_trips": 1,
+      "greedy_distance_km": 40,
+      "greedy_max_gap": 0
+    },
+    {
+      "case": "known-week3-supply-outage",
+      "milp_fulfillment_pct": 99.99999750185185,
+      "milp_worst_shortage_pct": 9.999999999999999e-06,
+      "milp_cost": 7319.9998651,
+      "milp_trips": 2,
+      "milp_distance_km": 80.0,
+      "milp_max_gap": 0,
+      "greedy_fulfillment_pct": 33.333333333333336,
+      "greedy_worst_shortage_pct": 100.0,
+      "greedy_cost": 2580.0,
+      "greedy_trips": 3,
+      "greedy_distance_km": 120,
+      "greedy_max_gap": 0
+    },
+    {
+      "case": "budget-limited",
+      "milp_fulfillment_pct": 73.33333083472222,
+      "milp_worst_shortage_pct": 30.00001,
+      "milp_cost": 6999.9998201,
+      "milp_trips": 2,
+      "milp_distance_km": 80.0,
+      "milp_max_gap": 0,
+      "greedy_fulfillment_pct": 71.18055555555556,
+      "greedy_worst_shortage_pct": 100.0,
+      "greedy_cost": 7000.0,
+      "greedy_trips": 3,
+      "greedy_distance_km": 120,
+      "greedy_max_gap": 0
+    },
+    {
+      "case": "seven-day-procurement",
+      "milp_fulfillment_pct": 74.99999250138889,
+      "milp_worst_shortage_pct": 100.0,
+      "milp_cost": 7319.9994601,
+      "milp_trips": 2,
+      "milp_distance_km": 80.0,
+      "milp_max_gap": 0,
+      "greedy_fulfillment_pct": 0.0,
+      "greedy_worst_shortage_pct": 100.0,
+      "greedy_cost": 0.0,
+      "greedy_trips": 0,
+      "greedy_distance_km": 0,
+      "greedy_max_gap": 0
+    }
+  ],
+  "behavior": [
+    {
+      "group": "budget",
+      "passed": true,
+      "values": [
+        100.0,
+        91.11112111111109,
+        60.00000999999999,
+        20.000010000000028,
+        9.999999999999999e-06
+      ]
+    },
+    {
+      "group": "binding-fleet",
+      "passed": true,
+      "values": [
+        23.34060549745825,
+        9.999999999999999e-06,
+        9.999999999999999e-06
+      ]
+    },
+    {
+      "group": "procurement-delay",
+      "passed": true,
+      "values": [
+        9.999999999999999e-06,
+        9.999999999999999e-06,
+        100.0,
+        100.0
+      ]
+    },
+    {
+      "group": "food-shelf-life",
+      "passed": true,
+      "values": [
+        100.0,
+        1.0000000000016169e-05,
+        1.0000000000016169e-05,
+        9.999999999999999e-06
+      ]
+    },
+    {
+      "group": "warehouse",
+      "passed": true,
+      "values": [
+        93.33334333333333,
+        30.0,
+        9.999999999999999e-06
+      ]
+    },
+    {
+      "group": "all-roads-closed",
+      "passed": true,
+      "values": [
+        0
+      ]
+    },
+    {
+      "group": "return-closed",
+      "passed": true,
+      "values": [
+        0
+      ]
+    },
+    {
+      "group": "truck-unavailable",
+      "passed": true,
+      "values": [
+        0
+      ]
+    },
+    {
+      "group": "travel-time-factor-10",
+      "passed": true,
+      "values": [
+        0
+      ]
+    }
+  ],
+  "pre_fix_forecast_and_other_assets_unchanged": false,
+  "pre_fix_forecast_artifacts_data_pipeline_unchanged": true,
+  "pre_fix_changed_asset_paths": [
+    "ofr_v2/app/backend/logistics.py",
+    "ofr_v2/app/backend/road_network.py",
+    "ofr_v2/app/backend/road_planner.py",
+    "ofr_v2/app/backend/main.py"
+  ]
+}

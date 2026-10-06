@@ -1,0 +1,630 @@
+{
+  "protocol": {
+    "model_sha256": "87c8953c7bd6abe5406c0513f23243cebdc305771681a33a488b4e17fbb606aa",
+    "weights_frozen": true,
+    "training_end_declared": "2025-05-09",
+    "primary_first_origin": "2025-05-12",
+    "primary_last_origin": "2026-01-26",
+    "input_weeks": 2,
+    "horizons": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "baselines": [
+      "last_week",
+      "mean_two_weeks",
+      "two_week_linear_trend_clipped_at_zero"
+    ],
+    "metrics": [
+      "WAPE",
+      "MAE",
+      "RMSE",
+      "bias_pct",
+      "underprediction_fraction"
+    ],
+    "bootstrap": {
+      "method": "moving blocks of forecast origins; paired model-naive WAPE difference",
+      "block_origins": 4,
+      "replications": 2000,
+      "seed": 20261006
+    },
+    "interval_scope": "total only; reported calibration period overlaps main origins; coverage descriptive",
+    "later_target_check": "2026-02-23 only (last target week after stated calibration targets)",
+    "not_retrained": true,
+    "not_tuned_using_results": true,
+    "training_dataset_provenance_independently_verified": false
+  },
+  "generated_at": "2026-10-06T13:34:03.498685+00:00",
+  "model_weights_unchanged": true,
+  "data_sha256": "5668a82c500a8f3d327413c456c0254f7fb671315e4fda61b1438a9283a04ca8",
+  "primary_origins": 38,
+  "hub_horizon_points": 456,
+  "unique_target_weeks": 41,
+  "primary_models": {
+    "prediction": {
+      "n": 456,
+      "wape_pct": 20.147077196982714,
+      "mae": 452.64473684210526,
+      "rmse": 673.0588071593276,
+      "bias_pct": -5.12486139526167,
+      "underprediction_fraction": 0.5526315789473685
+    },
+    "last_week": {
+      "n": 456,
+      "wape_pct": 20.32941075416595,
+      "mae": 456.74122807017545,
+      "rmse": 729.1451405343879,
+      "bias_pct": 1.3466133591541596,
+      "underprediction_fraction": 0.4956140350877193
+    },
+    "mean_two_weeks": {
+      "n": 456,
+      "wape_pct": 21.961139916602896,
+      "mae": 493.4013157894737,
+      "rmse": 723.0831920543991,
+      "bias_pct": 2.191126173259827,
+      "underprediction_fraction": 0.47149122807017546
+    },
+    "two_week_linear_trend_clipped_at_zero": {
+      "n": 456,
+      "wape_pct": 43.04623932157861,
+      "mae": 967.1206140350877,
+      "rmse": 1603.9526321100107,
+      "bias_pct": 2.1346105792506753,
+      "underprediction_fraction": 0.5372807017543859
+    }
+  },
+  "horizons": {
+    "1": {
+      "prediction": {
+        "n": 114,
+        "wape_pct": 14.83598467480591,
+        "mae": 334.92105263157896,
+        "rmse": 522.0633237789145,
+        "bias_pct": -4.9507682025536806,
+        "underprediction_fraction": 0.543859649122807
+      },
+      "last_week": {
+        "n": 114,
+        "wape_pct": 14.18862733821895,
+        "mae": 320.3070175438597,
+        "rmse": 540.9893714297907,
+        "bias_pct": 0.8622364525128811,
+        "underprediction_fraction": 0.5263157894736842
+      },
+      "mean_two_weeks": {
+        "n": 114,
+        "wape_pct": 16.243773168476107,
+        "mae": 366.70175438596493,
+        "rmse": 580.6158179641469,
+        "bias_pct": 1.702712994552251,
+        "underprediction_fraction": 0.49122807017543857
+      },
+      "two_week_linear_trend_clipped_at_zero": {
+        "n": 114,
+        "wape_pct": 21.041444858055442,
+        "mae": 475.00877192982455,
+        "rmse": 807.1900198033766,
+        "bias_pct": -0.5972318285319055,
+        "underprediction_fraction": 0.543859649122807
+      }
+    },
+    "2": {
+      "prediction": {
+        "n": 114,
+        "wape_pct": 19.471961342114493,
+        "mae": 438.3070175438597,
+        "rmse": 667.8077843527323,
+        "bias_pct": -4.962004598417832,
+        "underprediction_fraction": 0.5526315789473685
+      },
+      "last_week": {
+        "n": 114,
+        "wape_pct": 18.7946689528857,
+        "mae": 423.06140350877195,
+        "rmse": 714.0770327996341,
+        "bias_pct": 1.154670511671408,
+        "underprediction_fraction": 0.49122807017543857
+      },
+      "mean_two_weeks": {
+        "n": 114,
+        "wape_pct": 20.50933322941429,
+        "mae": 461.6578947368421,
+        "rmse": 709.7603870444898,
+        "bias_pct": 1.9975838821558005,
+        "underprediction_fraction": 0.4649122807017544
+      },
+      "two_week_linear_trend_clipped_at_zero": {
+        "n": 114,
+        "wape_pct": 37.801332761778575,
+        "mae": 850.8947368421053,
+        "rmse": 1352.2480762231178,
+        "bias_pct": -0.1387319278282218,
+        "underprediction_fraction": 0.5701754385964912
+      }
+    },
+    "3": {
+      "prediction": {
+        "n": 114,
+        "wape_pct": 21.924783874088785,
+        "mae": 490.9824561403509,
+        "rmse": 712.4831176824165,
+        "bias_pct": -4.915958651107951,
+        "underprediction_fraction": 0.5526315789473685
+      },
+      "last_week": {
+        "n": 114,
+        "wape_pct": 23.05760876803334,
+        "mae": 516.3508771929825,
+        "rmse": 795.0711763349219,
+        "bias_pct": 1.6773015891668723,
+        "underprediction_fraction": 0.5175438596491229
+      },
+      "mean_two_weeks": {
+        "n": 114,
+        "wape_pct": 24.162622262437765,
+        "mae": 541.0964912280701,
+        "rmse": 769.1718718342817,
+        "bias_pct": 2.5245700005092226,
+        "underprediction_fraction": 0.4824561403508772
+      },
+      "two_week_linear_trend_clipped_at_zero": {
+        "n": 114,
+        "wape_pct": 53.14092545369794,
+        "mae": 1190.0350877192982,
+        "rmse": 1801.6458167805367,
+        "bias_pct": 2.7944580890043125,
+        "underprediction_fraction": 0.5175438596491229
+      }
+    },
+    "4": {
+      "prediction": {
+        "n": 114,
+        "wape_pct": 24.402819296272934,
+        "mae": 546.3684210526316,
+        "rmse": 765.4300018416434,
+        "bias_pct": -5.673069765437371,
+        "underprediction_fraction": 0.5614035087719298
+      },
+      "last_week": {
+        "n": 114,
+        "wape_pct": 25.335271370978802,
+        "mae": 567.2456140350877,
+        "rmse": 831.8033779981438,
+        "bias_pct": 1.697219490599081,
+        "underprediction_fraction": 0.4473684210526316
+      },
+      "mean_two_weeks": {
+        "n": 114,
+        "wape_pct": 26.983517538326524,
+        "mae": 604.1491228070175,
+        "rmse": 811.7248961424947,
+        "bias_pct": 2.544653876140589,
+        "underprediction_fraction": 0.4473684210526316
+      },
+      "two_week_linear_trend_clipped_at_zero": {
+        "n": 114,
+        "wape_pct": 60.40957369701576,
+        "mae": 1352.5438596491229,
+        "rmse": 2136.4919722218524,
+        "bias_pct": 6.514627352188716,
+        "underprediction_fraction": 0.5175438596491229
+      }
+    }
+  },
+  "hubs": {
+    "medyka": {
+      "prediction": {
+        "n": 152,
+        "wape_pct": 17.89564700478262,
+        "mae": 522.8684210526316,
+        "rmse": 756.5090530644171,
+        "bias_pct": 0.07205454529078513,
+        "underprediction_fraction": 0.5197368421052632
+      },
+      "last_week": {
+        "n": 152,
+        "wape_pct": 16.67972655300062,
+        "mae": 487.3421052631579,
+        "rmse": 721.6921362143862,
+        "bias_pct": 1.9058427229412664,
+        "underprediction_fraction": 0.506578947368421
+      },
+      "mean_two_weeks": {
+        "n": 152,
+        "wape_pct": 18.176884901870714,
+        "mae": 531.0855263157895,
+        "rmse": 738.8505030041421,
+        "bias_pct": 2.79616669819053,
+        "underprediction_fraction": 0.47368421052631576
+      },
+      "two_week_linear_trend_clipped_at_zero": {
+        "n": 152,
+        "wape_pct": 34.33128878561071,
+        "mae": 1003.078947368421,
+        "rmse": 1457.3602623272416,
+        "bias_pct": -0.31929170381979155,
+        "underprediction_fraction": 0.5394736842105263
+      }
+    },
+    "dorohusk": {
+      "prediction": {
+        "n": 152,
+        "wape_pct": 25.16534634302609,
+        "mae": 496.14473684210526,
+        "rmse": 764.310215333511,
+        "bias_pct": -14.842795838144115,
+        "underprediction_fraction": 0.6447368421052632
+      },
+      "last_week": {
+        "n": 152,
+        "wape_pct": 28.1372424701509,
+        "mae": 554.7368421052631,
+        "rmse": 916.4924268214401,
+        "bias_pct": 0.33970247669133796,
+        "underprediction_fraction": 0.5263157894736842
+      },
+      "mean_two_weeks": {
+        "n": 152,
+        "wape_pct": 30.080353984663333,
+        "mae": 593.046052631579,
+        "rmse": 885.695106889736,
+        "bias_pct": 1.0604857278242357,
+        "underprediction_fraction": 0.4934210526315789
+      },
+      "two_week_linear_trend_clipped_at_zero": {
+        "n": 152,
+        "wape_pct": 60.41298210722318,
+        "mae": 1191.0657894736842,
+        "rmse": 2130.767294464108,
+        "bias_pct": 7.496145811782137,
+        "underprediction_fraction": 0.5328947368421053
+      }
+    },
+    "korczowa": {
+      "prediction": {
+        "n": 152,
+        "wape_pct": 18.351774403841635,
+        "mae": 338.92105263157896,
+        "rmse": 450.0537979537908,
+        "bias_pct": -2.9724203281631842,
+        "underprediction_fraction": 0.4934210526315789
+      },
+      "last_week": {
+        "n": 152,
+        "wape_pct": 17.768262359554566,
+        "mae": 328.14473684210526,
+        "rmse": 483.9008162836678,
+        "bias_pct": 1.5367954572981755,
+        "underprediction_fraction": 0.45394736842105265
+      },
+      "mean_two_weeks": {
+        "n": 152,
+        "wape_pct": 19.280477639162992,
+        "mae": 356.07236842105266,
+        "rmse": 488.04919807007377,
+        "bias_pct": 2.4409185149297863,
+        "underprediction_fraction": 0.4473684210526316
+      },
+      "two_week_linear_trend_clipped_at_zero": {
+        "n": 152,
+        "wape_pct": 38.29413566833147,
+        "mae": 707.2171052631579,
+        "rmse": 1026.6079781442738,
+        "bias_pct": 0.2931809599806208,
+        "underprediction_fraction": 0.5394736842105263
+      }
+    }
+  },
+  "months": {
+    "2025-05": {
+      "prediction": {
+        "n": 36,
+        "wape_pct": 8.326382414994358,
+        "mae": 188.55555555555554,
+        "rmse": 251.89415766679994,
+        "bias_pct": -7.4383003778028565,
+        "underprediction_fraction": 0.8055555555555556
+      },
+      "last_week": {
+        "n": 36,
+        "wape_pct": 6.442274667582552,
+        "mae": 145.88888888888889,
+        "rmse": 186.8224052706503,
+        "bias_pct": -3.4934497816593884,
+        "underprediction_fraction": 0.6944444444444444
+      },
+      "mean_two_weeks": {
+        "n": 36,
+        "wape_pct": 12.04675923654384,
+        "mae": 272.80555555555554,
+        "rmse": 337.9134915592714,
+        "bias_pct": 2.9635444776998185,
+        "underprediction_fraction": 0.5833333333333334
+      }
+    },
+    "2025-06": {
+      "prediction": {
+        "n": 60,
+        "wape_pct": 17.14758857040556,
+        "mae": 446.98333333333335,
+        "rmse": 566.2164338837226,
+        "bias_pct": -16.400790276277004,
+        "underprediction_fraction": 0.9
+      },
+      "last_week": {
+        "n": 60,
+        "wape_pct": 12.064500866362748,
+        "mae": 314.48333333333335,
+        "rmse": 447.9057006409571,
+        "bias_pct": -10.811311948133325,
+        "underprediction_fraction": 0.8
+      },
+      "mean_two_weeks": {
+        "n": 60,
+        "wape_pct": 11.999283892046726,
+        "mae": 312.78333333333336,
+        "rmse": 435.64008462644176,
+        "bias_pct": -11.11693659247703,
+        "underprediction_fraction": 0.8666666666666667
+      }
+    },
+    "2025-07": {
+      "prediction": {
+        "n": 48,
+        "wape_pct": 17.90278252719835,
+        "mae": 588.9791666666666,
+        "rmse": 709.7007438585176,
+        "bias_pct": -16.643869447927354,
+        "underprediction_fraction": 0.7916666666666666
+      },
+      "last_week": {
+        "n": 48,
+        "wape_pct": 10.460123864888484,
+        "mae": 344.125,
+        "rmse": 444.01698541084363,
+        "bias_pct": -8.813658067049152,
+        "underprediction_fraction": 0.7916666666666666
+      },
+      "mean_two_weeks": {
+        "n": 48,
+        "wape_pct": 13.655534024848967,
+        "mae": 449.25,
+        "rmse": 547.6348197780463,
+        "bias_pct": -12.83103461377712,
+        "underprediction_fraction": 0.875
+      }
+    },
+    "2025-08": {
+      "prediction": {
+        "n": 48,
+        "wape_pct": 21.725210180813086,
+        "mae": 589.5,
+        "rmse": 834.65204826123,
+        "bias_pct": 10.428039464086913,
+        "underprediction_fraction": 0.3541666666666667
+      },
+      "last_week": {
+        "n": 48,
+        "wape_pct": 29.614188644477714,
+        "mae": 803.5625,
+        "rmse": 972.07843262088,
+        "bias_pct": 24.1414257745019,
+        "underprediction_fraction": 0.3333333333333333
+      },
+      "mean_two_weeks": {
+        "n": 48,
+        "wape_pct": 28.51088333525279,
+        "mae": 773.625,
+        "rmse": 935.5833407559157,
+        "bias_pct": 23.333717225229375,
+        "underprediction_fraction": 0.3333333333333333
+      }
+    },
+    "2025-09": {
+      "prediction": {
+        "n": 60,
+        "wape_pct": 14.758810084262954,
+        "mae": 288.4166666666667,
+        "rmse": 357.548574788564,
+        "bias_pct": 6.936342237232627,
+        "underprediction_fraction": 0.2833333333333333
+      },
+      "last_week": {
+        "n": 60,
+        "wape_pct": 14.525978234912836,
+        "mae": 283.8666666666667,
+        "rmse": 352.0998911293972,
+        "bias_pct": 12.100433254869852,
+        "underprediction_fraction": 0.13333333333333333
+      },
+      "mean_two_weeks": {
+        "n": 60,
+        "wape_pct": 21.77446866577969,
+        "mae": 425.51666666666665,
+        "rmse": 517.0228073628216,
+        "bias_pct": 20.134411353324463,
+        "underprediction_fraction": 0.06666666666666667
+      }
+    },
+    "2025-10": {
+      "prediction": {
+        "n": 48,
+        "wape_pct": 16.667996580222287,
+        "mae": 304.625,
+        "rmse": 380.13139175816565,
+        "bias_pct": -5.961812482188657,
+        "underprediction_fraction": 0.5625
+      },
+      "last_week": {
+        "n": 48,
+        "wape_pct": 12.360216585921915,
+        "mae": 225.89583333333334,
+        "rmse": 271.3023758957276,
+        "bias_pct": -0.2519236249643773,
+        "underprediction_fraction": 0.5
+      },
+      "mean_two_weeks": {
+        "n": 48,
+        "wape_pct": 11.770874893131946,
+        "mae": 215.125,
+        "rmse": 264.656813943391,
+        "bias_pct": 0.22456540324878885,
+        "underprediction_fraction": 0.4583333333333333
+      }
+    },
+    "2025-11": {
+      "prediction": {
+        "n": 48,
+        "wape_pct": 19.655606331545137,
+        "mae": 309.1458333333333,
+        "rmse": 433.70677018003767,
+        "bias_pct": 12.02331280217233,
+        "underprediction_fraction": 0.25
+      },
+      "last_week": {
+        "n": 48,
+        "wape_pct": 19.366845486456057,
+        "mae": 304.6041666666667,
+        "rmse": 407.2024220212842,
+        "bias_pct": 12.934631432545201,
+        "underprediction_fraction": 0.1875
+      },
+      "mean_two_weeks": {
+        "n": 48,
+        "wape_pct": 19.515199682098153,
+        "mae": 306.9375,
+        "rmse": 349.35544817086605,
+        "bias_pct": 15.085767269355587,
+        "underprediction_fraction": 0.08333333333333333
+      }
+    },
+    "2025-12": {
+      "prediction": {
+        "n": 60,
+        "wape_pct": 34.419371943675245,
+        "mae": 778.9333333333333,
+        "rmse": 1163.912210320578,
+        "bias_pct": -25.61421080539681,
+        "underprediction_fraction": 0.6833333333333333
+      },
+      "last_week": {
+        "n": 60,
+        "wape_pct": 36.01160666941613,
+        "mae": 814.9666666666667,
+        "rmse": 1189.815728029625,
+        "bias_pct": -25.888175337300417,
+        "underprediction_fraction": 0.6666666666666666
+      },
+      "mean_two_weeks": {
+        "n": 60,
+        "wape_pct": 35.09323631650268,
+        "mae": 794.1833333333333,
+        "rmse": 1200.2177233041234,
+        "bias_pct": -29.265598303187417,
+        "underprediction_fraction": 0.6666666666666666
+      }
+    },
+    "2026-01": {
+      "prediction": {
+        "n": 48,
+        "wape_pct": 27.666877647402504,
+        "mae": 473.5416666666667,
+        "rmse": 684.9465611758823,
+        "bias_pct": 17.907395686255416,
+        "underprediction_fraction": 0.3541666666666667
+      },
+      "last_week": {
+        "n": 48,
+        "wape_pct": 45.85179414771897,
+        "mae": 784.7916666666666,
+        "rmse": 1211.485692583009,
+        "bias_pct": 33.40961098398169,
+        "underprediction_fraction": 0.375
+      },
+      "mean_two_weeks": {
+        "n": 48,
+        "wape_pct": 48.035444763620426,
+        "mae": 822.1666666666666,
+        "rmse": 1068.6883900370585,
+        "bias_pct": 38.74823506499829,
+        "underprediction_fraction": 0.2916666666666667
+      }
+    }
+  },
+  "paired_wape_difference_pct_points": -0.18233355718323452,
+  "paired_difference_block_bootstrap_95pct": [
+    -5.091721677909198,
+    3.6295838977575103
+  ],
+  "intervals_descriptive": {
+    "n": 152,
+    "coverage_pct": 78.94736842105263,
+    "mean_width": 3652.4276315789475,
+    "by_horizon": {
+      "1": {
+        "n": 38,
+        "coverage_pct": 76.31578947368422,
+        "mean_width": 2845.8684210526317
+      },
+      "2": {
+        "n": 38,
+        "coverage_pct": 78.94736842105263,
+        "mean_width": 3306.0
+      },
+      "3": {
+        "n": 38,
+        "coverage_pct": 81.57894736842105,
+        "mean_width": 4029.0526315789475
+      },
+      "4": {
+        "n": 38,
+        "coverage_pct": 78.94736842105263,
+        "mean_width": 4428.789473684211
+      }
+    }
+  },
+  "post_calibration_target_check": {
+    "unique_target_weeks": 1,
+    "unique_actual_hub_counts": 3,
+    "hub_horizon_points": 12,
+    "metrics": {
+      "prediction": {
+        "n": 12,
+        "wape_pct": 23.312155541947334,
+        "mae": 507.5833333333333,
+        "rmse": 556.7551077448684,
+        "bias_pct": -22.401255358236373,
+        "underprediction_fraction": 0.9166666666666666
+      },
+      "last_week": {
+        "n": 12,
+        "wape_pct": 22.056797305572566,
+        "mae": 480.25,
+        "rmse": 527.0947890718203,
+        "bias_pct": -22.056797305572566,
+        "underprediction_fraction": 1.0
+      },
+      "mean_two_weeks": {
+        "n": 12,
+        "wape_pct": 23.66809552969994,
+        "mae": 515.3333333333334,
+        "rmse": 551.9802230756702,
+        "bias_pct": -23.66809552969994,
+        "underprediction_fraction": 1.0
+      },
+      "two_week_linear_trend_clipped_at_zero": {
+        "n": 12,
+        "wape_pct": 25.390385793018982,
+        "mae": 552.8333333333334,
+        "rmse": 684.6864245769738,
+        "bias_pct": -13.173606858542561,
+        "underprediction_fraction": 0.6666666666666666
+      }
+    },
+    "total_forecast_count": 4,
+    "total_interval_coverage_pct": 75.0
+  }
+}

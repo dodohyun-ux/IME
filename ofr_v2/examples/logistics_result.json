@@ -1,0 +1,1260 @@
+{
+  "summary": {
+    "selected_site": "Medyka",
+    "planning_sites": [
+      "Medyka"
+    ],
+    "utilization_rate": 0.1,
+    "stay_days": 3,
+    "planning_weeks": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "max_unmet_rate": 0.2678928203065135,
+    "overall_weighted_unmet_rate": 0.26697320507662836,
+    "overall_weighted_fulfillment_rate": 0.7330267949233716,
+    "total_procurement_cost": 108999.993475,
+    "budget": 110000.0,
+    "budget_remaining": 0.00652500000433065,
+    "message": "Medyka: 운송·리드타임·기한·폐기를 반영한 4주 계획. 총비용 109,999.99, 수요 충족률 73.3%.",
+    "transport_cost": 1000.0,
+    "disposal_cost": 0.0,
+    "total_cost": 109999.993475
+  },
+  "plan": [
+    {
+      "site": "Medyka",
+      "week": 1,
+      "item": "water",
+      "unit": "L",
+      "forecast_arrivals": 4000.0,
+      "supported_people": 400,
+      "demand": 18000.0,
+      "recommended_shipment": 10720.78431372549,
+      "served": 13177.929234482755,
+      "ending_inventory": 9542.855079242734,
+      "unmet_demand": 4822.070765517244,
+      "fulfillment_rate": 0.7321071796934864,
+      "recommended_order": 10720.78431372549,
+      "dispatched": 10720.78431372549,
+      "expired_quantity": 0,
+      "disposed_quantity": 0.0,
+      "quarantined_inventory": 0.0
+    },
+    {
+      "site": "Medyka",
+      "week": 1,
+      "item": "food",
+      "unit": "daily ration",
+      "forecast_arrivals": 4000.0,
+      "supported_people": 400,
+      "demand": 1200,
+      "recommended_shipment": 483,
+      "served": 879,
+      "ending_inventory": 404,
+      "unmet_demand": 321,
+      "fulfillment_rate": 0.7325,
+      "recommended_order": 483.0,
+      "dispatched": 483.0,
+      "expired_quantity": 0,
+      "disposed_quantity": 0.0,
+      "quarantined_inventory": 0.0
+    },
+    {
+      "site": "Medyka",
+      "week": 1,
+      "item": "hygiene_kit",
+      "unit": "item",
+      "forecast_arrivals": 4000.0,
+      "supported_people": 400,
+      "demand": 400,
+      "recommended_shipment": 350,
+      "served": 293,
+      "ending_inventory": 207,
+      "unmet_demand": 107,
+      "fulfillment_rate": 0.7325,
+      "recommended_order": 350.0,
+      "dispatched": 350.0,
+      "expired_quantity": 0,
+      "disposed_quantity": 0.0,
+      "quarantined_inventory": 0.0
+    },
+    {
+      "site": "Medyka",
+      "week": 1,
+      "item": "blanket",
+      "unit": "item",
+      "forecast_arrivals": 4000.0,
+      "supported_people": 400,
+      "demand": 400,
+      "recommended_shipment": 400,
+      "served": 293,
+      "ending_inventory": 287,
+      "unmet_demand": 107,
+      "fulfillment_rate": 0.7325,
+      "recommended_order": 400.0,
+      "dispatched": 400.0,
+      "expired_quantity": 0,
+      "disposed_quantity": 0.0,
+      "quarantined_inventory": 0.0
+    },
+    {
+      "site": "Medyka",
+      "week": 2,
+      "item": "water",
+      "unit": "L",
+      "forecast_arrivals": 3500.0,
+      "supported_people": 350,
+      "demand": 15750.0,
+      "recommended_shipment": 2742.1598913353555,
+      "served": 11530.688080172411,
+      "ending_inventory": 754.3268904056786,
+      "unmet_demand": 4219.311919827588,
+      "fulfillment_rate": 0.7321071796934864,
+      "recommended_order": 2742.1598913353555,
+      "dispatched": 2742.1598913353555,
+      "expired_quantity": 0,
+      "disposed_quantity": 0.0,
+      "quarantined_inventory": 0.0
+    },
+    {
+      "site": "Medyka",
+      "week": 2,
+      "item": "food",
+      "unit": "daily ration",
+      "forecast_arrivals": 3500.0,
+      "supported_people": 350,
+      "demand": 1050,
+      "recommended_shipment": 1200,
+      "served": 769,
+      "ending_inventory": 835,
+      "unmet_demand": 281,
+      "fulfillment_rate": 0.7323809523809524,
+      "recommended_order": 1200.0,
+      "dispatched": 1200.0,
+      "expired_quantity": 0,
+      "disposed_quantity": 0.0,
+      "quarantined_inventory": 0.0
+    },
+    {
+      "site": "Medyka",
+      "week": 2,
+      "item": "hygiene_kit",
+      "unit": "item",
+      "forecast_arrivals": 3500.0,
+      "supported_people": 350,
+      "demand": 350,
+      "recommended_shipment": 350,
+      "served": 257,
+      "ending_inventory": 300,
+      "unmet_demand": 93,
+      "fulfillment_rate": 0.7342857142857143,
+      "recommended_order": 350.0,
+      "dispatched": 350.0,
+      "expired_quantity": 0,
+      "disposed_quantity": 0.0,
+      "quarantined_inventory": 0.0
+    },
+    {
+      "site": "Medyka",
+      "week": 2,
+      "item": "blanket",
+      "unit": "item",
+      "forecast_arrivals": 3500.0,
+      "supported_people": 350,
+      "demand": 350,
+      "recommended_shipment": 400,
+      "served": 257,
+      "ending_inventory": 430,
+      "unmet_demand": 93,
+      "fulfillment_rate": 0.7342857142857143,
+      "recommended_order": 400.0,
+      "dispatched": 400.0,
+      "expired_quantity": 0,
+      "disposed_quantity": 0.0,
+      "quarantined_inventory": 0.0
+    },
+    {
+      "site": "Medyka",
+      "week": 3,
+      "item": "water",
+      "unit": "L",
+      "forecast_arrivals": 3800.0,
+      "supported_people": 380,
+      "demand": 17100.0,
+      "recommended_shipment": 11764.70588235294,
+      "served": 12519.03277275862,
+      "ending_inventory": 0.0,
+      "unmet_demand": 4580.967227241381,
+      "fulfillment_rate": 0.7321071796934865,
+      "recommended_order": 11764.70588235294,
+      "dispatched": 11764.70588235294,
+      "expired_quantity": 0,
+      "disposed_quantity": 0.0,
+      "quarantined_inventory": 0.0
+    },
+    {
+      "site": "Medyka",
+      "week": 3,
+      "item": "food",
+      "unit": "daily ration",
+      "forecast_arrivals": 3800.0,
+      "supported_people": 380,
+      "demand": 1140,
+      "recommended_shipment": 0,
+      "served": 835,
+      "ending_inventory": 0,
+      "unmet_demand": 305,
+      "fulfillment_rate": 0.7324561403508771,
+      "recommended_order": 0.0,
+      "dispatched": 0.0,
+      "expired_quantity": 0,
+      "disposed_quantity": 0.0,
+      "quarantined_inventory": 0.0
+    },
+    {
+      "site": "Medyka",
+      "week": 3,
+      "item": "hygiene_kit",
+      "unit": "item",
+      "forecast_arrivals": 3800.0,
+      "supported_people": 380,
+      "demand": 380,
+      "recommended_shipment": 0,
+      "served": 279,
+      "ending_inventory": 21,
+      "unmet_demand": 101,
+      "fulfillment_rate": 0.7342105263157894,
+      "recommended_order": 0.0,
+      "dispatched": 0.0,
+      "expired_quantity": 0,
+      "disposed_quantity": 0.0,
+      "quarantined_inventory": 0.0
+    },
+    {
+      "site": "Medyka",
+      "week": 3,
+      "item": "blanket",
+      "unit": "item",
+      "forecast_arrivals": 3800.0,
+      "supported_people": 380,
+      "demand": 380,
+      "recommended_shipment": 0,
+      "served": 279,
+      "ending_inventory": 151,
+      "unmet_demand": 101,
+      "fulfillment_rate": 0.7342105263157894,
+      "recommended_order": 0.0,
+      "dispatched": 0.0,
+      "expired_quantity": 0,
+      "disposed_quantity": 0.0,
+      "quarantined_inventory": 0.0
+    },
+    {
+      "site": "Medyka",
+      "week": 4,
+      "item": "water",
+      "unit": "L",
+      "forecast_arrivals": 3200.0,
+      "supported_people": 320,
+      "demand": 14400.0,
+      "recommended_shipment": 10542.343387586207,
+      "served": 10542.343387586207,
+      "ending_inventory": 0.0,
+      "unmet_demand": 3857.6566124137935,
+      "fulfillment_rate": 0.7321071796934866,
+      "recommended_order": 10542.343387586207,
+      "dispatched": 10542.343387586207,
+      "expired_quantity": 0,
+      "disposed_quantity": 0.0,
+      "quarantined_inventory": 0.0
+    },
+    {
+      "site": "Medyka",
+      "week": 4,
+      "item": "food",
+      "unit": "daily ration",
+      "forecast_arrivals": 3200.0,
+      "supported_people": 320,
+      "demand": 960,
+      "recommended_shipment": 703,
+      "served": 703,
+      "ending_inventory": 0,
+      "unmet_demand": 257,
+      "fulfillment_rate": 0.7322916666666667,
+      "recommended_order": 703.0,
+      "dispatched": 703.0,
+      "expired_quantity": 0,
+      "disposed_quantity": 0.0,
+      "quarantined_inventory": 0.0
+    },
+    {
+      "site": "Medyka",
+      "week": 4,
+      "item": "hygiene_kit",
+      "unit": "item",
+      "forecast_arrivals": 3200.0,
+      "supported_people": 320,
+      "demand": 320,
+      "recommended_shipment": 214,
+      "served": 235,
+      "ending_inventory": 0,
+      "unmet_demand": 85,
+      "fulfillment_rate": 0.734375,
+      "recommended_order": 214.0,
+      "dispatched": 214.0,
+      "expired_quantity": 0,
+      "disposed_quantity": 0.0,
+      "quarantined_inventory": 0.0
+    },
+    {
+      "site": "Medyka",
+      "week": 4,
+      "item": "blanket",
+      "unit": "item",
+      "forecast_arrivals": 3200.0,
+      "supported_people": 320,
+      "demand": 320,
+      "recommended_shipment": 84,
+      "served": 235,
+      "ending_inventory": 0,
+      "unmet_demand": 85,
+      "fulfillment_rate": 0.734375,
+      "recommended_order": 84.0,
+      "dispatched": 84.0,
+      "expired_quantity": 0,
+      "disposed_quantity": 0.0,
+      "quarantined_inventory": 0.0
+    }
+  ],
+  "item_summary": [
+    {
+      "item": "water",
+      "unit": "L",
+      "total_demand": 65250.0,
+      "total_served": 47769.993474999996,
+      "total_unmet_demand": 17480.006525000004,
+      "fulfillment_rate": 0.7321071796934865,
+      "weight": 1.0
+    },
+    {
+      "item": "food",
+      "unit": "daily ration",
+      "total_demand": 4350,
+      "total_served": 3186,
+      "total_unmet_demand": 1164,
+      "fulfillment_rate": 0.7324137931034482,
+      "weight": 1.0
+    },
+    {
+      "item": "hygiene_kit",
+      "unit": "item",
+      "total_demand": 1450,
+      "total_served": 1064,
+      "total_unmet_demand": 386,
+      "fulfillment_rate": 0.7337931034482759,
+      "weight": 1.0
+    },
+    {
+      "item": "blanket",
+      "unit": "item",
+      "total_demand": 1450,
+      "total_served": 1064,
+      "total_unmet_demand": 386,
+      "fulfillment_rate": 0.7337931034482759,
+      "weight": 1.0
+    }
+  ],
+  "site_summary": [
+    {
+      "site": "Medyka",
+      "weighted_fulfillment_rate": 0.7330267949233716
+    }
+  ],
+  "warehouse_summary": [
+    {
+      "site": "Medyka",
+      "week": 1,
+      "peak_inventory_volume_m3": 41.88678431372549,
+      "warehouse_capacity_m3": 45.0,
+      "warehouse_utilization_rate": 0.9308174291938999
+    },
+    {
+      "site": "Medyka",
+      "week": 2,
+      "peak_inventory_volume_m3": 34.80301497057809,
+      "warehouse_capacity_m3": 45.0,
+      "warehouse_utilization_rate": 0.7734003326795131
+    },
+    {
+      "site": "Medyka",
+      "week": 3,
+      "peak_inventory_volume_m3": 25.789032772758617,
+      "warehouse_capacity_m3": 45.0,
+      "warehouse_utilization_rate": 0.5730896171724137
+    },
+    {
+      "site": "Medyka",
+      "week": 4,
+      "peak_inventory_volume_m3": 18.99834338758621,
+      "warehouse_capacity_m3": 45.0,
+      "warehouse_utilization_rate": 0.4221854086130269
+    }
+  ],
+  "model_info": {
+    "site_scope": "single selected site",
+    "selected_site": "Medyka",
+    "planning_sites": [
+      "Medyka"
+    ],
+    "operational_input_scope": "Every user_input value (utilization_rate, stay_days, initial_inventory, weekly_supply, unit_cost, total_budget, and warehouse_capacity_m3) applies only to selected_site.",
+    "solver": "scipy.optimize.milp (HiGHS mixed-integer linear programming)",
+    "optimization_method": "Lexicographic: fairness (optional), normalized unmet, total cost, waste tie-break",
+    "priority": "fairness",
+    "stage_objectives": {
+      "stage_1_max_unmet_rate": 0.2678927203065135,
+      "stage_2_weighted_unmet_objective": 1.0678927203065132,
+      "stage_3_total_cost": 109999.99347499949,
+      "stage_4_waste_tiebreak": 0.0,
+      "stage_5_trip_tiebreak": 4.0
+    },
+    "objective_tolerance": 1e-07,
+    "solver_config": {
+      "time_limit_seconds_per_stage": 30.0,
+      "mip_rel_gap": 1e-06,
+      "objective_tolerance": 1e-07
+    },
+    "demand_assumptions": {
+      "water": "15 L per supported person per stay day",
+      "food": "1 daily ration (2,100 kcal) per supported person per stay day",
+      "hygiene_kit": "1 personal kit per supported person",
+      "blanket": "1 personal blanket per supported person"
+    },
+    "time_aggregation_assumption": "Because stay_days is at most 4 and the planning period is weekly, all water and food demand generated during the stay of people arriving in a week is assigned to that same week; no cross-week daily occupancy model is included.",
+    "warehouse_capacity_basis": "After expiry segregation/disposal, before distribution; retained quarantine included.",
+    "integrality": {
+      "water": "continuous liters",
+      "food": "integer daily rations",
+      "hygiene_kit": "integer kits",
+      "blanket": "integer blankets"
+    },
+    "currency_assumption": "The engine does not assume a currency. unit_cost and total_budget must use one consistent currency chosen by the UI/caller.",
+    "resource_scope": "In single-site mode, weekly_supply and total_budget are the amounts allocated to the selected site's scenario. Results from separate site runs are alternatives and must not be summed unless the caller has already partitioned shared central resources.",
+    "limitations": [
+      "Single selected site; pre-approved direct routes, no road-graph routing",
+      "Conservative weekly buckets, at most one departure per available vehicle per week",
+      "Supplier dispatch immediately after procurement; no upstream inventory",
+      "Pipeline is prepaid and transport-booked; enter fleet availability net of prior bookings",
+      "Driver-hour, axle-load, customs, packing and temperature compliance require pre-approved route/vehicle inputs",
+      "No multi-site resource sharing or stochastic delay optimization",
+      "Shelf life requires actual label/lot data; no universal item defaults"
+    ],
+    "logistics_enabled": true,
+    "sources": [
+      {
+        "publisher": "WFP Logistics Cluster",
+        "title": "Sending Goods by Road",
+        "url": "https://log.logcluster.org/en/sending-goods-road"
+      },
+      {
+        "publisher": "WFP Logistics Cluster",
+        "title": "Unique Concepts to Road Transportation",
+        "url": "https://log.logcluster.org/en/unique-concepts-road-transportation"
+      },
+      {
+        "publisher": "WFP Logistics Cluster",
+        "title": "Procurement",
+        "url": "https://log.logcluster.org/en/procurement"
+      },
+      {
+        "publisher": "WFP Logistics Cluster",
+        "title": "Physical Storage Guidelines",
+        "url": "https://log.logcluster.org/en/physical-storage-guidelines"
+      }
+    ],
+    "source_checked_on": "2026-10-02",
+    "solver_stages": [
+      {
+        "stage": "stage_1_max_unmet_rate",
+        "status": 0,
+        "objective": 0.2678927203065135,
+        "mip_gap": 0.0
+      },
+      {
+        "stage": "stage_2_weighted_unmet_objective",
+        "status": 0,
+        "objective": 1.0678927203065132,
+        "mip_gap": 0.0
+      },
+      {
+        "stage": "stage_3_total_cost",
+        "status": 0,
+        "objective": 109999.99347499949,
+        "mip_gap": 0.0
+      },
+      {
+        "stage": "stage_4_waste_tiebreak",
+        "status": 0,
+        "objective": 0.0,
+        "mip_gap": 0.0
+      },
+      {
+        "stage": "stage_5_trip_tiebreak",
+        "status": 0,
+        "objective": 4.0,
+        "mip_gap": 0.0
+      }
+    ],
+    "variables": 201,
+    "constraints": 189,
+    "parameter_provenance": "Caller-supplied operational values; not verified by official guidance",
+    "time_convention": "ceil(procurement_days/7), ceil(transit_days/7); shelf life floor(days/7) from dispatch. expiry_week is first unusable week."
+  },
+  "transport_plan": [
+    {
+      "route": "domestic-direct",
+      "corridor": "local-access",
+      "week": 1,
+      "crossing_week": 1,
+      "arrival_week": 1,
+      "vehicle_release_week": 2,
+      "trips": 1,
+      "vehicle_type": "truck",
+      "cargo": {
+        "water": 10720.78431372549,
+        "food": 483.0,
+        "hygiene_kit": 350.0,
+        "blanket": 400.0
+      },
+      "weight_kg": 11999.999999999998,
+      "volume_m3": 23.18678431372549
+    },
+    {
+      "route": "domestic-direct",
+      "corridor": "local-access",
+      "week": 2,
+      "crossing_week": 2,
+      "arrival_week": 2,
+      "vehicle_release_week": 3,
+      "trips": 1,
+      "vehicle_type": "truck",
+      "cargo": {
+        "water": 2742.1598913353555,
+        "food": 1200.0,
+        "hygiene_kit": 350.0,
+        "blanket": 400.0
+      },
+      "weight_kg": 4292.003089162063,
+      "volume_m3": 16.642159891335357
+    },
+    {
+      "route": "domestic-direct",
+      "corridor": "local-access",
+      "week": 3,
+      "crossing_week": 3,
+      "arrival_week": 3,
+      "vehicle_release_week": 4,
+      "trips": 1,
+      "vehicle_type": "truck",
+      "cargo": {
+        "water": 11764.70588235294,
+        "food": 0.0,
+        "hygiene_kit": 0.0,
+        "blanket": 0.0
+      },
+      "weight_kg": 12000.0,
+      "volume_m3": 11.76470588235294
+    },
+    {
+      "route": "domestic-direct",
+      "corridor": "local-access",
+      "week": 4,
+      "crossing_week": 4,
+      "arrival_week": 4,
+      "vehicle_release_week": 5,
+      "trips": 1,
+      "vehicle_type": "truck",
+      "cargo": {
+        "water": 10542.343387586207,
+        "food": 703.0,
+        "hygiene_kit": 214.0,
+        "blanket": 84.0
+      },
+      "weight_kg": 11407.99025533793,
+      "volume_m3": 15.768343387586208
+    }
+  ],
+  "order_plan": [
+    {
+      "item": "water",
+      "order_week": 1,
+      "dispatch_week": 1,
+      "arrival_week": 1,
+      "expiry_week": 53,
+      "route": "domestic-direct",
+      "quantity": 10720.78431372549
+    },
+    {
+      "item": "water",
+      "order_week": 2,
+      "dispatch_week": 2,
+      "arrival_week": 2,
+      "expiry_week": 54,
+      "route": "domestic-direct",
+      "quantity": 2742.1598913353555
+    },
+    {
+      "item": "water",
+      "order_week": 3,
+      "dispatch_week": 3,
+      "arrival_week": 3,
+      "expiry_week": 55,
+      "route": "domestic-direct",
+      "quantity": 11764.70588235294
+    },
+    {
+      "item": "water",
+      "order_week": 4,
+      "dispatch_week": 4,
+      "arrival_week": 4,
+      "expiry_week": 56,
+      "route": "domestic-direct",
+      "quantity": 10542.343387586207
+    },
+    {
+      "item": "food",
+      "order_week": 1,
+      "dispatch_week": 1,
+      "arrival_week": 1,
+      "expiry_week": 26,
+      "route": "domestic-direct",
+      "quantity": 483.0
+    },
+    {
+      "item": "food",
+      "order_week": 2,
+      "dispatch_week": 2,
+      "arrival_week": 2,
+      "expiry_week": 27,
+      "route": "domestic-direct",
+      "quantity": 1200.0
+    },
+    {
+      "item": "food",
+      "order_week": 4,
+      "dispatch_week": 4,
+      "arrival_week": 4,
+      "expiry_week": 29,
+      "route": "domestic-direct",
+      "quantity": 703.0
+    },
+    {
+      "item": "hygiene_kit",
+      "order_week": 1,
+      "dispatch_week": 1,
+      "arrival_week": 1,
+      "expiry_week": null,
+      "route": "domestic-direct",
+      "quantity": 350.0
+    },
+    {
+      "item": "hygiene_kit",
+      "order_week": 2,
+      "dispatch_week": 2,
+      "arrival_week": 2,
+      "expiry_week": null,
+      "route": "domestic-direct",
+      "quantity": 350.0
+    },
+    {
+      "item": "hygiene_kit",
+      "order_week": 4,
+      "dispatch_week": 4,
+      "arrival_week": 4,
+      "expiry_week": null,
+      "route": "domestic-direct",
+      "quantity": 214.0
+    },
+    {
+      "item": "blanket",
+      "order_week": 1,
+      "dispatch_week": 1,
+      "arrival_week": 1,
+      "expiry_week": null,
+      "route": "domestic-direct",
+      "quantity": 400.0
+    },
+    {
+      "item": "blanket",
+      "order_week": 2,
+      "dispatch_week": 2,
+      "arrival_week": 2,
+      "expiry_week": null,
+      "route": "domestic-direct",
+      "quantity": 400.0
+    },
+    {
+      "item": "blanket",
+      "order_week": 4,
+      "dispatch_week": 4,
+      "arrival_week": 4,
+      "expiry_week": null,
+      "route": "domestic-direct",
+      "quantity": 84.0
+    }
+  ],
+  "lot_plan": [
+    {
+      "lot_id": "opening:water",
+      "item": "water",
+      "week": 1,
+      "arrival_week": 1,
+      "expiry_week": 20,
+      "quantity": 12000.0,
+      "served": 12000.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "opening:water",
+      "item": "water",
+      "week": 2,
+      "arrival_week": 1,
+      "expiry_week": 20,
+      "quantity": 12000.0,
+      "served": 0.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "opening:water",
+      "item": "water",
+      "week": 3,
+      "arrival_week": 1,
+      "expiry_week": 20,
+      "quantity": 12000.0,
+      "served": 0.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "opening:water",
+      "item": "water",
+      "week": 4,
+      "arrival_week": 1,
+      "expiry_week": 20,
+      "quantity": 12000.0,
+      "served": 0.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "opening:food",
+      "item": "food",
+      "week": 1,
+      "arrival_week": 1,
+      "expiry_week": 20,
+      "quantity": 800.0,
+      "served": 800.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "opening:food",
+      "item": "food",
+      "week": 2,
+      "arrival_week": 1,
+      "expiry_week": 20,
+      "quantity": 800.0,
+      "served": 0.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "opening:food",
+      "item": "food",
+      "week": 3,
+      "arrival_week": 1,
+      "expiry_week": 20,
+      "quantity": 800.0,
+      "served": 0.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "opening:food",
+      "item": "food",
+      "week": 4,
+      "arrival_week": 1,
+      "expiry_week": 20,
+      "quantity": 800.0,
+      "served": 0.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "opening:hygiene_kit",
+      "item": "hygiene_kit",
+      "week": 1,
+      "arrival_week": 1,
+      "expiry_week": null,
+      "quantity": 150.0,
+      "served": 0.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 150.0
+    },
+    {
+      "lot_id": "opening:hygiene_kit",
+      "item": "hygiene_kit",
+      "week": 2,
+      "arrival_week": 1,
+      "expiry_week": null,
+      "quantity": 150.0,
+      "served": 0.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 150.0
+    },
+    {
+      "lot_id": "opening:hygiene_kit",
+      "item": "hygiene_kit",
+      "week": 3,
+      "arrival_week": 1,
+      "expiry_week": null,
+      "quantity": 150.0,
+      "served": 129.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 21.0
+    },
+    {
+      "lot_id": "opening:hygiene_kit",
+      "item": "hygiene_kit",
+      "week": 4,
+      "arrival_week": 1,
+      "expiry_week": null,
+      "quantity": 150.0,
+      "served": 21.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "opening:blanket",
+      "item": "blanket",
+      "week": 1,
+      "arrival_week": 1,
+      "expiry_week": null,
+      "quantity": 180.0,
+      "served": 180.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "opening:blanket",
+      "item": "blanket",
+      "week": 2,
+      "arrival_week": 1,
+      "expiry_week": null,
+      "quantity": 180.0,
+      "served": 0.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "opening:blanket",
+      "item": "blanket",
+      "week": 3,
+      "arrival_week": 1,
+      "expiry_week": null,
+      "quantity": 180.0,
+      "served": 0.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "opening:blanket",
+      "item": "blanket",
+      "week": 4,
+      "arrival_week": 1,
+      "expiry_week": null,
+      "quantity": 180.0,
+      "served": 0.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "order:water:1:domestic-direct",
+      "item": "water",
+      "week": 1,
+      "arrival_week": 1,
+      "expiry_week": 53,
+      "quantity": 10720.78431372549,
+      "served": 1177.9292344827554,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 9542.855079242734
+    },
+    {
+      "lot_id": "order:water:1:domestic-direct",
+      "item": "water",
+      "week": 2,
+      "arrival_week": 1,
+      "expiry_week": 53,
+      "quantity": 10720.78431372549,
+      "served": 9542.855079242734,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "order:water:1:domestic-direct",
+      "item": "water",
+      "week": 3,
+      "arrival_week": 1,
+      "expiry_week": 53,
+      "quantity": 10720.78431372549,
+      "served": 0.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "order:water:1:domestic-direct",
+      "item": "water",
+      "week": 4,
+      "arrival_week": 1,
+      "expiry_week": 53,
+      "quantity": 10720.78431372549,
+      "served": 0.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "order:water:2:domestic-direct",
+      "item": "water",
+      "week": 2,
+      "arrival_week": 2,
+      "expiry_week": 54,
+      "quantity": 2742.1598913353555,
+      "served": 1987.833000929677,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 754.3268904056786
+    },
+    {
+      "lot_id": "order:water:2:domestic-direct",
+      "item": "water",
+      "week": 3,
+      "arrival_week": 2,
+      "expiry_week": 54,
+      "quantity": 2742.1598913353555,
+      "served": 754.3268904056786,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "order:water:2:domestic-direct",
+      "item": "water",
+      "week": 4,
+      "arrival_week": 2,
+      "expiry_week": 54,
+      "quantity": 2742.1598913353555,
+      "served": 0.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "order:water:3:domestic-direct",
+      "item": "water",
+      "week": 3,
+      "arrival_week": 3,
+      "expiry_week": 55,
+      "quantity": 11764.70588235294,
+      "served": 11764.70588235294,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "order:water:3:domestic-direct",
+      "item": "water",
+      "week": 4,
+      "arrival_week": 3,
+      "expiry_week": 55,
+      "quantity": 11764.70588235294,
+      "served": 0.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "order:water:4:domestic-direct",
+      "item": "water",
+      "week": 4,
+      "arrival_week": 4,
+      "expiry_week": 56,
+      "quantity": 10542.343387586207,
+      "served": 10542.343387586207,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "order:food:1:domestic-direct",
+      "item": "food",
+      "week": 1,
+      "arrival_week": 1,
+      "expiry_week": 26,
+      "quantity": 483.0,
+      "served": 79.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 404.0
+    },
+    {
+      "lot_id": "order:food:1:domestic-direct",
+      "item": "food",
+      "week": 2,
+      "arrival_week": 1,
+      "expiry_week": 26,
+      "quantity": 483.0,
+      "served": 404.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "order:food:1:domestic-direct",
+      "item": "food",
+      "week": 3,
+      "arrival_week": 1,
+      "expiry_week": 26,
+      "quantity": 483.0,
+      "served": 0.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "order:food:1:domestic-direct",
+      "item": "food",
+      "week": 4,
+      "arrival_week": 1,
+      "expiry_week": 26,
+      "quantity": 483.0,
+      "served": 0.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "order:food:2:domestic-direct",
+      "item": "food",
+      "week": 2,
+      "arrival_week": 2,
+      "expiry_week": 27,
+      "quantity": 1200.0,
+      "served": 365.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 835.0
+    },
+    {
+      "lot_id": "order:food:2:domestic-direct",
+      "item": "food",
+      "week": 3,
+      "arrival_week": 2,
+      "expiry_week": 27,
+      "quantity": 1200.0,
+      "served": 835.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "order:food:2:domestic-direct",
+      "item": "food",
+      "week": 4,
+      "arrival_week": 2,
+      "expiry_week": 27,
+      "quantity": 1200.0,
+      "served": 0.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "order:food:4:domestic-direct",
+      "item": "food",
+      "week": 4,
+      "arrival_week": 4,
+      "expiry_week": 29,
+      "quantity": 703.0,
+      "served": 703.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "order:hygiene_kit:1:domestic-direct",
+      "item": "hygiene_kit",
+      "week": 1,
+      "arrival_week": 1,
+      "expiry_week": null,
+      "quantity": 350.0,
+      "served": 293.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 57.0
+    },
+    {
+      "lot_id": "order:hygiene_kit:1:domestic-direct",
+      "item": "hygiene_kit",
+      "week": 2,
+      "arrival_week": 1,
+      "expiry_week": null,
+      "quantity": 350.0,
+      "served": 0.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 57.0
+    },
+    {
+      "lot_id": "order:hygiene_kit:1:domestic-direct",
+      "item": "hygiene_kit",
+      "week": 3,
+      "arrival_week": 1,
+      "expiry_week": null,
+      "quantity": 350.0,
+      "served": 57.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "order:hygiene_kit:1:domestic-direct",
+      "item": "hygiene_kit",
+      "week": 4,
+      "arrival_week": 1,
+      "expiry_week": null,
+      "quantity": 350.0,
+      "served": 0.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "order:hygiene_kit:2:domestic-direct",
+      "item": "hygiene_kit",
+      "week": 2,
+      "arrival_week": 2,
+      "expiry_week": null,
+      "quantity": 350.0,
+      "served": 257.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 93.0
+    },
+    {
+      "lot_id": "order:hygiene_kit:2:domestic-direct",
+      "item": "hygiene_kit",
+      "week": 3,
+      "arrival_week": 2,
+      "expiry_week": null,
+      "quantity": 350.0,
+      "served": 93.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "order:hygiene_kit:2:domestic-direct",
+      "item": "hygiene_kit",
+      "week": 4,
+      "arrival_week": 2,
+      "expiry_week": null,
+      "quantity": 350.0,
+      "served": 0.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "order:hygiene_kit:4:domestic-direct",
+      "item": "hygiene_kit",
+      "week": 4,
+      "arrival_week": 4,
+      "expiry_week": null,
+      "quantity": 214.0,
+      "served": 214.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "order:blanket:1:domestic-direct",
+      "item": "blanket",
+      "week": 1,
+      "arrival_week": 1,
+      "expiry_week": null,
+      "quantity": 400.0,
+      "served": 113.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 287.0
+    },
+    {
+      "lot_id": "order:blanket:1:domestic-direct",
+      "item": "blanket",
+      "week": 2,
+      "arrival_week": 1,
+      "expiry_week": null,
+      "quantity": 400.0,
+      "served": 178.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 109.0
+    },
+    {
+      "lot_id": "order:blanket:1:domestic-direct",
+      "item": "blanket",
+      "week": 3,
+      "arrival_week": 1,
+      "expiry_week": null,
+      "quantity": 400.0,
+      "served": 109.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "order:blanket:1:domestic-direct",
+      "item": "blanket",
+      "week": 4,
+      "arrival_week": 1,
+      "expiry_week": null,
+      "quantity": 400.0,
+      "served": 0.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "order:blanket:2:domestic-direct",
+      "item": "blanket",
+      "week": 2,
+      "arrival_week": 2,
+      "expiry_week": null,
+      "quantity": 400.0,
+      "served": 79.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 321.0
+    },
+    {
+      "lot_id": "order:blanket:2:domestic-direct",
+      "item": "blanket",
+      "week": 3,
+      "arrival_week": 2,
+      "expiry_week": null,
+      "quantity": 400.0,
+      "served": 170.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 151.0
+    },
+    {
+      "lot_id": "order:blanket:2:domestic-direct",
+      "item": "blanket",
+      "week": 4,
+      "arrival_week": 2,
+      "expiry_week": null,
+      "quantity": 400.0,
+      "served": 151.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    },
+    {
+      "lot_id": "order:blanket:4:domestic-direct",
+      "item": "blanket",
+      "week": 4,
+      "arrival_week": 4,
+      "expiry_week": null,
+      "quantity": 84.0,
+      "served": 84.0,
+      "expired_quantity": 0.0,
+      "ending_usable_inventory": 0.0
+    }
+  ]
+}

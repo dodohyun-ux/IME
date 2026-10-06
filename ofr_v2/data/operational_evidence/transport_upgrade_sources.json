@@ -1,0 +1,53 @@
+{
+  "reviewed_at": "2026-10-05",
+  "capture": "Primary website text inspected with browser/web tools; original raw downloads failed this run. This normalized file hash is not the original page hash.",
+  "sources": [
+    {
+      "id": "pgkim_lubsko_van_tariff",
+      "issuer": "PGKiM w Lubsku Sp. z o.o.",
+      "url": "https://www.pgkimlubsko.pl/cennik.html",
+      "effective_date": "2025-02-03",
+      "page_update_date": "2025-03-24",
+      "section": "ZUKiT rows 1 and 2; net price table",
+      "vehicle_class": "van up to 3.5 tonnes",
+      "net_pln_per_km": 8.5,
+      "separate_net_pln_per_hour": 228,
+      "observed_paid_invoice": false,
+      "limitations": "Not a regional humanitarian contract. Separate km/hour units do not authorize automatic addition. Minimum, tax rate, overnight, billable hour/round-trip scope and current tariff guarantee unresolved."
+    },
+    {
+      "id": "eu_driving_rest_policy",
+      "issuer": "European Commission",
+      "url": "https://transport.ec.europa.eu/transport-modes/road/social-provisions/driving-time-and-rest-periods_en",
+      "use": "Conservative driving/rest modeling policy; not a vehicle-specific domestic-operation legal applicability determination."
+    },
+    {
+      "id": "nbp_usd_20260316",
+      "url": "https://api.nbp.pl/api/exchangerates/rates/a/usd/2026-03-16/?format=json",
+      "pln_per_usd": 3.7287,
+      "effective_date": "2026-03-16",
+      "use": "Dated reference valuation, not payment-date/current FX. Raw original provenance retained in existing sources.json."
+    },
+    {
+      "id": "chelm_warehouse_candidate",
+      "issuer": "City of Chelm",
+      "url": "https://samorzad.gov.pl/web/miasto-chelm/punkt-magazynowy-dla-ciezarowek-w-chelmskim-centrum-aktywnosci-gospodarczej",
+      "address": "Ceramiczna 5, Chelm",
+      "use": "Historical aid warehouse lead for trucks/vans. Not connected or selected in current model; current operation and official coordinate unresolved."
+    },
+    {
+      "id": "sloviansk_minutes_20260407",
+      "issuer": "Logistics Cluster",
+      "url": "https://logcluster.org/en/documents/ukraine-coordination-meeting-minutes-sloviansk-7-april-2026",
+      "use": "Official activity/operating guidance, not paired Poland-side trip timestamps or paid invoice. Excluded from direct accuracy scoring."
+    },
+    {
+      "id": "ukraine_four_year_summary",
+      "issuer": "Logistics Cluster",
+      "url": "https://logcluster.org/en/stories/four-years-coordinating-humanitarian-logistics-ukraine-turning-coordination-impact",
+      "use": "Aggregate activity, not identifiable trip/cost/receipt records. No causal benefit claimed."
+    }
+  ],
+  "matched_operating_records": 0,
+  "field_effect_identified": false
+}

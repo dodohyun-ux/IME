@@ -1,0 +1,7 @@
+{
+  "requested_on": "2026-10-02",
+  "reason": "User resumed Poland road-routing work; fill only the 35 saved missing corridor subtiles",
+  "source": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest",
+  "preserve_existing_responses": true,
+  "synthetic_fallback": false
+}

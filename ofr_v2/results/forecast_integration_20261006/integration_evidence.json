@@ -1,0 +1,889 @@
+{
+  "generated_at": "2026-10-06T09:57:57.632843+00:00",
+  "passed": true,
+  "model_sha256": "87c8953c7bd6abe5406c0513f23243cebdc305771681a33a488b4e17fbb606aa",
+  "model_weights_unchanged": true,
+  "optimizer_engine_hashes_unchanged": [
+    "ofr_v2/app/backend/optimization.py",
+    "ofr_v2/app/backend/logistics.py",
+    "ofr_v2/app/backend/road_network.py",
+    "ofr_v2/app/backend/road_paths.py",
+    "ofr_v2/app/backend/poland_roads.py",
+    "ofr_v2/app/backend/road_planner.py"
+  ],
+  "forecast_input_cases": 27,
+  "history_sensitivity": [
+    {
+      "hub": "medyka",
+      "history_index": 0,
+      "week_label": "reference",
+      "original": 1963.0,
+      "modified": 3926.0,
+      "baseline": [
+        2040,
+        2060,
+        2061,
+        2063
+      ],
+      "modified_forecast": [
+        3468,
+        3354,
+        3226,
+        3202
+      ],
+      "delta": [
+        1428,
+        1294,
+        1165,
+        1139
+      ],
+      "other_hubs_unchanged": true,
+      "seconds": 0.1815045999828726
+    },
+    {
+      "hub": "medyka",
+      "history_index": 1,
+      "week_label": "1_weeks_ago",
+      "original": 1818.0,
+      "modified": 3636.0,
+      "baseline": [
+        2040,
+        2060,
+        2061,
+        2063
+      ],
+      "modified_forecast": [
+        2090,
+        2063,
+        2069,
+        2063
+      ],
+      "delta": [
+        50,
+        3,
+        8,
+        0
+      ],
+      "other_hubs_unchanged": true,
+      "seconds": 0.14560940000228584
+    },
+    {
+      "hub": "medyka",
+      "history_index": 2,
+      "week_label": "2_weeks_ago",
+      "original": 2512.0,
+      "modified": 5024.0,
+      "baseline": [
+        2040,
+        2060,
+        2061,
+        2063
+      ],
+      "modified_forecast": [
+        2040,
+        2060,
+        2061,
+        2063
+      ],
+      "delta": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "other_hubs_unchanged": true,
+      "seconds": 0.14350569993257523
+    },
+    {
+      "hub": "medyka",
+      "history_index": 3,
+      "week_label": "3_weeks_ago",
+      "original": 4013.0,
+      "modified": 8026.0,
+      "baseline": [
+        2040,
+        2060,
+        2061,
+        2063
+      ],
+      "modified_forecast": [
+        2040,
+        2060,
+        2061,
+        2063
+      ],
+      "delta": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "other_hubs_unchanged": true,
+      "seconds": 0.142564200097695
+    },
+    {
+      "hub": "medyka",
+      "history_index": 4,
+      "week_label": "4_weeks_ago",
+      "original": 3089.0,
+      "modified": 6178.0,
+      "baseline": [
+        2040,
+        2060,
+        2061,
+        2063
+      ],
+      "modified_forecast": [
+        2040,
+        2060,
+        2061,
+        2063
+      ],
+      "delta": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "other_hubs_unchanged": true,
+      "seconds": 0.14184220018796623
+    },
+    {
+      "hub": "medyka",
+      "history_index": 5,
+      "week_label": "5_weeks_ago",
+      "original": 2040.0,
+      "modified": 4080.0,
+      "baseline": [
+        2040,
+        2060,
+        2061,
+        2063
+      ],
+      "modified_forecast": [
+        2040,
+        2060,
+        2061,
+        2063
+      ],
+      "delta": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "other_hubs_unchanged": true,
+      "seconds": 0.14429429988376796
+    },
+    {
+      "hub": "medyka",
+      "history_index": 6,
+      "week_label": "6_weeks_ago",
+      "original": 1984.0,
+      "modified": 3968.0,
+      "baseline": [
+        2040,
+        2060,
+        2061,
+        2063
+      ],
+      "modified_forecast": [
+        2040,
+        2060,
+        2061,
+        2063
+      ],
+      "delta": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "other_hubs_unchanged": true,
+      "seconds": 0.14448549994267523
+    },
+    {
+      "hub": "medyka",
+      "history_index": 7,
+      "week_label": "7_weeks_ago",
+      "original": 2087.0,
+      "modified": 4174.0,
+      "baseline": [
+        2040,
+        2060,
+        2061,
+        2063
+      ],
+      "modified_forecast": [
+        2040,
+        2060,
+        2061,
+        2063
+      ],
+      "delta": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "other_hubs_unchanged": true,
+      "seconds": 0.1437158000189811
+    },
+    {
+      "hub": "dorohusk",
+      "history_index": 0,
+      "week_label": "reference",
+      "original": 1688.0,
+      "modified": 3376.0,
+      "baseline": [
+        1602,
+        1605,
+        1603,
+        1633
+      ],
+      "modified_forecast": [
+        2445,
+        1964,
+        1960,
+        1927
+      ],
+      "delta": [
+        843,
+        359,
+        357,
+        294
+      ],
+      "other_hubs_unchanged": true,
+      "seconds": 0.14273920003324747
+    },
+    {
+      "hub": "dorohusk",
+      "history_index": 1,
+      "week_label": "1_weeks_ago",
+      "original": 1489.0,
+      "modified": 2978.0,
+      "baseline": [
+        1602,
+        1605,
+        1603,
+        1633
+      ],
+      "modified_forecast": [
+        1694,
+        1722,
+        1778,
+        1806
+      ],
+      "delta": [
+        92,
+        117,
+        175,
+        173
+      ],
+      "other_hubs_unchanged": true,
+      "seconds": 0.1458477999549359
+    },
+    {
+      "hub": "dorohusk",
+      "history_index": 2,
+      "week_label": "2_weeks_ago",
+      "original": 2154.0,
+      "modified": 4308.0,
+      "baseline": [
+        1602,
+        1605,
+        1603,
+        1633
+      ],
+      "modified_forecast": [
+        1602,
+        1605,
+        1603,
+        1633
+      ],
+      "delta": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "other_hubs_unchanged": true,
+      "seconds": 0.14264520001597703
+    },
+    {
+      "hub": "dorohusk",
+      "history_index": 3,
+      "week_label": "3_weeks_ago",
+      "original": 4878.0,
+      "modified": 9756.0,
+      "baseline": [
+        1602,
+        1605,
+        1603,
+        1633
+      ],
+      "modified_forecast": [
+        1602,
+        1605,
+        1603,
+        1633
+      ],
+      "delta": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "other_hubs_unchanged": true,
+      "seconds": 0.14319029985927045
+    },
+    {
+      "hub": "dorohusk",
+      "history_index": 4,
+      "week_label": "4_weeks_ago",
+      "original": 2142.0,
+      "modified": 4284.0,
+      "baseline": [
+        1602,
+        1605,
+        1603,
+        1633
+      ],
+      "modified_forecast": [
+        1602,
+        1605,
+        1603,
+        1633
+      ],
+      "delta": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "other_hubs_unchanged": true,
+      "seconds": 0.14353310014121234
+    },
+    {
+      "hub": "dorohusk",
+      "history_index": 5,
+      "week_label": "5_weeks_ago",
+      "original": 1643.0,
+      "modified": 3286.0,
+      "baseline": [
+        1602,
+        1605,
+        1603,
+        1633
+      ],
+      "modified_forecast": [
+        1602,
+        1605,
+        1603,
+        1633
+      ],
+      "delta": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "other_hubs_unchanged": true,
+      "seconds": 0.15168150002136827
+    },
+    {
+      "hub": "dorohusk",
+      "history_index": 6,
+      "week_label": "6_weeks_ago",
+      "original": 1067.0,
+      "modified": 2134.0,
+      "baseline": [
+        1602,
+        1605,
+        1603,
+        1633
+      ],
+      "modified_forecast": [
+        1602,
+        1605,
+        1603,
+        1633
+      ],
+      "delta": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "other_hubs_unchanged": true,
+      "seconds": 0.14779750001616776
+    },
+    {
+      "hub": "dorohusk",
+      "history_index": 7,
+      "week_label": "7_weeks_ago",
+      "original": 1168.0,
+      "modified": 2336.0,
+      "baseline": [
+        1602,
+        1605,
+        1603,
+        1633
+      ],
+      "modified_forecast": [
+        1602,
+        1605,
+        1603,
+        1633
+      ],
+      "delta": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "other_hubs_unchanged": true,
+      "seconds": 0.14651620015501976
+    },
+    {
+      "hub": "korczowa",
+      "history_index": 0,
+      "week_label": "reference",
+      "original": 1327.0,
+      "modified": 2654.0,
+      "baseline": [
+        1364,
+        1366,
+        1365,
+        1364
+      ],
+      "modified_forecast": [
+        2131,
+        1945,
+        1845,
+        1823
+      ],
+      "delta": [
+        767,
+        579,
+        480,
+        459
+      ],
+      "other_hubs_unchanged": true,
+      "seconds": 0.14437610004097223
+    },
+    {
+      "hub": "korczowa",
+      "history_index": 1,
+      "week_label": "1_weeks_ago",
+      "original": 1204.0,
+      "modified": 2408.0,
+      "baseline": [
+        1364,
+        1366,
+        1365,
+        1364
+      ],
+      "modified_forecast": [
+        1364,
+        1462,
+        1672,
+        1777
+      ],
+      "delta": [
+        0,
+        96,
+        307,
+        413
+      ],
+      "other_hubs_unchanged": true,
+      "seconds": 0.14627299993298948
+    },
+    {
+      "hub": "korczowa",
+      "history_index": 2,
+      "week_label": "2_weeks_ago",
+      "original": 1591.0,
+      "modified": 3182.0,
+      "baseline": [
+        1364,
+        1366,
+        1365,
+        1364
+      ],
+      "modified_forecast": [
+        1364,
+        1366,
+        1365,
+        1364
+      ],
+      "delta": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "other_hubs_unchanged": true,
+      "seconds": 0.14202279993332922
+    },
+    {
+      "hub": "korczowa",
+      "history_index": 3,
+      "week_label": "3_weeks_ago",
+      "original": 2764.0,
+      "modified": 5528.0,
+      "baseline": [
+        1364,
+        1366,
+        1365,
+        1364
+      ],
+      "modified_forecast": [
+        1364,
+        1366,
+        1365,
+        1364
+      ],
+      "delta": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "other_hubs_unchanged": true,
+      "seconds": 0.15086130006238818
+    },
+    {
+      "hub": "korczowa",
+      "history_index": 4,
+      "week_label": "4_weeks_ago",
+      "original": 1940.0,
+      "modified": 3880.0,
+      "baseline": [
+        1364,
+        1366,
+        1365,
+        1364
+      ],
+      "modified_forecast": [
+        1364,
+        1366,
+        1365,
+        1364
+      ],
+      "delta": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "other_hubs_unchanged": true,
+      "seconds": 0.14157789992168546
+    },
+    {
+      "hub": "korczowa",
+      "history_index": 5,
+      "week_label": "5_weeks_ago",
+      "original": 1301.0,
+      "modified": 2602.0,
+      "baseline": [
+        1364,
+        1366,
+        1365,
+        1364
+      ],
+      "modified_forecast": [
+        1364,
+        1366,
+        1365,
+        1364
+      ],
+      "delta": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "other_hubs_unchanged": true,
+      "seconds": 0.14237639983184636
+    },
+    {
+      "hub": "korczowa",
+      "history_index": 6,
+      "week_label": "6_weeks_ago",
+      "original": 1121.0,
+      "modified": 2242.0,
+      "baseline": [
+        1364,
+        1366,
+        1365,
+        1364
+      ],
+      "modified_forecast": [
+        1364,
+        1366,
+        1365,
+        1364
+      ],
+      "delta": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "other_hubs_unchanged": true,
+      "seconds": 0.14784919982776046
+    },
+    {
+      "hub": "korczowa",
+      "history_index": 7,
+      "week_label": "7_weeks_ago",
+      "original": 1158.0,
+      "modified": 2316.0,
+      "baseline": [
+        1364,
+        1366,
+        1365,
+        1364
+      ],
+      "modified_forecast": [
+        1364,
+        1366,
+        1365,
+        1364
+      ],
+      "delta": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "other_hubs_unchanged": true,
+      "seconds": 0.1412661001086235
+    }
+  ],
+  "operations": [
+    {
+      "case": "baseline",
+      "site": "Medyka",
+      "input_forecast": [
+        2040,
+        2060,
+        2061,
+        2063
+      ],
+      "trips": 16,
+      "cost": 57764.259501648165,
+      "procurement_cost": 56806.85903719804,
+      "transport_cost": 957.4004644501252,
+      "fulfillment_pct": 80.26015307254453,
+      "audit": {
+        "passed": true,
+        "failures": [],
+        "checks": {
+          "schema": 180,
+          "truck": 80,
+          "schedule": 11392,
+          "rest": 3776,
+          "integrality": 176,
+          "cargo": 114,
+          "lead": 34,
+          "expiry": 198,
+          "deadline": 16,
+          "path": 7472,
+          "road": 16704,
+          "cost": 165,
+          "occupancy": 2,
+          "demand": 32,
+          "stock": 192,
+          "supply": 32,
+          "warehouse": 8,
+          "FEFO": 161,
+          "budget": 1,
+          "solver": 7,
+          "objective_locks": 6
+        },
+        "total_checks": 40748
+      },
+      "elapsed_seconds": 5.1770181998144835,
+      "operational_ready": false
+    },
+    {
+      "case": "baseline",
+      "site": "Dorohusk",
+      "input_forecast": [
+        1602,
+        1605,
+        1603,
+        1633
+      ],
+      "trips": 16,
+      "cost": 67608.67241913838,
+      "procurement_cost": 52686.4676767353,
+      "transport_cost": 14922.204742403082,
+      "fulfillment_pct": 78.71498169048196,
+      "audit": {
+        "passed": true,
+        "failures": [],
+        "checks": {
+          "schema": 196,
+          "truck": 80,
+          "schedule": 102624,
+          "rest": 34192,
+          "integrality": 176,
+          "cargo": 119,
+          "lead": 39,
+          "expiry": 204,
+          "deadline": 16,
+          "path": 68272,
+          "road": 153504,
+          "cost": 165,
+          "occupancy": 2,
+          "demand": 32,
+          "stock": 203,
+          "supply": 32,
+          "FEFO": 164,
+          "warehouse": 8,
+          "budget": 1,
+          "solver": 7,
+          "objective_locks": 6
+        },
+        "total_checks": 360042
+      },
+      "elapsed_seconds": 50.98088470008224,
+      "operational_ready": false
+    },
+    {
+      "case": "baseline",
+      "site": "Korczowa",
+      "input_forecast": [
+        1364,
+        1366,
+        1365,
+        1364
+      ],
+      "trips": 16,
+      "cost": 56356.50678581676,
+      "procurement_cost": 53639.997534,
+      "transport_cost": 2716.509251816759,
+      "fulfillment_pct": 99.9999975,
+      "audit": {
+        "passed": true,
+        "failures": [],
+        "checks": {
+          "schema": 179,
+          "truck": 80,
+          "schedule": 16288,
+          "rest": 5408,
+          "integrality": 176,
+          "cargo": 115,
+          "lead": 35,
+          "expiry": 193,
+          "deadline": 16,
+          "path": 10736,
+          "road": 24048,
+          "cost": 165,
+          "occupancy": 2,
+          "demand": 32,
+          "stock": 190,
+          "supply": 32,
+          "warehouse": 8,
+          "FEFO": 154,
+          "budget": 1,
+          "solver": 7,
+          "objective_locks": 6
+        },
+        "total_checks": 57871
+      },
+      "elapsed_seconds": 10.20842480007559,
+      "operational_ready": false
+    },
+    {
+      "case": "recent_medyka_x2",
+      "site": "Medyka",
+      "input_forecast": [
+        3468,
+        3354,
+        3226,
+        3202
+      ],
+      "trips": 16,
+      "cost": 57773.66900285405,
+      "procurement_cost": 56816.26853840392,
+      "transport_cost": 957.4004644501252,
+      "fulfillment_pct": 49.84353535058358,
+      "audit": {
+        "passed": true,
+        "failures": [],
+        "checks": {
+          "schema": 190,
+          "truck": 80,
+          "schedule": 11392,
+          "rest": 3776,
+          "integrality": 176,
+          "cargo": 115,
+          "lead": 35,
+          "expiry": 208,
+          "deadline": 16,
+          "path": 7472,
+          "road": 16704,
+          "cost": 165,
+          "occupancy": 2,
+          "demand": 32,
+          "stock": 201,
+          "supply": 32,
+          "warehouse": 8,
+          "FEFO": 168,
+          "budget": 1,
+          "solver": 7,
+          "objective_locks": 6
+        },
+        "total_checks": 40786
+      },
+      "elapsed_seconds": 7.345797399990261,
+      "operational_ready": false
+    }
+  ],
+  "sample_accuracy": {
+    "scope": "one retrospective origin, 12 hub-horizon points; not an independent accuracy certificate",
+    "reference_date": "2026-01-26",
+    "model": {
+      "n": 12,
+      "mae": 243.58333333333334,
+      "wape_pct": 13.335462384232857
+    },
+    "last_week_naive": {
+      "n": 12,
+      "mae": 270.5833333333333,
+      "wape_pct": 14.813632008759523
+    },
+    "interval_calibration_overlap_possible": true,
+    "training_end_only_declared_in_team_code": true
+  },
+  "uses_all_eight_weeks": false,
+  "effective_inflow_history_weeks": 2,
+  "training_code_or_dataset_provenance_included": false,
+  "matched_operating_records": 0,
+  "operational_ready": false,
+  "final_forecast_provenance_refreshed_numerically_identical": true,
+  "api_tests_final": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "42",
+    "time": "9.175",
+    "timestamp": "2026-10-06T19:01:49.795801+09:00",
+    "hostname": "LAPTOP-D2OOEEGT"
+  },
+  "ui_tests_passed": 10,
+  "typescript": "passed",
+  "vite_build": "passed",
+  "browser_checks": [
+    "actual recent-8 values entered and live model source shown",
+    "Medyka current-week x2 changes 4-week output",
+    "edited input source shown without future actual comparisons",
+    "baseline restored; 16 trips,80.3 percent fulfillment,57764 USD displayed",
+    "no captured browser error/warning logs"
+  ]
+}

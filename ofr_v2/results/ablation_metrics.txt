@@ -1,0 +1,8 @@
+validation ablation
+                 wape_hub  wape_h1  wape_h4  wape_medyka  wape_dorohusk  wape_korczowa  t_vs_naive
+model                                                                                             
+gbm                 14.92    12.14    16.87        13.23          19.61          14.21       -2.61
+gbm_no_lastyear     15.19    12.17    17.48        13.89          19.31          14.13       -1.79
+gbm_no_calendar     18.27    14.09    21.62        15.52          24.71          18.18       -0.74
+naive               19.37    13.09    23.60        14.63          29.86          19.83         NaN
+

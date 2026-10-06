@@ -1,0 +1,43 @@
+{
+  "scope": "optimization and UI; forecasting estimator excluded",
+  "base_commit": "9697e88",
+  "branch": "review/final-20261006",
+  "source_sha256": {
+    "ofr_v2/app/backend/main.py": "6b7901533d4f49f4d61e40276e692de74630305d409a94b490a500286639a317",
+    "ofr_v2/app/backend/optimization.py": "31977af6816058f24ad1478410758817d795baddb11fd0fd149f1bf67eefc702",
+    "ofr_v2/app/backend/logistics.py": "d14f9fff82243410d2a5c899a5323723d1e3b03958883031e37e1476032ec7f5",
+    "ofr_v2/app/backend/road_network.py": "b1325aa53ea8988077503ea97ddaf01020eeff89d93f0e972702353b7fcc602b",
+    "ofr_v2/app/backend/road_planner.py": "8f2164cb4f2db035fb46550070a84b9fd32ae725b88c33cfdd0ec2921b0db103",
+    "ofr_v2/app/frontend/src/App.tsx": "79bcb1c1dad98ccea1286e51cc862d714fd67b55b0c6cac6d6e1caaea8da9e6e",
+    "ofr_v2/app/frontend/src/RoadResults.tsx": "9c34d5e5ee8b5d9034bb3c01ff7dc4311495ae606e977868a55a2bc26a33a7c4",
+    "ofr_v2/app/frontend/src/RouteMap.tsx": "ac31040597caf491ac2ba55cfc95ecfd94699161d7cf7efab517678bb3cb554a",
+    "ofr_v2/app/frontend/src/planValidity.ts": "982cdc65674c98227acc98ff55d31bf478baa6b9b136bd62fb9102e3589e2cff"
+  },
+  "node_tests": {
+    "passed": 9,
+    "failed": 0
+  },
+  "typescript": "passed",
+  "vite_build": "passed; 808.51 kB JS; large chunk and future native config warnings",
+  "browser_checks": [
+    "normal optimization: 16 trips,73.5 percent,57827 USD rounded",
+    "budget change removes result",
+    "reload does not restore result",
+    "outbound and return map toggles; 12 loaded tiles",
+    "restored budget110000,warehouseWodna11,2vehicles"
+  ],
+  "operating_records": 0,
+  "operational_ready": false,
+  "pytest_final": {
+    "tests": "232",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0",
+    "time": "520.236"
+  },
+  "longest_test": {
+    "classname": "REFUGEE_PROJECT.ofr_v2.tests.test_poland_roads",
+    "name": "test_official_address_candidate_joint_routing_scenario[Dorohusk-regions2]",
+    "time": "273.905"
+  }
+}

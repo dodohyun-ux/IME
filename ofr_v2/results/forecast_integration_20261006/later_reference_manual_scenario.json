@@ -1,0 +1,172 @@
+{
+  "input": {
+    "reference_date": "2026-09-28",
+    "hub_inflow": {
+      "medyka": [
+        1963.0,
+        1818.0,
+        2512.0,
+        4013.0,
+        3089.0,
+        2040.0,
+        1984.0,
+        2087.0
+      ],
+      "dorohusk": [
+        1688.0,
+        1489.0,
+        2154.0,
+        4878.0,
+        2142.0,
+        1643.0,
+        1067.0,
+        1168.0
+      ],
+      "korczowa": [
+        1327.0,
+        1204.0,
+        1591.0,
+        2764.0,
+        1940.0,
+        1301.0,
+        1121.0,
+        1158.0
+      ]
+    }
+  },
+  "result": {
+    "week1": 4921,
+    "week2": 4952,
+    "week3": 4955,
+    "week4": 4984,
+    "intervals": [
+      {
+        "low": 3991,
+        "high": 6167
+      },
+      {
+        "low": 3822,
+        "high": 6373
+      },
+      {
+        "low": 3648,
+        "high": 6773
+      },
+      {
+        "low": 3669,
+        "high": 7153
+      }
+    ],
+    "hub_forecast": {
+      "medyka": [
+        2020,
+        2035,
+        2036,
+        2039
+      ],
+      "dorohusk": [
+        1530,
+        1538,
+        1480,
+        1290
+      ],
+      "korczowa": [
+        1371,
+        1379,
+        1439,
+        1655
+      ]
+    },
+    "hub_intervals": {
+      "medyka": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "dorohusk": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "korczowa": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "hub_actual": {
+      "medyka": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "dorohusk": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "korczowa": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "source": "relief_model",
+    "accuracy": null,
+    "warning": "새 예측모델은 최근 주간 유입을 일별 평균으로 변환해 28일을 재귀 예측합니다. 유입 특징은 최근 14일(최근 2주)까지 사용합니다. 현재 UI는 분쟁 정보를 입력하지 않아 번들의 전형적 분쟁 수준을 가정합니다. 실제 미래 예측 정확도는 별도 검증이 필요합니다. 제공 백엔드에 명시된 학습 종료일 2025-05-09 이후의 예측입니다. 학습 기간은 번들 자체에서 독립 확인되지 않았습니다. 80% 구간은 팀이 제공한 총 유입 백테스트 잔차 보정값입니다. 구호소별 구간·새 모델 WAPE는 제공되지 않았습니다.",
+    "input_provenance": {
+      "reference_date": "2026-09-28",
+      "hub_inflow": {
+        "medyka": [
+          1963.0,
+          1818.0,
+          2512.0,
+          4013.0,
+          3089.0,
+          2040.0,
+          1984.0,
+          2087.0
+        ],
+        "dorohusk": [
+          1688.0,
+          1489.0,
+          2154.0,
+          4878.0,
+          2142.0,
+          1643.0,
+          1067.0,
+          1168.0
+        ],
+        "korczowa": [
+          1327.0,
+          1204.0,
+          1591.0,
+          2764.0,
+          1940.0,
+          1301.0,
+          1121.0,
+          1158.0
+        ]
+      },
+      "order": "reference_week_first",
+      "history_weeks": 8,
+      "effective_inflow_history_weeks": 2,
+      "forecast_dates": [
+        "2026-10-05",
+        "2026-10-12",
+        "2026-10-19",
+        "2026-10-26"
+      ],
+      "conflict_mode": "bundle_typical_assumption"
+    },
+    "model_sha256": "87c8953c7bd6abe5406c0513f23243cebdc305771681a33a488b4e17fbb606aa",
+    "forecast_method": "daily recursive 28 days, sum each 7 days"
+  },
+  "synthetic_scenario": "These January observations are reused only to exercise manual-input API at a later date. They are NOT later observed inflows."
+}

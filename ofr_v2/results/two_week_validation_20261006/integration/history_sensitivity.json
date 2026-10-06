@@ -1,0 +1,164 @@
+[
+  {
+    "hub": "medyka",
+    "history_index": 0,
+    "week_label": "reference",
+    "original": 1963.0,
+    "modified": 3926.0,
+    "baseline": [
+      2040,
+      2060,
+      2061,
+      2063
+    ],
+    "modified_forecast": [
+      3468,
+      3354,
+      3226,
+      3202
+    ],
+    "delta": [
+      1428,
+      1294,
+      1165,
+      1139
+    ],
+    "other_hubs_unchanged": true,
+    "seconds": 0.18678159988485277
+  },
+  {
+    "hub": "medyka",
+    "history_index": 1,
+    "week_label": "1_weeks_ago",
+    "original": 1818.0,
+    "modified": 3636.0,
+    "baseline": [
+      2040,
+      2060,
+      2061,
+      2063
+    ],
+    "modified_forecast": [
+      2090,
+      2063,
+      2069,
+      2063
+    ],
+    "delta": [
+      50,
+      3,
+      8,
+      0
+    ],
+    "other_hubs_unchanged": true,
+    "seconds": 0.14746140013448894
+  },
+  {
+    "hub": "dorohusk",
+    "history_index": 0,
+    "week_label": "reference",
+    "original": 1688.0,
+    "modified": 3376.0,
+    "baseline": [
+      1602,
+      1605,
+      1603,
+      1633
+    ],
+    "modified_forecast": [
+      2445,
+      1964,
+      1960,
+      1927
+    ],
+    "delta": [
+      843,
+      359,
+      357,
+      294
+    ],
+    "other_hubs_unchanged": true,
+    "seconds": 0.14838959998451173
+  },
+  {
+    "hub": "dorohusk",
+    "history_index": 1,
+    "week_label": "1_weeks_ago",
+    "original": 1489.0,
+    "modified": 2978.0,
+    "baseline": [
+      1602,
+      1605,
+      1603,
+      1633
+    ],
+    "modified_forecast": [
+      1694,
+      1722,
+      1778,
+      1806
+    ],
+    "delta": [
+      92,
+      117,
+      175,
+      173
+    ],
+    "other_hubs_unchanged": true,
+    "seconds": 0.1495413000229746
+  },
+  {
+    "hub": "korczowa",
+    "history_index": 0,
+    "week_label": "reference",
+    "original": 1327.0,
+    "modified": 2654.0,
+    "baseline": [
+      1364,
+      1366,
+      1365,
+      1364
+    ],
+    "modified_forecast": [
+      2131,
+      1945,
+      1845,
+      1823
+    ],
+    "delta": [
+      767,
+      579,
+      480,
+      459
+    ],
+    "other_hubs_unchanged": true,
+    "seconds": 0.15193380019627512
+  },
+  {
+    "hub": "korczowa",
+    "history_index": 1,
+    "week_label": "1_weeks_ago",
+    "original": 1204.0,
+    "modified": 2408.0,
+    "baseline": [
+      1364,
+      1366,
+      1365,
+      1364
+    ],
+    "modified_forecast": [
+      1364,
+      1462,
+      1672,
+      1777
+    ],
+    "delta": [
+      0,
+      96,
+      307,
+      413
+    ],
+    "other_hubs_unchanged": true,
+    "seconds": 0.14957519993185997
+  }
+]

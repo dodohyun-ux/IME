@@ -1,0 +1,11 @@
+**/node_modules
+**/dist
+**/__pycache__
+**/.venv
+ofr_v2/results
+ofr_v2/docs
+ofr_v2/tests
+ofr_v2/validation
+ofr_v2/examples
+ofr_v2/data/operational_evidence
+scripts

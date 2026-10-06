@@ -1,0 +1,2858 @@
+{
+  "publisher": "GUGiK",
+  "documentation_url": "https://www.geoportal.gov.pl/pl/usluga/uslugi-inspire/",
+  "fetched_at": "2026-10-02T03:11:49.228403+00:00",
+  "regions": {
+    "Medyka": [
+      49.75,
+      22.7,
+      49.9,
+      23.1
+    ],
+    "Korczowa": [
+      49.9,
+      22.7,
+      50.08,
+      23.15
+    ],
+    "Dorohusk": [
+      51.08,
+      23.35,
+      51.25,
+      23.88
+    ],
+    "DorohuskCorridor": [
+      50.015,
+      22.5,
+      51.205,
+      23.65
+    ]
+  },
+  "errors": [
+    {
+      "region": "DorohuskCorridor",
+      "row": 0,
+      "col": 0,
+      "bounds": [
+        50.015,
+        22.65,
+        50.042500000000004,
+        22.7
+      ],
+      "acquisition_id": "20261002T143146-5",
+      "error": "TimeoutError: The read operation timed out"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 8,
+      "col": 1,
+      "bounds": [
+        50.55,
+        23.5,
+        50.5775,
+        23.55
+      ],
+      "acquisition_id": "20261002T143146-25",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 10,
+      "col": 0,
+      "bounds": [
+        50.697500000000005,
+        23.17,
+        50.725,
+        23.22
+      ],
+      "acquisition_id": "20261002T143146-38",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 10,
+      "col": 0,
+      "bounds": [
+        50.697500000000005,
+        23.22,
+        50.725,
+        23.27
+      ],
+      "acquisition_id": "20261002T143146-39",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 11,
+      "col": 1,
+      "bounds": [
+        50.675,
+        23.25,
+        50.7025,
+        23.3
+      ],
+      "acquisition_id": "20261002T143146-40",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 11,
+      "col": 1,
+      "bounds": [
+        50.675,
+        23.3,
+        50.7025,
+        23.35
+      ],
+      "acquisition_id": "20261002T143146-41",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 10,
+      "col": 0,
+      "bounds": [
+        50.6425,
+        23.12,
+        50.67,
+        23.17
+      ],
+      "acquisition_id": "20261002T143146-31",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 11,
+      "col": 1,
+      "bounds": [
+        50.7025,
+        23.25,
+        50.73,
+        23.3
+      ],
+      "acquisition_id": "20261002T143146-42",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 11,
+      "col": 1,
+      "bounds": [
+        50.7025,
+        23.3,
+        50.73,
+        23.35
+      ],
+      "acquisition_id": "20261002T143146-43",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 11,
+      "col": 1,
+      "bounds": [
+        50.675,
+        23.35,
+        50.7025,
+        23.4
+      ],
+      "acquisition_id": "20261002T143146-44",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 11,
+      "col": 1,
+      "bounds": [
+        50.7025,
+        23.35,
+        50.73,
+        23.4
+      ],
+      "acquisition_id": "20261002T143146-46",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 11,
+      "col": 1,
+      "bounds": [
+        50.675,
+        23.4,
+        50.7025,
+        23.45
+      ],
+      "acquisition_id": "20261002T143146-45",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 11,
+      "col": 1,
+      "bounds": [
+        50.7025,
+        23.4,
+        50.73,
+        23.45
+      ],
+      "acquisition_id": "20261002T143146-47",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 11,
+      "col": 0,
+      "bounds": [
+        50.675,
+        23.15,
+        50.7025,
+        23.2
+      ],
+      "acquisition_id": "20261002T143146-48",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 11,
+      "col": 0,
+      "bounds": [
+        50.675,
+        23.2,
+        50.7025,
+        23.25
+      ],
+      "acquisition_id": "20261002T143146-49",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 11,
+      "col": 0,
+      "bounds": [
+        50.7025,
+        23.15,
+        50.73,
+        23.2
+      ],
+      "acquisition_id": "20261002T143146-50",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 11,
+      "col": 0,
+      "bounds": [
+        50.73,
+        23.1,
+        50.75749999999999,
+        23.15
+      ],
+      "acquisition_id": "20261002T143146-53",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 11,
+      "col": 0,
+      "bounds": [
+        50.73,
+        23.05,
+        50.75749999999999,
+        23.1
+      ],
+      "acquisition_id": "20261002T143146-52",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 11,
+      "col": 0,
+      "bounds": [
+        50.7025,
+        23.2,
+        50.73,
+        23.25
+      ],
+      "acquisition_id": "20261002T143146-51",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 11,
+      "col": 0,
+      "bounds": [
+        50.75749999999999,
+        23.1,
+        50.785,
+        23.15
+      ],
+      "acquisition_id": "20261002T143146-55",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 11,
+      "col": 0,
+      "bounds": [
+        50.75749999999999,
+        23.05,
+        50.785,
+        23.1
+      ],
+      "acquisition_id": "20261002T143146-54",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 11,
+      "col": 0,
+      "bounds": [
+        50.73,
+        23.15,
+        50.75749999999999,
+        23.2
+      ],
+      "acquisition_id": "20261002T143146-56",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 11,
+      "col": 0,
+      "bounds": [
+        50.75749999999999,
+        23.15,
+        50.785,
+        23.2
+      ],
+      "acquisition_id": "20261002T143146-58",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 11,
+      "col": 0,
+      "bounds": [
+        50.75749999999999,
+        23.2,
+        50.785,
+        23.25
+      ],
+      "acquisition_id": "20261002T143146-59",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 11,
+      "col": 0,
+      "bounds": [
+        50.73,
+        23.2,
+        50.75749999999999,
+        23.25
+      ],
+      "acquisition_id": "20261002T143146-57",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 9,
+      "col": 1,
+      "bounds": [
+        50.555,
+        23.29,
+        50.582499999999996,
+        23.34
+      ],
+      "acquisition_id": "20261002T143146-60",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 9,
+      "col": 1,
+      "bounds": [
+        50.582499999999996,
+        23.29,
+        50.61,
+        23.34
+      ],
+      "acquisition_id": "20261002T143146-62",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 9,
+      "col": 1,
+      "bounds": [
+        50.555,
+        23.34,
+        50.582499999999996,
+        23.39
+      ],
+      "acquisition_id": "20261002T143146-61",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 9,
+      "col": 1,
+      "bounds": [
+        50.582499999999996,
+        23.34,
+        50.61,
+        23.39
+      ],
+      "acquisition_id": "20261002T143146-63",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 12,
+      "col": 0,
+      "bounds": [
+        50.735,
+        23.18,
+        50.7625,
+        23.23
+      ],
+      "acquisition_id": "20261002T143146-81",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 12,
+      "col": 0,
+      "bounds": [
+        50.7625,
+        23.130000000000003,
+        50.79,
+        23.18
+      ],
+      "acquisition_id": "20261002T143146-82",
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 9,
+      "col": 1,
+      "bounds": [
+        50.555,
+        23.39,
+        50.582499999999996,
+        23.439999999999998
+      ],
+      "acquisition_id": "20261002T143146-64",
+      "error": "TimeoutError: The read operation timed out"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 12,
+      "col": 0,
+      "bounds": [
+        50.7625,
+        23.18,
+        50.79,
+        23.23
+      ],
+      "acquisition_id": "20261002T143146-83",
+      "error": "TimeoutError: The read operation timed out"
+    },
+    {
+      "region": "DorohuskCorridor",
+      "row": 12,
+      "col": 0,
+      "bounds": [
+        50.79,
+        23.080000000000002,
+        50.817499999999995,
+        23.130000000000003
+      ],
+      "acquisition_id": "20261002T143146-85",
+      "error": "TimeoutError: The read operation timed out"
+    }
+  ],
+  "documents": [
+    {
+      "name": "capabilities.xml",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetCapabilities&version=1.1.0",
+      "bytes": 45340,
+      "sha256": "8ca7e3a5e028bc10ef2157901aefb3fd38e10e658fde4d8ad18ebce90939a77b"
+    },
+    {
+      "name": "Medyka-0-2.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.750000%2C22.966667%2C49.800000%2C23.100000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.750000,22.966667,49.800000,23.100000,urn:ogc:def:crs:EPSG::4326",
+      "count": 0,
+      "bytes": 1394,
+      "sha256": "618b30119b2d65c80a98c8359a4f26d1f0da66002e6dcde01b346ec6f0ce5b2f"
+    },
+    {
+      "name": "Medyka-1-0.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.800000%2C22.700000%2C49.850000%2C22.833333%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.800000,22.700000,49.850000,22.833333,urn:ogc:def:crs:EPSG::4326",
+      "count": 2764,
+      "bytes": 3897103,
+      "sha256": "616e97ad38c04045c305dd43bd6cc781101e2663953cfb181fdc6dd5f44e92f7"
+    },
+    {
+      "name": "Medyka-1-1.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.800000%2C22.833333%2C49.850000%2C22.966667%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.800000,22.833333,49.850000,22.966667,urn:ogc:def:crs:EPSG::4326",
+      "count": 1541,
+      "bytes": 2301422,
+      "sha256": "6fab658036449a0df596ca36140cdfe2ff0267cffcf993975b84cb54479e29d5"
+    },
+    {
+      "name": "Medyka-1-2.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.800000%2C22.966667%2C49.850000%2C23.100000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.800000,22.966667,49.850000,23.100000,urn:ogc:def:crs:EPSG::4326",
+      "count": 8,
+      "bytes": 29895,
+      "sha256": "7f00adf1e839d96afac863f356f79e3b03d1f61b3bcd97238bced32e888b4dd2"
+    },
+    {
+      "name": "Medyka-2-1.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.850000%2C22.833333%2C49.900000%2C22.966667%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.850000,22.833333,49.900000,22.966667,urn:ogc:def:crs:EPSG::4326",
+      "count": 1119,
+      "bytes": 1725520,
+      "sha256": "9423caa5b5c02aaac35aeab5edf66d5e59994d1925487b9fd71ce19a3e0b55e0"
+    },
+    {
+      "name": "Medyka-2-2.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.850000%2C22.966667%2C49.900000%2C23.100000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.850000,22.966667,49.900000,23.100000,urn:ogc:def:crs:EPSG::4326",
+      "count": 234,
+      "bytes": 414552,
+      "sha256": "58967c2f83247d2eb0a4d746b699a789025b17c68864f65784dc2717adb02dc3"
+    },
+    {
+      "name": "Korczowa-0-0.gml",
+      "region": "Korczowa",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.900000%2C22.700000%2C49.960000%2C22.850000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.900000,22.700000,49.960000,22.850000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1918,
+      "bytes": 2853971,
+      "sha256": "93c70aee3dfdb2734eef3370655976516e2892794d766a4541f08e68a49a8725"
+    },
+    {
+      "name": "Korczowa-0-2.gml",
+      "region": "Korczowa",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.900000%2C23.000000%2C49.960000%2C23.150000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.900000,23.000000,49.960000,23.150000,urn:ogc:def:crs:EPSG::4326",
+      "count": 833,
+      "bytes": 1326658,
+      "sha256": "0a1fb925ed7e01e7051bcde9ee223fcddf0ea218333fb30bc6c6c261b56452dc"
+    },
+    {
+      "name": "Korczowa-1-0.gml",
+      "region": "Korczowa",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.960000%2C22.700000%2C50.020000%2C22.850000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.960000,22.700000,50.020000,22.850000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1811,
+      "bytes": 2703439,
+      "sha256": "1aefc39c0839ceb25b26a1a829f1c1249367a6d3e7fabd430d0b55207fc64230"
+    },
+    {
+      "name": "Korczowa-1-2.gml",
+      "region": "Korczowa",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.960000%2C23.000000%2C50.020000%2C23.150000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.960000,23.000000,50.020000,23.150000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1040,
+      "bytes": 1554935,
+      "sha256": "68c83c730b6570fd7e90919f929be3ce82a2acb953e3b32b8d41a831c11697a7"
+    },
+    {
+      "name": "Korczowa-2-0.gml",
+      "region": "Korczowa",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.020000%2C22.700000%2C50.080000%2C22.850000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.020000,22.700000,50.080000,22.850000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1892,
+      "bytes": 2753667,
+      "sha256": "897a8c14a4645898013d7cb026f1dc6883e1047902b0bcc3232894377c83635e"
+    },
+    {
+      "name": "Korczowa-2-1.gml",
+      "region": "Korczowa",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.020000%2C22.850000%2C50.080000%2C23.000000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.020000,22.850000,50.080000,23.000000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1354,
+      "bytes": 2026407,
+      "sha256": "d485ecded49b13d7c8291e265629462759d6ab04992e347daf21030e60c22915"
+    },
+    {
+      "name": "Dorohusk-0-0.gml",
+      "region": "Dorohusk",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.080000%2C23.350000%2C51.136667%2C23.482500%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.080000,23.350000,51.136667,23.482500,urn:ogc:def:crs:EPSG::4326",
+      "count": 2684,
+      "bytes": 3596048,
+      "sha256": "6beb940828e704944ef1876a82acc1f4e356a1e9fe2ac4cce439ebe8a2577b2c"
+    },
+    {
+      "name": "Dorohusk-0-1.gml",
+      "region": "Dorohusk",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.080000%2C23.482500%2C51.136667%2C23.615000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.080000,23.482500,51.136667,23.615000,urn:ogc:def:crs:EPSG::4326",
+      "count": 2046,
+      "bytes": 2894731,
+      "sha256": "329b88bbab4147076d5d4bc7c59e51088a81e290a7f0b88614d2bcdfd0a19a76"
+    },
+    {
+      "name": "Dorohusk-0-2.gml",
+      "region": "Dorohusk",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.080000%2C23.615000%2C51.136667%2C23.747500%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.080000,23.615000,51.136667,23.747500,urn:ogc:def:crs:EPSG::4326",
+      "count": 934,
+      "bytes": 1421005,
+      "sha256": "60fffb5a17e1e3af87a00a649081942b7b5ea3d452ecdea12dec7b543661f69d"
+    },
+    {
+      "name": "Dorohusk-0-3.gml",
+      "region": "Dorohusk",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.080000%2C23.747500%2C51.136667%2C23.880000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.080000,23.747500,51.136667,23.880000,urn:ogc:def:crs:EPSG::4326",
+      "count": 678,
+      "bytes": 1054745,
+      "sha256": "7ce72d7e8eb53bce6213d0ecd678784cc84a83ce60c99c8c033155960fc3345e"
+    },
+    {
+      "name": "Dorohusk-1-0.gml",
+      "region": "Dorohusk",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.136667%2C23.350000%2C51.193333%2C23.482500%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.136667,23.350000,51.193333,23.482500,urn:ogc:def:crs:EPSG::4326",
+      "count": 2923,
+      "bytes": 3877957,
+      "sha256": "93b1bc4c8eac4b802e52000cb7f03c66b8b90c6aafa2e25afc42828d4d2c0ea3"
+    },
+    {
+      "name": "Dorohusk-1-2.gml",
+      "region": "Dorohusk",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.136667%2C23.615000%2C51.193333%2C23.747500%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.136667,23.615000,51.193333,23.747500,urn:ogc:def:crs:EPSG::4326",
+      "count": 906,
+      "bytes": 1395956,
+      "sha256": "e1c0144a681bd219bd85ee06bf2a5cd0e1772e5c68cd7f1148a038266ebdd330"
+    },
+    {
+      "name": "Dorohusk-1-3.gml",
+      "region": "Dorohusk",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.136667%2C23.747500%2C51.193333%2C23.880000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.136667,23.747500,51.193333,23.880000,urn:ogc:def:crs:EPSG::4326",
+      "count": 740,
+      "bytes": 1129429,
+      "sha256": "669136f16e550d47b3c6701ac8d1dbd1c167a8749643888884e0af2be3559b66"
+    },
+    {
+      "name": "Dorohusk-2-0.gml",
+      "region": "Dorohusk",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.193333%2C23.350000%2C51.250000%2C23.482500%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.193333,23.350000,51.250000,23.482500,urn:ogc:def:crs:EPSG::4326",
+      "count": 923,
+      "bytes": 1430458,
+      "sha256": "a08af113fa367bbc124334df1bc7ed91a51e26f58d718c2725c15b7edc078738"
+    },
+    {
+      "name": "Dorohusk-2-2.gml",
+      "region": "Dorohusk",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.193333%2C23.615000%2C51.250000%2C23.747500%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.193333,23.615000,51.250000,23.747500,urn:ogc:def:crs:EPSG::4326",
+      "count": 1088,
+      "bytes": 1617773,
+      "sha256": "44fd68d1812f52c2332bd68d56f3589a22aaf4f98f0d785373b1a2d23d678d3b"
+    },
+    {
+      "name": "Dorohusk-2-3.gml",
+      "region": "Dorohusk",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.193333%2C23.747500%2C51.250000%2C23.880000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.193333,23.747500,51.250000,23.880000,urn:ogc:def:crs:EPSG::4326",
+      "count": 47,
+      "bytes": 91641,
+      "sha256": "619ffbb87241c616ed21f73270afa04a6b9a17788cc34ebcc622df02ddeac1fa"
+    },
+    {
+      "name": "addresses.json",
+      "url": "https://services.gugik.gov.pl/uug/",
+      "bytes": 6719,
+      "sha256": "fa6d4c1d57a7fc3681531475f26547fe3a139fc769d3387e3a47935bcb1522dc",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "RoadLink.gml",
+      "region": "Medyka",
+      "count": 2040,
+      "sha256": "2e4ea038990199ba71a504b0c2f820b50e6822018d3312c84d65f5b4da52fe72",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.75%2C22.85%2C49.85%2C23.00%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "retrieved_at": "2026-10-02T02:36:12.014920Z"
+    },
+    {
+      "name": "Medyka-0-0-retry-20261002T032808-0-0.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.750000%2C22.700000%2C49.775000%2C22.766667%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.750000,22.700000,49.775000,22.766667,urn:ogc:def:crs:EPSG::4326",
+      "count": 493,
+      "bytes": 779991,
+      "sha256": "6fafbfe4d27bb03bd03425bb1fb678ffe31c778f4d962dec7e03a7016155cea9",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "Medyka-0-0-retry-20261002T032808-0-1.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.750000%2C22.766667%2C49.775000%2C22.833333%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.750000,22.766667,49.775000,22.833333,urn:ogc:def:crs:EPSG::4326",
+      "count": 1140,
+      "bytes": 1552720,
+      "sha256": "115f34500aafc06645aa979180cf3d09190f54d9f2e93f87d268f5b3eb1bdfd0",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "Medyka-0-0-retry-20261002T032808-1-0.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.775000%2C22.700000%2C49.800000%2C22.766667%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.775000,22.700000,49.800000,22.766667,urn:ogc:def:crs:EPSG::4326",
+      "count": 1595,
+      "bytes": 2146062,
+      "sha256": "8e81c5f382cb5eedd0cf244f4424cbecc21445185e8dfdf53aad527474dbbd98",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "Medyka-0-1-retry-20261002T032808-1-0.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.775000%2C22.833333%2C49.800000%2C22.900000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.775000,22.833333,49.800000,22.900000,urn:ogc:def:crs:EPSG::4326",
+      "count": 544,
+      "bytes": 773425,
+      "sha256": "03cb32a2a944b146be25e36103099b63900740ed77be1af46ea43fdd1138fe0e",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "Medyka-0-1-retry-20261002T032808-1-1.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.775000%2C22.900000%2C49.800000%2C22.966667%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.775000,22.900000,49.800000,22.966667,urn:ogc:def:crs:EPSG::4326",
+      "count": 140,
+      "bytes": 216238,
+      "sha256": "99bbdefad54db26318ce4f5c226c63bbd7240b510fdcd2e067c2de4140acc5f1",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "Medyka-2-0-retry-20261002T032808-0-0.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.850000%2C22.700000%2C49.875000%2C22.766667%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.850000,22.700000,49.875000,22.766667,urn:ogc:def:crs:EPSG::4326",
+      "count": 316,
+      "bytes": 482516,
+      "sha256": "cda50d58e452f8f70229cfc71f6aa064965b6d9edaae839d9399f1544d922730",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "Medyka-2-0-retry-20261002T032808-1-0.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.875000%2C22.700000%2C49.900000%2C22.766667%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.875000,22.700000,49.900000,22.766667,urn:ogc:def:crs:EPSG::4326",
+      "count": 386,
+      "bytes": 608060,
+      "sha256": "c02d18f31663a1e283c662b5f9c3f0c6d5a4e378b99c9036c1100c93ce5f44e9",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "Medyka-2-0-retry-20261002T032808-1-1.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.875000%2C22.766667%2C49.900000%2C22.833333%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.875000,22.766667,49.900000,22.833333,urn:ogc:def:crs:EPSG::4326",
+      "count": 275,
+      "bytes": 417578,
+      "sha256": "9f5709d467e905e07f4a509327b9306896dc4b51f8a15b9e8cc41e9e5db45018",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "Korczowa-0-1-retry-20261002T032808-0-0.gml",
+      "region": "Korczowa",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.900000%2C22.850000%2C49.930000%2C22.925000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.900000,22.850000,49.930000,22.925000,urn:ogc:def:crs:EPSG::4326",
+      "count": 385,
+      "bytes": 572638,
+      "sha256": "7f5caadd17f6e55b190e671e793646bc0d5a0339fa8906ccd831f441a02062a7",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "Korczowa-0-1-retry-20261002T032808-0-1.gml",
+      "region": "Korczowa",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.900000%2C22.925000%2C49.930000%2C23.000000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.900000,22.925000,49.930000,23.000000,urn:ogc:def:crs:EPSG::4326",
+      "count": 174,
+      "bytes": 301806,
+      "sha256": "cec1904ff11c18ca068fa282e639b1c46678b0e2a798e8360a51784597cc320f",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "Korczowa-0-1-retry-20261002T032808-1-0.gml",
+      "region": "Korczowa",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.930000%2C22.850000%2C49.960000%2C22.925000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.930000,22.850000,49.960000,22.925000,urn:ogc:def:crs:EPSG::4326",
+      "count": 278,
+      "bytes": 433611,
+      "sha256": "8591f0e8ae49185e17664b39070b16d90b33d0e076b3e23b8ad68c03a96df81c",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "Korczowa-0-1-retry-20261002T032808-1-1.gml",
+      "region": "Korczowa",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.930000%2C22.925000%2C49.960000%2C23.000000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.930000,22.925000,49.960000,23.000000,urn:ogc:def:crs:EPSG::4326",
+      "count": 376,
+      "bytes": 546388,
+      "sha256": "8a4f477af347c782eeee4e824feb39f86404aec78120fd2ac165977d0027314f",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "Korczowa-1-1-retry-20261002T032808-0-0.gml",
+      "region": "Korczowa",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.960000%2C22.850000%2C49.990000%2C22.925000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.960000,22.850000,49.990000,22.925000,urn:ogc:def:crs:EPSG::4326",
+      "count": 268,
+      "bytes": 446997,
+      "sha256": "d4f4b888e1baeca019120b71b90132e3afd78d7842d2ca2a0882c49e41acbf7a",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "Korczowa-1-1-retry-20261002T032808-1-1.gml",
+      "region": "Korczowa",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.990000%2C22.925000%2C50.020000%2C23.000000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.990000,22.925000,50.020000,23.000000,urn:ogc:def:crs:EPSG::4326",
+      "count": 221,
+      "bytes": 380524,
+      "sha256": "18843afa6fddd4f41c42c5fc978344d6a7d504cbfab80b0b68634ceb6b8dba2e",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "Korczowa-2-2-retry-20261002T032808-0-0.gml",
+      "region": "Korczowa",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.020000%2C23.000000%2C50.050000%2C23.075000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.020000,23.000000,50.050000,23.075000,urn:ogc:def:crs:EPSG::4326",
+      "count": 211,
+      "bytes": 336860,
+      "sha256": "8073f07380b1a0d3f5843d2ab1c09688375389b257601e1bb589ffbfe13ffd4d",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "Korczowa-2-2-retry-20261002T032808-0-1.gml",
+      "region": "Korczowa",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.020000%2C23.075000%2C50.050000%2C23.150000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.020000,23.075000,50.050000,23.150000,urn:ogc:def:crs:EPSG::4326",
+      "count": 352,
+      "bytes": 523639,
+      "sha256": "ea5f2eb90621fad1b3eac7915be5b87f310b8329ea331598cbd316770bd00a1e",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "Korczowa-2-2-retry-20261002T032808-1-0.gml",
+      "region": "Korczowa",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.050000%2C23.000000%2C50.080000%2C23.075000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.050000,23.000000,50.080000,23.075000,urn:ogc:def:crs:EPSG::4326",
+      "count": 287,
+      "bytes": 462389,
+      "sha256": "e9200a5b5e25521e2ba72ea8ee5d536f0653a0b54cef5e0a5e9859e71113737f",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "Korczowa-2-2-retry-20261002T032808-1-1.gml",
+      "region": "Korczowa",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.050000%2C23.075000%2C50.080000%2C23.150000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.050000,23.075000,50.080000,23.150000,urn:ogc:def:crs:EPSG::4326",
+      "count": 468,
+      "bytes": 704291,
+      "sha256": "36495347fd6132f3463871e8cd92ca1ec07b0d1d08ac1ebb8712b59cdbf77820",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "Dorohusk-1-1-retry-20261002T032808-0-0.gml",
+      "region": "Dorohusk",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.136667%2C23.482500%2C51.165000%2C23.548750%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.136667,23.482500,51.165000,23.548750,urn:ogc:def:crs:EPSG::4326",
+      "count": 1215,
+      "bytes": 1620350,
+      "sha256": "6861842c5bde8eae0260a1a62b91cfc63037cdbaec12b16fd0426b1406dbf7fe",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "Dorohusk-1-1-retry-20261002T032808-0-1.gml",
+      "region": "Dorohusk",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.136667%2C23.548750%2C51.165000%2C23.615000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.136667,23.548750,51.165000,23.615000,urn:ogc:def:crs:EPSG::4326",
+      "count": 375,
+      "bytes": 577169,
+      "sha256": "8337484a992a215abd2393c95110f96bf2ab03237d316ed58147db3a05a48079",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "Dorohusk-1-1-retry-20261002T032808-1-0.gml",
+      "region": "Dorohusk",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.165000%2C23.482500%2C51.193333%2C23.548750%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.165000,23.482500,51.193333,23.548750,urn:ogc:def:crs:EPSG::4326",
+      "count": 339,
+      "bytes": 502479,
+      "sha256": "bfda19f8bb03eae756c8119884a6708e92cb0f34f615e44095767996f873496e",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "Dorohusk-1-1-retry-20261002T032808-1-1.gml",
+      "region": "Dorohusk",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.165000%2C23.548750%2C51.193333%2C23.615000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.165000,23.548750,51.193333,23.615000,urn:ogc:def:crs:EPSG::4326",
+      "count": 196,
+      "bytes": 329106,
+      "sha256": "3bab47633ee4c29fdb5a09d50e0ef23d09b4452ae99d1a36f5637e4ee223bdec",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "Dorohusk-2-1-retry-20261002T032808-0-0.gml",
+      "region": "Dorohusk",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.193333%2C23.482500%2C51.221667%2C23.548750%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.193333,23.482500,51.221667,23.548750,urn:ogc:def:crs:EPSG::4326",
+      "count": 223,
+      "bytes": 341179,
+      "sha256": "cf46248d59bde2c8dbf57e07c76d78e881f54238c334b92a30a6d286744c6d06",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "Dorohusk-2-1-retry-20261002T032808-1-0.gml",
+      "region": "Dorohusk",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.221667%2C23.482500%2C51.250000%2C23.548750%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.221667,23.482500,51.250000,23.548750,urn:ogc:def:crs:EPSG::4326",
+      "count": 127,
+      "bytes": 206923,
+      "sha256": "1ab2b976d0fd66a0b9e9bd4274038ecc5cd32e129da4024ebe8025f361273315",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "Dorohusk-2-1-retry-20261002T032808-1-1.gml",
+      "region": "Dorohusk",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.221667%2C23.548750%2C51.250000%2C23.615000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.221667,23.548750,51.250000,23.615000,urn:ogc:def:crs:EPSG::4326",
+      "count": 447,
+      "bytes": 653200,
+      "sha256": "b3102f6c5e64b01acea8fe6f60c5a2a4191e816af50a2201949f7c1d94f32ba3",
+      "retrieved_at": "2026-10-02T03:28:08.205269+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-1-1-extend-20261002T040700-3.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.075000%2C22.780000%2C50.185000%2C22.980000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.075000,22.780000,50.185000,22.980000,urn:ogc:def:crs:EPSG::4326",
+      "count": 2378,
+      "bytes": 3723008,
+      "sha256": "276e5f0e0292870d1caa3423e72dc9e2604551b24cf66920e02fd0bb8c71e0df",
+      "retrieved_at": "2026-10-02T04:07:16.962414+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-0-1-extend-20261002T040700-1.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.015000%2C22.700000%2C50.125000%2C22.900000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.015000,22.700000,50.125000,22.900000,urn:ogc:def:crs:EPSG::4326",
+      "count": 3446,
+      "bytes": 5147385,
+      "sha256": "5f3261273a1dcb8990230eaa6a3e88d01d3f167ff8103b7157c81043c8d40300",
+      "retrieved_at": "2026-10-02T04:07:21.565278+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-2-0-extend-20261002T040700-4.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.135000%2C22.760000%2C50.245000%2C22.960000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.135000,22.760000,50.245000,22.960000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1972,
+      "bytes": 3176270,
+      "sha256": "a8848db6b5dbb663a1f54b2ca8b6febb8b2bb0a2154b0a137352dba767eec9ee",
+      "retrieved_at": "2026-10-02T04:07:27.775017+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-3-0-extend-20261002T040700-6.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.195000%2C22.900000%2C50.305000%2C23.100000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.195000,22.900000,50.305000,23.100000,urn:ogc:def:crs:EPSG::4326",
+      "count": 2240,
+      "bytes": 3493486,
+      "sha256": "b2ae2f962321e640d1fc4afd0b7aa8fb8cc83fac3e977fcbab27ef50cb025981",
+      "retrieved_at": "2026-10-02T04:07:40.093490+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-3-1-extend-20261002T040700-7.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.195000%2C23.100000%2C50.305000%2C23.300000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.195000,23.100000,50.305000,23.300000,urn:ogc:def:crs:EPSG::4326",
+      "count": 2254,
+      "bytes": 3426389,
+      "sha256": "edf7da3e7852f773b636b724eaae483bb26ab1c1b6ec79e5dceb66a2f0de3939",
+      "retrieved_at": "2026-10-02T04:07:41.874612+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-2-1-extend-20261002T040700-5.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.135000%2C22.960000%2C50.245000%2C23.160000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.135000,22.960000,50.245000,23.160000,urn:ogc:def:crs:EPSG::4326",
+      "count": 3540,
+      "bytes": 5119003,
+      "sha256": "f69b1863312f2be75ebed3ea6c2c6fcbab42c61b8e3c3dbcaf56e1c898e4462a",
+      "retrieved_at": "2026-10-02T04:07:43.615948+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-4-0-extend-20261002T040700-8.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.255000%2C22.980000%2C50.365000%2C23.180000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.255000,22.980000,50.365000,23.180000,urn:ogc:def:crs:EPSG::4326",
+      "count": 2571,
+      "bytes": 3929643,
+      "sha256": "a2bfbeeb51da9630f5b3548155448c89c0765a04f31988797467d2c19a02f3e0",
+      "retrieved_at": "2026-10-02T04:07:53.927779+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-4-1-extend-20261002T040700-9.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.255000%2C23.180000%2C50.365000%2C23.380000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.255000,23.180000,50.365000,23.380000,urn:ogc:def:crs:EPSG::4326",
+      "count": 2763,
+      "bytes": 4295345,
+      "sha256": "395bf8a30eb3ebaa98f72af2279ca5c1ff50d54d464b9232f73b1b1a5ae2d12b",
+      "retrieved_at": "2026-10-02T04:07:56.234491+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-6-1-extend-20261002T040700-13.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.375000%2C23.450000%2C50.485000%2C23.650000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.375000,23.450000,50.485000,23.650000,urn:ogc:def:crs:EPSG::4326",
+      "count": 2803,
+      "bytes": 4277679,
+      "sha256": "73c17b04629adab6391daa3ac8bf100b32ab279ff8fa22849e12065f15fc5515",
+      "retrieved_at": "2026-10-02T04:08:11.256203+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-5-1-extend-20261002T040700-11.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.315000%2C23.350000%2C50.425000%2C23.550000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.315000,23.350000,50.425000,23.550000,urn:ogc:def:crs:EPSG::4326",
+      "count": 4207,
+      "bytes": 6145462,
+      "sha256": "f1ba3879f6fe932171be2aac49fd2016aee37e8caf3b1b88a0dbfcd6866ae81b",
+      "retrieved_at": "2026-10-02T04:08:15.444664+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-9-0-extend-20261002T040700-18.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.555000%2C23.090000%2C50.665000%2C23.290000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.555000,23.090000,50.665000,23.290000,urn:ogc:def:crs:EPSG::4326",
+      "count": 4319,
+      "bytes": 6178157,
+      "sha256": "437126ef101fcfd065f59e89d7b6324a58af5f152ad0665d9d134ccabbb17d66",
+      "retrieved_at": "2026-10-02T04:08:39.664853+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-15-1-extend-20261002T040700-31.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.915000%2C23.270000%2C51.025000%2C23.470000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.915000,23.270000,51.025000,23.470000,urn:ogc:def:crs:EPSG::4326",
+      "count": 3297,
+      "bytes": 4955219,
+      "sha256": "e3d676d23510dfb4af796c9e1104fef5bfb4ddd63e35c60944ad7a0cb2c23066",
+      "retrieved_at": "2026-10-02T04:09:14.340213+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-14-0-extend-20261002T040700-28.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.855000%2C23.030000%2C50.965000%2C23.230000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.855000,23.030000,50.965000,23.230000,urn:ogc:def:crs:EPSG::4326",
+      "count": 4531,
+      "bytes": 6806210,
+      "sha256": "a1bba0e34e1eadc987136a31159ebcee6f7c3d633d4f958266c02b5f5ffb6040",
+      "retrieved_at": "2026-10-02T04:09:20.000480+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-15-0-extend-20261002T040700-30.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.915000%2C23.070000%2C51.025000%2C23.270000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.915000,23.070000,51.025000,23.270000,urn:ogc:def:crs:EPSG::4326",
+      "count": 4894,
+      "bytes": 7141663,
+      "sha256": "5396fe521cd1750b9aafa7e4741c59579098ae0b5166fcb2e1b31ecd15fac192",
+      "retrieved_at": "2026-10-02T04:09:21.584659+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-16-0-extend-20261002T040700-32.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.975000%2C23.170000%2C51.085000%2C23.370000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.975000,23.170000,51.085000,23.370000,urn:ogc:def:crs:EPSG::4326",
+      "count": 3646,
+      "bytes": 5394120,
+      "sha256": "d5c0ba447fd89704435abe69cf847d7b6c5619935e74199657a28faebe6bb913",
+      "retrieved_at": "2026-10-02T04:09:32.382509+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-16-1-extend-20261002T040700-33.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.975000%2C23.370000%2C51.085000%2C23.570000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.975000,23.370000,51.085000,23.570000,urn:ogc:def:crs:EPSG::4326",
+      "count": 3328,
+      "bytes": 4995043,
+      "sha256": "36f2c49acabd3211bcb624e71c7ee458805abbcef8f00ea906c3a56df181f1bd",
+      "retrieved_at": "2026-10-02T04:09:37.064330+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-17-0-extend-20261002T040700-34.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.035000%2C23.250000%2C51.145000%2C23.450000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.035000,23.250000,51.145000,23.450000,urn:ogc:def:crs:EPSG::4326",
+      "count": 3874,
+      "bytes": 5514661,
+      "sha256": "da40be540a65be9a48d1e1cf2876d3f7c88f6f3fb66b6b28cfb9744e869b7706",
+      "retrieved_at": "2026-10-02T04:09:39.846850+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-18-0-extend-20261002T040700-36.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.095000%2C23.250000%2C51.205000%2C23.450000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.095000,23.250000,51.205000,23.450000,urn:ogc:def:crs:EPSG::4326",
+      "count": 4393,
+      "bytes": 6043292,
+      "sha256": "fc190a322baf3512193c4217f7fa335d68408136903458cba10954d5cbafbba1",
+      "retrieved_at": "2026-10-02T04:10:01.613859+00:00"
+    },
+    {
+      "name": "Dorohusk-2-1-extend-20261002T040700-44.gml",
+      "region": "Dorohusk",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.193333%2C23.548750%2C51.221667%2C23.615000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.193333,23.548750,51.221667,23.615000,urn:ogc:def:crs:EPSG::4326",
+      "count": 248,
+      "bytes": 378709,
+      "sha256": "858a58108c507fc7359db5b2118b644cf2f09b75832118e98b7752e4d9fc62a5",
+      "retrieved_at": "2026-10-02T04:10:05.745949+00:00"
+    },
+    {
+      "name": "Korczowa-1-1-extend-20261002T040700-42.gml",
+      "region": "Korczowa",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.960000%2C22.925000%2C49.990000%2C23.000000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.960000,22.925000,49.990000,23.000000,urn:ogc:def:crs:EPSG::4326",
+      "count": 242,
+      "bytes": 400807,
+      "sha256": "d581d532ee9b6cfaf890605c45fe1acb6a1eae7000d71e43b72dd77110ebc2d9",
+      "retrieved_at": "2026-10-02T04:10:08.071363+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-0-0-extend-20261002T041628-2.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.070000%2C22.500000%2C50.125000%2C22.600000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.070000,22.500000,50.125000,22.600000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1105,
+      "bytes": 1802746,
+      "sha256": "49aa9cf47ebee8e01ec16b5722a143c06736738c3f5cdeb78c84bb64a2d873fb",
+      "retrieved_at": "2026-10-02T04:16:35.820534+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-0-0-extend-20261002T041628-3.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.070000%2C22.600000%2C50.125000%2C22.700000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.070000,22.600000,50.125000,22.700000,urn:ogc:def:crs:EPSG::4326",
+      "count": 982,
+      "bytes": 1620556,
+      "sha256": "d14f8b7b5fbc7c06c51fa5e4f820d9ddda58b84ad0de1196a8e6c86035590993",
+      "retrieved_at": "2026-10-02T04:16:40.248360+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-1-0-extend-20261002T041628-4.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.075000%2C22.580000%2C50.130000%2C22.680000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.075000,22.580000,50.130000,22.680000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1025,
+      "bytes": 1676590,
+      "sha256": "e83fa4e81810fa36de92996220c4ac9e62f6c0e40d6a45c66ed3cf399e51a1f5",
+      "retrieved_at": "2026-10-02T04:16:44.752970+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-1-0-extend-20261002T041628-5.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.075000%2C22.680000%2C50.130000%2C22.780000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.075000,22.680000,50.130000,22.780000,urn:ogc:def:crs:EPSG::4326",
+      "count": 732,
+      "bytes": 1156738,
+      "sha256": "1236053f2aa90c65a3261572b2f9dfd4f8cfa0680ae7d88ecab3030acfc858d4",
+      "retrieved_at": "2026-10-02T04:16:47.854316+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-5-0-extend-20261002T041628-8.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.315000%2C23.150000%2C50.370000%2C23.250000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.315000,23.150000,50.370000,23.250000,urn:ogc:def:crs:EPSG::4326",
+      "count": 614,
+      "bytes": 957412,
+      "sha256": "eb8271f15391931655c43e082d5a6775c57e51e12681f33a81da412931afad28",
+      "retrieved_at": "2026-10-02T04:16:50.786828+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-1-0-extend-20261002T041628-7.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.130000%2C22.680000%2C50.185000%2C22.780000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.130000,22.680000,50.185000,22.780000,urn:ogc:def:crs:EPSG::4326",
+      "count": 935,
+      "bytes": 1407259,
+      "sha256": "c745f92b2aad8503b02d637303d7a716c186cade9259c0f823de6e8d86e9fd7b",
+      "retrieved_at": "2026-10-02T04:16:50.809726+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-5-0-extend-20261002T041628-9.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.315000%2C23.250000%2C50.370000%2C23.350000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.315000,23.250000,50.370000,23.350000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1085,
+      "bytes": 1663506,
+      "sha256": "18f5d0c692ea3fea445fa21cfa5dcd51c06ea797fafcad848d2c1432829643df",
+      "retrieved_at": "2026-10-02T04:16:55.735882+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-5-0-extend-20261002T041628-10.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.370000%2C23.150000%2C50.425000%2C23.250000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.370000,23.150000,50.425000,23.250000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1722,
+      "bytes": 2386753,
+      "sha256": "54f6c40fd328f7435d22af34cc22116657dcaac497cfbe8fdefdb2ff9086fcbf",
+      "retrieved_at": "2026-10-02T04:16:57.740825+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-7-0-extend-20261002T041628-12.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.435000%2C23.220000%2C50.490000%2C23.320000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.435000,23.220000,50.490000,23.320000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1504,
+      "bytes": 2128867,
+      "sha256": "cd29a6fee4ed8bbdca9a0aab77634bb76ea55debca333eb05d94f58e5103925b",
+      "retrieved_at": "2026-10-02T04:17:03.261120+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-1-0-extend-20261002T041628-6.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.130000%2C22.580000%2C50.185000%2C22.680000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.130000,22.580000,50.185000,22.680000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1053,
+      "bytes": 1653045,
+      "sha256": "f69a9a73dbc34935847a6d46c9b790b42f89ce1c44aaec7417da867523c7d8b2",
+      "retrieved_at": "2026-10-02T04:17:08.742431+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-7-0-extend-20261002T041628-13.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.435000%2C23.320000%2C50.490000%2C23.420000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.435000,23.320000,50.490000,23.420000,urn:ogc:def:crs:EPSG::4326",
+      "count": 2085,
+      "bytes": 2839037,
+      "sha256": "11d4af6e814f6c39a10472257f8064190f567756808810c5f4116b0d59e9cb04",
+      "retrieved_at": "2026-10-02T04:17:10.868813+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-7-0-extend-20261002T041628-15.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.490000%2C23.320000%2C50.545000%2C23.420000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.490000,23.320000,50.545000,23.420000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1017,
+      "bytes": 1434201,
+      "sha256": "6fa9c231f28cd86a0e91c39acd7e2d06a41a6f3659e3283cbd57c0fa1f1d166f",
+      "retrieved_at": "2026-10-02T04:17:14.901041+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-7-0-extend-20261002T041628-14.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.490000%2C23.220000%2C50.545000%2C23.320000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.490000,23.220000,50.545000,23.320000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1801,
+      "bytes": 2597515,
+      "sha256": "08e04c044b710c65bd3cfe6f44ce61b691ac3245ccd3e0d8da175adedeb909b5",
+      "retrieved_at": "2026-10-02T04:17:15.383108+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-5-0-extend-20261002T041628-11.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.370000%2C23.250000%2C50.425000%2C23.350000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.370000,23.250000,50.425000,23.350000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1368,
+      "bytes": 1939601,
+      "sha256": "64d564e0d1aadf93a8699ada60b4ec34e4884328c5037f481c0aa879a5b12a4b",
+      "retrieved_at": "2026-10-02T04:17:18.181616+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-7-1-extend-20261002T041628-17.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.435000%2C23.520000%2C50.490000%2C23.620000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.435000,23.520000,50.490000,23.620000,urn:ogc:def:crs:EPSG::4326",
+      "count": 823,
+      "bytes": 1286642,
+      "sha256": "7ab1ed050dd94fd9cc26695a92daa3bd0a8e86923e1d17d65114ac20721bf730",
+      "retrieved_at": "2026-10-02T04:17:18.939631+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-7-1-extend-20261002T041628-16.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.435000%2C23.420000%2C50.490000%2C23.520000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.435000,23.420000,50.490000,23.520000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1276,
+      "bytes": 1833425,
+      "sha256": "4640a908334fa9169dc719a4c15f6c03baf8b793fe64d965bd7cd389fcd3a440",
+      "retrieved_at": "2026-10-02T04:17:19.836634+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-7-1-extend-20261002T041628-18.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.490000%2C23.420000%2C50.545000%2C23.520000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.490000,23.420000,50.545000,23.520000,urn:ogc:def:crs:EPSG::4326",
+      "count": 645,
+      "bytes": 943699,
+      "sha256": "7ca166f3867aa096d653a8c6c09fa68d3c5a8e621a7d884a26689fd8186565da",
+      "retrieved_at": "2026-10-02T04:17:21.079567+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-7-1-extend-20261002T041628-19.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.490000%2C23.520000%2C50.545000%2C23.620000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.490000,23.520000,50.545000,23.620000,urn:ogc:def:crs:EPSG::4326",
+      "count": 727,
+      "bytes": 1176771,
+      "sha256": "4b31b7024d60339232b184da4ae548824674ef690b376a4691d3e272c52596d2",
+      "retrieved_at": "2026-10-02T04:17:22.147301+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-6-0-extend-20261002T041628-22.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.430000%2C23.250000%2C50.485000%2C23.350000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.430000,23.250000,50.485000,23.350000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1340,
+      "bytes": 1894096,
+      "sha256": "24ba23533ee9bed0fd0e25ee351470676ae448a4be964a81f994b20f2b0243bb",
+      "retrieved_at": "2026-10-02T04:17:27.238399+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-6-0-extend-20261002T041628-21.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.375000%2C23.350000%2C50.430000%2C23.450000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.375000,23.350000,50.430000,23.450000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1635,
+      "bytes": 2331982,
+      "sha256": "d4132cb64b865914b69992f37479f45a5a9ddd8706419bbe2a22b74854828aff",
+      "retrieved_at": "2026-10-02T04:17:27.483587+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-8-0-extend-20261002T041628-24.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.495000%2C23.150000%2C50.550000%2C23.250000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.495000,23.150000,50.550000,23.250000,urn:ogc:def:crs:EPSG::4326",
+      "count": 2115,
+      "bytes": 2935372,
+      "sha256": "9b00e20425f495fd0b616d2ef56c86b2ebc679d9ac8704e516f7de8f77513743",
+      "retrieved_at": "2026-10-02T04:17:35.072071+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-6-0-extend-20261002T041628-23.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.430000%2C23.350000%2C50.485000%2C23.450000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.430000,23.350000,50.485000,23.450000,urn:ogc:def:crs:EPSG::4326",
+      "count": 2668,
+      "bytes": 3590146,
+      "sha256": "084b8b234f034890acc926ef05545845b9d3ad95c713c4c878b97092690bf915",
+      "retrieved_at": "2026-10-02T04:17:36.510921+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-8-0-extend-20261002T041628-25.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.495000%2C23.250000%2C50.550000%2C23.350000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.495000,23.250000,50.550000,23.350000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1399,
+      "bytes": 2036438,
+      "sha256": "70588a2598640bd2247e2456f0dbd33e7a4afaa11601305435e986bd66721a17",
+      "retrieved_at": "2026-10-02T04:17:40.281884+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-8-0-extend-20261002T041628-26.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.550000%2C23.150000%2C50.605000%2C23.250000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.550000,23.150000,50.605000,23.250000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1465,
+      "bytes": 2103390,
+      "sha256": "f4d17e0b57167f6a82171c27a5731784959abd91572f6961a9fdd991279493d7",
+      "retrieved_at": "2026-10-02T04:17:42.208720+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-6-0-extend-20261002T041628-20.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.375000%2C23.250000%2C50.430000%2C23.350000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.375000,23.250000,50.430000,23.350000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1405,
+      "bytes": 1980172,
+      "sha256": "86faf4eda6a57f3c187656dc5339f1f58d87dd7b75e011221f9349b0d151ba03",
+      "retrieved_at": "2026-10-02T04:17:42.479768+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-10-0-extend-20261002T041628-34.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.670000%2C23.070000%2C50.725000%2C23.170000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.670000,23.070000,50.725000,23.170000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1103,
+      "bytes": 1558961,
+      "sha256": "4b445b72803e3486f94e2b4dd38cf849f173f061b7534a8469402eca55ef5cae",
+      "retrieved_at": "2026-10-02T04:17:54.550499+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-11-1-extend-20261002T041628-38.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.730000%2C23.250000%2C50.785000%2C23.350000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.730000,23.250000,50.785000,23.350000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1574,
+      "bytes": 2176222,
+      "sha256": "a6162dbd59de709c44c8dc93c37becf05f9775f1ac9fc668ff5fc84740f46f8f",
+      "retrieved_at": "2026-10-02T04:18:11.941607+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-10-1-extend-20261002T041628-40.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.615000%2C23.270000%2C50.670000%2C23.370000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.615000,23.270000,50.670000,23.370000,urn:ogc:def:crs:EPSG::4326",
+      "count": 677,
+      "bytes": 1017189,
+      "sha256": "e98979e8202b373702105971dc584f60a61adcd682e4e6aab44dc89f75782740",
+      "retrieved_at": "2026-10-02T04:18:15.114813+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-10-1-extend-20261002T041628-41.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.615000%2C23.370000%2C50.670000%2C23.470000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.615000,23.370000,50.670000,23.470000,urn:ogc:def:crs:EPSG::4326",
+      "count": 903,
+      "bytes": 1309726,
+      "sha256": "2bc97dfa83ad04a762463054142372e438fcca9a3eb6063314c536560c9e172b",
+      "retrieved_at": "2026-10-02T04:18:19.063207+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-11-1-extend-20261002T041628-39.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.730000%2C23.350000%2C50.785000%2C23.450000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.730000,23.350000,50.785000,23.450000,urn:ogc:def:crs:EPSG::4326",
+      "count": 950,
+      "bytes": 1327070,
+      "sha256": "7351fb9d4dbafd103591df8e010d887b86e039dd1606fecf538dee1a951162f8",
+      "retrieved_at": "2026-10-02T04:18:26.989284+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-10-1-extend-20261002T041628-42.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.670000%2C23.270000%2C50.725000%2C23.370000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.670000,23.270000,50.725000,23.370000,urn:ogc:def:crs:EPSG::4326",
+      "count": 2388,
+      "bytes": 3162932,
+      "sha256": "a44281170913439860328e464a295f5557886f13197e0782e3fec8f2dc22718c",
+      "retrieved_at": "2026-10-02T04:18:27.995791+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-10-1-extend-20261002T041628-43.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.670000%2C23.370000%2C50.725000%2C23.470000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.670000,23.370000,50.725000,23.470000,urn:ogc:def:crs:EPSG::4326",
+      "count": 936,
+      "bytes": 1320821,
+      "sha256": "d6c7cf62079c1444cc98c22f501ce67dbfec1ce741852912ede3c5dda318ce8e",
+      "retrieved_at": "2026-10-02T04:18:30.684432+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-11-0-extend-20261002T041628-44.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.675000%2C23.050000%2C50.730000%2C23.150000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.675000,23.050000,50.730000,23.150000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1131,
+      "bytes": 1613906,
+      "sha256": "a76e4baeec6fefba9262cd62d356d8d5321c3540fcedcbc53cbe2425470442a0",
+      "retrieved_at": "2026-10-02T04:18:31.626035+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-1-extend-20261002T041628-67.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.850000%2C23.350000%2C50.905000%2C23.450000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.850000,23.350000,50.905000,23.450000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1024,
+      "bytes": 1561967,
+      "sha256": "ece2699f6b70e8fd8759782ac4eae4c6ce2b90790e0307335d780dabf1e45e12",
+      "retrieved_at": "2026-10-02T04:18:56.324944+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-14-1-extend-20261002T041628-68.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.855000%2C23.230000%2C50.910000%2C23.330000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.855000,23.230000,50.910000,23.330000,urn:ogc:def:crs:EPSG::4326",
+      "count": 1224,
+      "bytes": 1871930,
+      "sha256": "f6806ea4c5b3ab9ddf61a32d47b2e95887103aa30e0dd6ca759334a16b5b2041",
+      "retrieved_at": "2026-10-02T04:18:57.149813+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-14-1-extend-20261002T041628-70.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.910000%2C23.230000%2C50.965000%2C23.330000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.910000,23.230000,50.965000,23.330000,urn:ogc:def:crs:EPSG::4326",
+      "count": 876,
+      "bytes": 1405096,
+      "sha256": "f83f7e71c6cbe22cfdd8436bd4e5f5cd0f5f58b33d8de12b0892a96d9440ade9",
+      "retrieved_at": "2026-10-02T04:18:59.997289+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-14-1-extend-20261002T041628-71.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.910000%2C23.330000%2C50.965000%2C23.430000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.910000,23.330000,50.965000,23.430000,urn:ogc:def:crs:EPSG::4326",
+      "count": 931,
+      "bytes": 1399919,
+      "sha256": "e551525c6b20b512fb441ed90db06d5ecb6fef4f0afd5e6d7f4d3fed9b51b433",
+      "retrieved_at": "2026-10-02T04:19:01.074467+00:00"
+    },
+    {
+      "name": "Medyka-0-0-extend-20261002T041628-73.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.775000%2C22.800000%2C49.787500%2C22.833333%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.775000,22.800000,49.787500,22.833333,urn:ogc:def:crs:EPSG::4326",
+      "count": 568,
+      "bytes": 729716,
+      "sha256": "268d113c05aa1a8ac2ae13e56d9f7a59e6ceb4c4d41961aa7774e4514c2e53e7",
+      "retrieved_at": "2026-10-02T04:19:03.428045+00:00"
+    },
+    {
+      "name": "Medyka-0-0-extend-20261002T041628-74.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.787500%2C22.766667%2C49.800000%2C22.800000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.787500,22.766667,49.800000,22.800000,urn:ogc:def:crs:EPSG::4326",
+      "count": 570,
+      "bytes": 759894,
+      "sha256": "2632868b99bf77aa66af1da32325d8e66cef4cb64e79c0d403c8d1aae5833d2a",
+      "retrieved_at": "2026-10-02T04:19:05.742210+00:00"
+    },
+    {
+      "name": "Medyka-0-0-extend-20261002T041628-75.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.787500%2C22.800000%2C49.800000%2C22.833333%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.787500,22.800000,49.800000,22.833333,urn:ogc:def:crs:EPSG::4326",
+      "count": 141,
+      "bytes": 222346,
+      "sha256": "d1b97d60f57ba72ec29522fd663335b17e8045ddca39bfc73611525c9df17de4",
+      "retrieved_at": "2026-10-02T04:19:06.703906+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-14-1-extend-20261002T041628-69.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.855000%2C23.330000%2C50.910000%2C23.430000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.855000,23.330000,50.910000,23.430000,urn:ogc:def:crs:EPSG::4326",
+      "count": 959,
+      "bytes": 1472747,
+      "sha256": "8d752e097d0f98d57979587e640c7102d1bf5bc04765d88396862bc7ccd7929b",
+      "retrieved_at": "2026-10-02T04:19:11.910113+00:00"
+    },
+    {
+      "name": "Medyka-0-1-extend-20261002T041628-77.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.750000%2C22.866667%2C49.762500%2C22.900000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.750000,22.866667,49.762500,22.900000,urn:ogc:def:crs:EPSG::4326",
+      "count": 176,
+      "bytes": 269589,
+      "sha256": "21ad9aab67a414ce5ddedfa2a6cbf2158673ecabe07b8749f94e2f63ff345769",
+      "retrieved_at": "2026-10-02T04:19:13.024362+00:00"
+    },
+    {
+      "name": "Medyka-0-1-extend-20261002T041628-78.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.762500%2C22.833333%2C49.775000%2C22.866667%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.762500,22.833333,49.775000,22.866667,urn:ogc:def:crs:EPSG::4326",
+      "count": 65,
+      "bytes": 98474,
+      "sha256": "b15cbb3806b0eafdbc99f886719c09a19738aaea462abbee2710d07c713bb8c4",
+      "retrieved_at": "2026-10-02T04:19:13.702045+00:00"
+    },
+    {
+      "name": "Medyka-0-1-extend-20261002T041628-79.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.762500%2C22.866667%2C49.775000%2C22.900000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.762500,22.866667,49.775000,22.900000,urn:ogc:def:crs:EPSG::4326",
+      "count": 88,
+      "bytes": 148465,
+      "sha256": "7042570c4afdcb3ecd25f645e79eee794c393c57c428c7143cf939aa86fae301",
+      "retrieved_at": "2026-10-02T04:19:14.562326+00:00"
+    },
+    {
+      "name": "Medyka-0-0-extend-20261002T041628-72.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.775000%2C22.766667%2C49.787500%2C22.800000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.775000,22.766667,49.787500,22.800000,urn:ogc:def:crs:EPSG::4326",
+      "count": 906,
+      "bytes": 1161815,
+      "sha256": "3ff6e992d42c0dde50cca14edc950db00b63d63e5b17c9b6bf7331f07f635cf5",
+      "retrieved_at": "2026-10-02T04:19:20.546361+00:00"
+    },
+    {
+      "name": "Medyka-0-1-extend-20261002T041628-76.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.750000%2C22.833333%2C49.762500%2C22.866667%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.750000,22.833333,49.762500,22.866667,urn:ogc:def:crs:EPSG::4326",
+      "count": 53,
+      "bytes": 88548,
+      "sha256": "ed82e703cfff2b1ed3e33d6eb9f9a9d145e3cc6cbb29ecbf03957d417a813a4c",
+      "retrieved_at": "2026-10-02T04:19:24.661054+00:00"
+    },
+    {
+      "name": "Medyka-0-1-extend-20261002T041628-82.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.762500%2C22.900000%2C49.775000%2C22.933333%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.762500,22.900000,49.775000,22.933333,urn:ogc:def:crs:EPSG::4326",
+      "count": 7,
+      "bytes": 23892,
+      "sha256": "8715a75f792c30b2099d82814d76ccc209498060b5f4313f7fdbbe23f20c8f40",
+      "retrieved_at": "2026-10-02T04:19:25.058677+00:00"
+    },
+    {
+      "name": "Medyka-0-1-extend-20261002T041628-83.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.762500%2C22.933333%2C49.775000%2C22.966667%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.762500,22.933333,49.775000,22.966667,urn:ogc:def:crs:EPSG::4326",
+      "count": 0,
+      "bytes": 1394,
+      "sha256": "d27fc371f08d4a493234fb2223b10a3bfaddeb48f2046dd1511ab1b5d88a6a61",
+      "retrieved_at": "2026-10-02T04:19:25.465245+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-17-1-extend-20261002T041628-84.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.035000%2C23.450000%2C51.090000%2C23.550000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.035000,23.450000,51.090000,23.550000,urn:ogc:def:crs:EPSG::4326",
+      "count": 618,
+      "bytes": 984583,
+      "sha256": "abd69910e061e61619915b7fc69f8a19693dcab13f33ff0083c21091b735c426",
+      "retrieved_at": "2026-10-02T04:19:28.181788+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-17-1-extend-20261002T041628-85.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.035000%2C23.550000%2C51.090000%2C23.650000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.035000,23.550000,51.090000,23.650000,urn:ogc:def:crs:EPSG::4326",
+      "count": 598,
+      "bytes": 993262,
+      "sha256": "a8f8d40be542f3e1711a54a11427b807c469342a0f1da1db929774781795650c",
+      "retrieved_at": "2026-10-02T04:19:30.880146+00:00"
+    },
+    {
+      "name": "Medyka-0-1-extend-20261002T041628-80.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.750000%2C22.900000%2C49.762500%2C22.933333%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.750000,22.900000,49.762500,22.933333,urn:ogc:def:crs:EPSG::4326",
+      "count": 0,
+      "bytes": 1394,
+      "sha256": "974444162194a5925bb93b93550d1e6b9d98483c854055dc8e480740b9158c0d",
+      "retrieved_at": "2026-10-02T04:19:32.192417+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-17-1-extend-20261002T041628-87.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.090000%2C23.550000%2C51.145000%2C23.650000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.090000,23.550000,51.145000,23.650000,urn:ogc:def:crs:EPSG::4326",
+      "count": 680,
+      "bytes": 1102146,
+      "sha256": "6404a56d435dbcf611b67c43c7940110d0d46c2822e10c92220b695c4f15e8b3",
+      "retrieved_at": "2026-10-02T04:19:35.239150+00:00"
+    },
+    {
+      "name": "Medyka-2-0-extend-20261002T041628-88.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.850000%2C22.766667%2C49.862500%2C22.800000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.850000,22.766667,49.862500,22.800000,urn:ogc:def:crs:EPSG::4326",
+      "count": 77,
+      "bytes": 118240,
+      "sha256": "117f88ed43f3df8f476bdff18152ccb8d9d6fac728a21605069d78ecf5a42cac",
+      "retrieved_at": "2026-10-02T04:19:35.944585+00:00"
+    },
+    {
+      "name": "Medyka-2-0-extend-20261002T041628-89.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.850000%2C22.800000%2C49.862500%2C22.833333%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.850000,22.800000,49.862500,22.833333,urn:ogc:def:crs:EPSG::4326",
+      "count": 130,
+      "bytes": 186223,
+      "sha256": "a1ac9e196ed5671911bf9cc363f4dd1484aba8262ab9486f0e3ca7bd9fe08958",
+      "retrieved_at": "2026-10-02T04:19:36.908631+00:00"
+    },
+    {
+      "name": "Medyka-2-0-extend-20261002T041628-90.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.862500%2C22.766667%2C49.875000%2C22.800000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.862500,22.766667,49.875000,22.800000,urn:ogc:def:crs:EPSG::4326",
+      "count": 84,
+      "bytes": 135325,
+      "sha256": "d4153ec300ab367c129dc101442cd2691764482d5250c5c078c40deb8b3745d0",
+      "retrieved_at": "2026-10-02T04:19:37.705528+00:00"
+    },
+    {
+      "name": "Medyka-0-1-extend-20261002T041628-81.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.750000%2C22.933333%2C49.762500%2C22.966667%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.750000,22.933333,49.762500,22.966667,urn:ogc:def:crs:EPSG::4326",
+      "count": 0,
+      "bytes": 1394,
+      "sha256": "545d52bb7e8b2cfc7441372d5f273ef2cdb3b96cc2bec9b2aeaca171d5047fbf",
+      "retrieved_at": "2026-10-02T04:19:38.180523+00:00"
+    },
+    {
+      "name": "Medyka-2-0-extend-20261002T041628-91.gml",
+      "region": "Medyka",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.862500%2C22.800000%2C49.875000%2C22.833333%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.862500,22.800000,49.875000,22.833333,urn:ogc:def:crs:EPSG::4326",
+      "count": 105,
+      "bytes": 145884,
+      "sha256": "9f5da400aa36f10e284a1709b867d0b4d5d2a74e54024e0c3a8108d1c1aa75a2",
+      "retrieved_at": "2026-10-02T04:19:38.535683+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-18-1-extend-20261002T041628-93.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.095000%2C23.550000%2C51.150000%2C23.650000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.095000,23.550000,51.150000,23.650000,urn:ogc:def:crs:EPSG::4326",
+      "count": 672,
+      "bytes": 1107412,
+      "sha256": "310da5cced4d5fcb0d39bbabc8669c46bb9ca0e51bf3427401320c74966a9d04",
+      "retrieved_at": "2026-10-02T04:19:41.568216+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-17-1-extend-20261002T041628-86.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.090000%2C23.450000%2C51.145000%2C23.550000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.090000,23.450000,51.145000,23.550000,urn:ogc:def:crs:EPSG::4326",
+      "count": 4168,
+      "bytes": 5463181,
+      "sha256": "0099007f704340ecc77fe9eda3ac8f3a99940eaef57f6688b9e43212475981e8",
+      "retrieved_at": "2026-10-02T04:19:44.635074+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-18-1-extend-20261002T041628-95.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.150000%2C23.550000%2C51.205000%2C23.650000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.150000,23.550000,51.205000,23.650000,urn:ogc:def:crs:EPSG::4326",
+      "count": 862,
+      "bytes": 1316001,
+      "sha256": "e746b97a19c4197f07f9679becadac42a16908e48ddf036a41c9a6a20234435d",
+      "retrieved_at": "2026-10-02T04:19:48.163365+00:00"
+    },
+    {
+      "name": "Korczowa-1-1-extend-20261002T041628-96.gml",
+      "region": "Korczowa",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.990000%2C22.850000%2C50.005000%2C22.887500%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.990000,22.850000,50.005000,22.887500,urn:ogc:def:crs:EPSG::4326",
+      "count": 84,
+      "bytes": 137177,
+      "sha256": "80506b3e99578642814ffeb4f073cc65d639ce51d63336c05197c4371b269881",
+      "retrieved_at": "2026-10-02T04:19:48.976287+00:00"
+    },
+    {
+      "name": "Korczowa-1-1-extend-20261002T041628-97.gml",
+      "region": "Korczowa",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=49.990000%2C22.887500%2C50.005000%2C22.925000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "49.990000,22.887500,50.005000,22.925000,urn:ogc:def:crs:EPSG::4326",
+      "count": 33,
+      "bytes": 73667,
+      "sha256": "78246107dcac4aea45bf4e0226968bca3f0d26e1410050d12a65fa2a8098b740",
+      "retrieved_at": "2026-10-02T04:19:49.629523+00:00"
+    },
+    {
+      "name": "Korczowa-1-1-extend-20261002T041628-98.gml",
+      "region": "Korczowa",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.005000%2C22.850000%2C50.020000%2C22.887500%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.005000,22.850000,50.020000,22.887500,urn:ogc:def:crs:EPSG::4326",
+      "count": 73,
+      "bytes": 107496,
+      "sha256": "39877830ef0b6efab290ffdd609931b1582429dc83b4f3ea4528fdb41064d700",
+      "retrieved_at": "2026-10-02T04:19:50.308152+00:00"
+    },
+    {
+      "name": "Korczowa-1-1-extend-20261002T041628-99.gml",
+      "region": "Korczowa",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.005000%2C22.887500%2C50.020000%2C22.925000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.005000,22.887500,50.020000,22.925000,urn:ogc:def:crs:EPSG::4326",
+      "count": 147,
+      "bytes": 212444,
+      "sha256": "623f601e7599eb12204ac266d09d4b5e609793d555a9ced6d4a73dbb60245ad3",
+      "retrieved_at": "2026-10-02T04:19:51.282836+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-18-1-extend-20261002T041628-92.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.095000%2C23.450000%2C51.150000%2C23.550000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.095000,23.450000,51.150000,23.550000,urn:ogc:def:crs:EPSG::4326",
+      "count": 4577,
+      "bytes": 5962826,
+      "sha256": "0a4a8cbed6ca244dcbcd32b91f17db605d02a327b218f34c4affe04c51902d82",
+      "retrieved_at": "2026-10-02T04:19:53.464965+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-0-0-extend-20261002T143146-0.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.015000%2C22.500000%2C50.042500%2C22.550000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.015000,22.500000,50.042500,22.550000,urn:ogc:def:crs:EPSG::4326",
+      "count": 352,
+      "bytes": 597858,
+      "sha256": "9c08fae41fdb4926404c1a1c6946c26a322e2d6bb91957bb00f05c1f1b597ba4",
+      "retrieved_at": "2026-10-02T14:31:53.690953+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-0-0-extend-20261002T143146-1.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.015000%2C22.550000%2C50.042500%2C22.600000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.015000,22.550000,50.042500,22.600000,urn:ogc:def:crs:EPSG::4326",
+      "count": 435,
+      "bytes": 665402,
+      "sha256": "cc37b075f7841aa63cabbb26e9f4901cb6dba69f7dbe75b626d46367dcd1e477",
+      "retrieved_at": "2026-10-02T14:31:53.941838+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-0-0-extend-20261002T143146-2.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.042500%2C22.500000%2C50.070000%2C22.550000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.042500,22.500000,50.070000,22.550000,urn:ogc:def:crs:EPSG::4326",
+      "count": 678,
+      "bytes": 992237,
+      "sha256": "8397666463dbb03b4381e100fa45bda3b66c230ba936ded91b65decb1f4b7997",
+      "retrieved_at": "2026-10-02T14:31:54.750193+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-0-0-extend-20261002T143146-3.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.042500%2C22.550000%2C50.070000%2C22.600000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.042500,22.550000,50.070000,22.600000,urn:ogc:def:crs:EPSG::4326",
+      "count": 256,
+      "bytes": 441105,
+      "sha256": "a45f8bf137bb28c530065361878fb4db9baf86bd3c120100c63ea48ebeb1db62",
+      "retrieved_at": "2026-10-02T14:31:55.562699+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-0-0-extend-20261002T143146-6.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.042500%2C22.600000%2C50.070000%2C22.650000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.042500,22.600000,50.070000,22.650000,urn:ogc:def:crs:EPSG::4326",
+      "count": 249,
+      "bytes": 437499,
+      "sha256": "1bb00b1264c9dceade885b0bdc2166cb0d1bee3cac5ca492a29b67dc951437cf",
+      "retrieved_at": "2026-10-02T14:31:57.179532+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-0-0-extend-20261002T143146-4.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.015000%2C22.600000%2C50.042500%2C22.650000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.015000,22.600000,50.042500,22.650000,urn:ogc:def:crs:EPSG::4326",
+      "count": 413,
+      "bytes": 634785,
+      "sha256": "d7f5d80587058c7b08689a29388478ece5470e6f49b305c282b3890941eb679a",
+      "retrieved_at": "2026-10-02T14:32:13.708392+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-8-0-extend-20261002T143146-8.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.550000%2C23.250000%2C50.577500%2C23.300000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.550000,23.250000,50.577500,23.300000,urn:ogc:def:crs:EPSG::4326",
+      "count": 336,
+      "bytes": 506852,
+      "sha256": "3071098416dc2f7c6634e480ef974db770fa60ee0cafa75df4e8d429afefcbac",
+      "retrieved_at": "2026-10-02T14:32:15.593289+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-8-0-extend-20261002T143146-9.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.550000%2C23.300000%2C50.577500%2C23.350000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.550000,23.300000,50.577500,23.350000,urn:ogc:def:crs:EPSG::4326",
+      "count": 351,
+      "bytes": 533435,
+      "sha256": "fae2f7e042c752530bf5ee0ed08034dac891811a1d4f5a28f1e9162158b4e223",
+      "retrieved_at": "2026-10-02T14:32:17.425975+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-0-0-extend-20261002T143146-7.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.042500%2C22.650000%2C50.070000%2C22.700000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.042500,22.650000,50.070000,22.700000,urn:ogc:def:crs:EPSG::4326",
+      "count": 213,
+      "bytes": 390038,
+      "sha256": "f83ae52f62c6af11e8f08241934284a9a7d024fef5c9e4d063edacd2eab21c8d",
+      "retrieved_at": "2026-10-02T14:32:18.530524+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-8-0-extend-20261002T143146-11.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.577500%2C23.300000%2C50.605000%2C23.350000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.577500,23.300000,50.605000,23.350000,urn:ogc:def:crs:EPSG::4326",
+      "count": 137,
+      "bytes": 241277,
+      "sha256": "ade18bd54054fd43f567f9a8c195fe34bff89844bd1b8caaaf74a4e698e849cd",
+      "retrieved_at": "2026-10-02T14:32:19.839898+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-8-1-extend-20261002T143146-12.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.495000%2C23.350000%2C50.522500%2C23.400000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.495000,23.350000,50.522500,23.400000,urn:ogc:def:crs:EPSG::4326",
+      "count": 270,
+      "bytes": 398313,
+      "sha256": "47ae0f6bb53cd83fa06e5f500bdfb7909db180de901cc90bb337cdb90edb6995",
+      "retrieved_at": "2026-10-02T14:32:21.320122+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-8-1-extend-20261002T143146-13.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.495000%2C23.400000%2C50.522500%2C23.450000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.495000,23.400000,50.522500,23.450000,urn:ogc:def:crs:EPSG::4326",
+      "count": 281,
+      "bytes": 387218,
+      "sha256": "2baec56cb3570ac4d434714a117bd93fab392a53c0c796c734c4a6f98a22c9e8",
+      "retrieved_at": "2026-10-02T14:32:22.942563+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-8-1-extend-20261002T143146-14.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.522500%2C23.350000%2C50.550000%2C23.400000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.522500,23.350000,50.550000,23.400000,urn:ogc:def:crs:EPSG::4326",
+      "count": 234,
+      "bytes": 333257,
+      "sha256": "0b82758d21e2cd4d3069ac4d2d5a19f679564ec15244bbd637ac5db9b13e02d6",
+      "retrieved_at": "2026-10-02T14:32:24.190674+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-8-1-extend-20261002T143146-15.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.522500%2C23.400000%2C50.550000%2C23.450000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.522500,23.400000,50.550000,23.450000,urn:ogc:def:crs:EPSG::4326",
+      "count": 161,
+      "bytes": 232302,
+      "sha256": "da54f29c2a186569f629dec99ff504fb0d85e884e68c2cef7a0e123617c499d2",
+      "retrieved_at": "2026-10-02T14:32:25.225502+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-8-1-extend-20261002T143146-16.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.495000%2C23.450000%2C50.522500%2C23.500000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.495000,23.450000,50.522500,23.500000,urn:ogc:def:crs:EPSG::4326",
+      "count": 121,
+      "bytes": 171646,
+      "sha256": "585e06e3da97ae2dfcb5a8fddf51ed124c6130e93dcb8647781184bb3ba13898",
+      "retrieved_at": "2026-10-02T14:32:26.333048+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-8-1-extend-20261002T143146-17.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.495000%2C23.500000%2C50.522500%2C23.550000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.495000,23.500000,50.522500,23.550000,urn:ogc:def:crs:EPSG::4326",
+      "count": 187,
+      "bytes": 302899,
+      "sha256": "769a2d6c91b3e425b8d81c1a9761b4df9a57c3c8ecd8f5562daec36793636756",
+      "retrieved_at": "2026-10-02T14:32:27.566638+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-8-1-extend-20261002T143146-19.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.522500%2C23.500000%2C50.550000%2C23.550000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.522500,23.500000,50.550000,23.550000,urn:ogc:def:crs:EPSG::4326",
+      "count": 229,
+      "bytes": 354637,
+      "sha256": "7cd854c2231e00fb45356c8d9c4a99a323fee7a5d881607f7b956082b206784f",
+      "retrieved_at": "2026-10-02T14:32:29.130018+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-8-1-extend-20261002T143146-18.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.522500%2C23.450000%2C50.550000%2C23.500000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.522500,23.450000,50.550000,23.500000,urn:ogc:def:crs:EPSG::4326",
+      "count": 217,
+      "bytes": 310873,
+      "sha256": "ca5496ade28555efc88481b81341779398112591f787985b664cf4e7de7eb4b8",
+      "retrieved_at": "2026-10-02T14:32:29.149310+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-8-1-extend-20261002T143146-20.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.550000%2C23.350000%2C50.577500%2C23.400000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.550000,23.350000,50.577500,23.400000,urn:ogc:def:crs:EPSG::4326",
+      "count": 202,
+      "bytes": 313326,
+      "sha256": "19e614350da21db930de19c8b1d6d20cb634001fa64ed8ba28cab3ca324793f1",
+      "retrieved_at": "2026-10-02T14:32:30.540521+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-8-1-extend-20261002T143146-21.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.550000%2C23.400000%2C50.577500%2C23.450000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.550000,23.400000,50.577500,23.450000,urn:ogc:def:crs:EPSG::4326",
+      "count": 212,
+      "bytes": 307161,
+      "sha256": "4d37e30e6a78e4355d7c703d688332589b847f2b99bf51a3b337cac3d322350f",
+      "retrieved_at": "2026-10-02T14:32:30.652050+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-8-1-extend-20261002T143146-23.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.577500%2C23.400000%2C50.605000%2C23.450000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.577500,23.400000,50.605000,23.450000,urn:ogc:def:crs:EPSG::4326",
+      "count": 155,
+      "bytes": 248122,
+      "sha256": "318d4815148723a182d2c25d83bd8a5838a869f4e1d674422b81a261b0c4a939",
+      "retrieved_at": "2026-10-02T14:32:31.743821+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-8-1-extend-20261002T143146-22.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.577500%2C23.350000%2C50.605000%2C23.400000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.577500,23.350000,50.605000,23.400000,urn:ogc:def:crs:EPSG::4326",
+      "count": 252,
+      "bytes": 402261,
+      "sha256": "16a0e743df9bb9a33e5bac8f31402e689567ff1a0ca038b618fe721c51ab35f2",
+      "retrieved_at": "2026-10-02T14:32:32.100452+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-8-1-extend-20261002T143146-24.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.550000%2C23.450000%2C50.577500%2C23.500000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.550000,23.450000,50.577500,23.500000,urn:ogc:def:crs:EPSG::4326",
+      "count": 201,
+      "bytes": 298975,
+      "sha256": "2f1b5800c8d2f6f049ca1222c3c4e98bacc40e7c64d11b0004b9bd517f6dad9c",
+      "retrieved_at": "2026-10-02T14:32:33.096000+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-8-1-extend-20261002T143146-26.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.577500%2C23.450000%2C50.605000%2C23.500000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.577500,23.450000,50.605000,23.500000,urn:ogc:def:crs:EPSG::4326",
+      "count": 174,
+      "bytes": 282619,
+      "sha256": "056711f9bc1ffc74ad66deedc6427d9702cbf004e284bc849218bf4ebf17ea49",
+      "retrieved_at": "2026-10-02T14:32:34.367371+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-8-0-extend-20261002T143146-10.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.577500%2C23.250000%2C50.605000%2C23.300000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.577500,23.250000,50.605000,23.300000,urn:ogc:def:crs:EPSG::4326",
+      "count": 208,
+      "bytes": 332333,
+      "sha256": "8e87a987a5a9be8615368eb4857efba7ffdf9b4492993d4dc4c7458b4b5127f2",
+      "retrieved_at": "2026-10-02T14:32:36.012137+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-8-1-extend-20261002T143146-27.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.577500%2C23.500000%2C50.605000%2C23.550000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.577500,23.500000,50.605000,23.550000,urn:ogc:def:crs:EPSG::4326",
+      "count": 528,
+      "bytes": 719627,
+      "sha256": "cb47415f72b93bb2fe82007003c59b9ce5734584e287065ec24cb0db3eae34a6",
+      "retrieved_at": "2026-10-02T14:32:36.788957+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-10-0-extend-20261002T143146-28.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.615000%2C23.070000%2C50.642500%2C23.120000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.615000,23.070000,50.642500,23.120000,urn:ogc:def:crs:EPSG::4326",
+      "count": 362,
+      "bytes": 510525,
+      "sha256": "0feb699c9037e0ed261a6123cf7a7a33bba24e71b95e1d36ca46acb625b34cec",
+      "retrieved_at": "2026-10-02T14:32:37.846383+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-10-0-extend-20261002T143146-29.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.615000%2C23.120000%2C50.642500%2C23.170000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.615000,23.120000,50.642500,23.170000,urn:ogc:def:crs:EPSG::4326",
+      "count": 218,
+      "bytes": 315017,
+      "sha256": "8056d4a0d4cb00092d4772b5825544cd17e96b04c15ace5030038391510b3d63",
+      "retrieved_at": "2026-10-02T14:32:38.063526+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-10-0-extend-20261002T143146-30.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.642500%2C23.070000%2C50.670000%2C23.120000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.642500,23.070000,50.670000,23.120000,urn:ogc:def:crs:EPSG::4326",
+      "count": 176,
+      "bytes": 234085,
+      "sha256": "dfd61d7149b50b4673c42869b50940c6d73b39abad0adfe83611d77bf0a46fcc",
+      "retrieved_at": "2026-10-02T14:32:38.845655+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-10-0-extend-20261002T143146-32.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.615000%2C23.170000%2C50.642500%2C23.220000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.615000,23.170000,50.642500,23.220000,urn:ogc:def:crs:EPSG::4326",
+      "count": 277,
+      "bytes": 395808,
+      "sha256": "a6381f20f2d01af59c42762c33d5ff1a8f33597275eac2ba5566378cf41aab7d",
+      "retrieved_at": "2026-10-02T14:32:42.299939+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-10-0-extend-20261002T143146-33.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.615000%2C23.220000%2C50.642500%2C23.270000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.615000,23.220000,50.642500,23.270000,urn:ogc:def:crs:EPSG::4326",
+      "count": 334,
+      "bytes": 476301,
+      "sha256": "47a03c9703a4a0b50c2d34e0223a0e31c0e457f3ef5ffe47dbe5f54056b4d7c3",
+      "retrieved_at": "2026-10-02T14:32:43.875870+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-10-0-extend-20261002T143146-34.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.642500%2C23.170000%2C50.670000%2C23.220000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.642500,23.170000,50.670000,23.220000,urn:ogc:def:crs:EPSG::4326",
+      "count": 219,
+      "bytes": 313314,
+      "sha256": "20fb8d3d272d6d5ee2b2c56b5890978c17c33393ada4845697cc8d6f3766fcba",
+      "retrieved_at": "2026-10-02T14:32:45.197285+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-10-0-extend-20261002T143146-35.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.642500%2C23.220000%2C50.670000%2C23.270000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.642500,23.220000,50.670000,23.270000,urn:ogc:def:crs:EPSG::4326",
+      "count": 140,
+      "bytes": 207674,
+      "sha256": "d420d50f68424768eeb40afe255db0ec82b17ce5c1f928183a57ed58c296e35d",
+      "retrieved_at": "2026-10-02T14:32:46.183700+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-10-0-extend-20261002T143146-36.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.670000%2C23.170000%2C50.697500%2C23.220000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.670000,23.170000,50.697500,23.220000,urn:ogc:def:crs:EPSG::4326",
+      "count": 213,
+      "bytes": 311637,
+      "sha256": "6823a063e1dbbdd31644e7320a58f9ee4cff5d109b905a4449b726241a460454",
+      "retrieved_at": "2026-10-02T14:32:47.360277+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-10-0-extend-20261002T143146-37.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.670000%2C23.220000%2C50.697500%2C23.270000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.670000,23.220000,50.697500,23.270000,urn:ogc:def:crs:EPSG::4326",
+      "count": 256,
+      "bytes": 357466,
+      "sha256": "96aa1348bf74f45a43518005d2540d418bf846d6091698f1a47e6538e2c15c52",
+      "retrieved_at": "2026-10-02T14:32:49.025790+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-9-1-extend-20261002T143146-66.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.582500%2C23.390000%2C50.610000%2C23.440000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.582500,23.390000,50.610000,23.440000,urn:ogc:def:crs:EPSG::4326",
+      "count": 182,
+      "bytes": 287075,
+      "sha256": "febb8d88ab5f1840a42e825e923ac6f804a58491ab0073deba07f1424dff1273",
+      "retrieved_at": "2026-10-02T14:33:21.224932+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-9-1-extend-20261002T143146-65.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.555000%2C23.440000%2C50.582500%2C23.490000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.555000,23.440000,50.582500,23.490000,urn:ogc:def:crs:EPSG::4326",
+      "count": 206,
+      "bytes": 313640,
+      "sha256": "0c3d6db7c58c2ba29fd5a31b15a8324217e48731fea7ae9165a4049c1a35774f",
+      "retrieved_at": "2026-10-02T14:33:21.283022+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-9-1-extend-20261002T143146-68.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.610000%2C23.290000%2C50.637500%2C23.340000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.610000,23.290000,50.637500,23.340000,urn:ogc:def:crs:EPSG::4326",
+      "count": 163,
+      "bytes": 256320,
+      "sha256": "c57064bf003314ffb2cfe7a583e3dc662bd6b7fccca419231404589a1f91328a",
+      "retrieved_at": "2026-10-02T14:33:22.312614+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-9-1-extend-20261002T143146-67.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.582500%2C23.440000%2C50.610000%2C23.490000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.582500,23.440000,50.610000,23.490000,urn:ogc:def:crs:EPSG::4326",
+      "count": 163,
+      "bytes": 275442,
+      "sha256": "d30f3db48e160ac94aad79ac90598213a1e5069f3b8162423a9581680a550c73",
+      "retrieved_at": "2026-10-02T14:33:22.326383+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-9-1-extend-20261002T143146-69.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.610000%2C23.340000%2C50.637500%2C23.390000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.610000,23.340000,50.637500,23.390000,urn:ogc:def:crs:EPSG::4326",
+      "count": 189,
+      "bytes": 277165,
+      "sha256": "366ff11ff50d90a66398e74d002fa9a7b3d2c3d0396efffc8fa80ef7105973df",
+      "retrieved_at": "2026-10-02T14:33:23.412500+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-9-1-extend-20261002T143146-70.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.637500%2C23.290000%2C50.665000%2C23.340000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.637500,23.290000,50.665000,23.340000,urn:ogc:def:crs:EPSG::4326",
+      "count": 172,
+      "bytes": 261108,
+      "sha256": "1f26aa05503270ccde23bbf5b19b66174db84ce1f6f776b2534a9fe08f610d79",
+      "retrieved_at": "2026-10-02T14:33:23.444560+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-9-1-extend-20261002T143146-71.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.637500%2C23.340000%2C50.665000%2C23.390000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.637500,23.340000,50.665000,23.390000,urn:ogc:def:crs:EPSG::4326",
+      "count": 268,
+      "bytes": 370118,
+      "sha256": "d83fd397a65ed7bedf31a4b3c22a8d921d687d1c46eccb571efc5ab2151b918d",
+      "retrieved_at": "2026-10-02T14:33:24.824897+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-9-1-extend-20261002T143146-72.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.610000%2C23.390000%2C50.637500%2C23.440000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.610000,23.390000,50.637500,23.440000,urn:ogc:def:crs:EPSG::4326",
+      "count": 276,
+      "bytes": 422704,
+      "sha256": "9a99af79151fca9b0404bdf94f61fbc721d96a0016d5f6c787660d2c63a7b027",
+      "retrieved_at": "2026-10-02T14:33:24.875321+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-9-1-extend-20261002T143146-74.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.637500%2C23.390000%2C50.665000%2C23.440000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.637500,23.390000,50.665000,23.440000,urn:ogc:def:crs:EPSG::4326",
+      "count": 193,
+      "bytes": 279018,
+      "sha256": "8524c1491a45bab2de0541b2879486ff71d8281e8839d8f8f6ec6c02ed0d0158",
+      "retrieved_at": "2026-10-02T14:33:25.957450+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-9-1-extend-20261002T143146-73.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.610000%2C23.440000%2C50.637500%2C23.490000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.610000,23.440000,50.637500,23.490000,urn:ogc:def:crs:EPSG::4326",
+      "count": 264,
+      "bytes": 396162,
+      "sha256": "34f1abaaa7cd56daa53c13bc4f69e9b32101e81f7cab197753dd039342c8fb28",
+      "retrieved_at": "2026-10-02T14:33:26.210179+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-9-1-extend-20261002T143146-75.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.637500%2C23.440000%2C50.665000%2C23.490000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.637500,23.440000,50.665000,23.490000,urn:ogc:def:crs:EPSG::4326",
+      "count": 162,
+      "bytes": 237697,
+      "sha256": "812512cbbd43ee60c598c43a1c2c369f1fa0a871bc20b2413b06a21bf5827c24",
+      "retrieved_at": "2026-10-02T14:33:26.991302+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-0-extend-20261002T143146-76.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.735000%2C23.030000%2C50.762500%2C23.080000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.735000,23.030000,50.762500,23.080000,urn:ogc:def:crs:EPSG::4326",
+      "count": 192,
+      "bytes": 295510,
+      "sha256": "56e5b9eece50534c0644ffe6b88f7a3e7131fc6950646202decad65e53f58c62",
+      "retrieved_at": "2026-10-02T14:33:27.460313+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-0-extend-20261002T143146-77.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.735000%2C23.080000%2C50.762500%2C23.130000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.735000,23.080000,50.762500,23.130000,urn:ogc:def:crs:EPSG::4326",
+      "count": 155,
+      "bytes": 260589,
+      "sha256": "eaf4eb98468d9cf434a77d672f04a6b690efe51d7fb4d9918441e1de8a4f4f7d",
+      "retrieved_at": "2026-10-02T14:33:28.058269+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-0-extend-20261002T143146-78.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.762500%2C23.030000%2C50.790000%2C23.080000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.762500,23.030000,50.790000,23.080000,urn:ogc:def:crs:EPSG::4326",
+      "count": 243,
+      "bytes": 354039,
+      "sha256": "0ae66ad77c65cde6461b4d9ce766480b0adc0d293131fe0825d7a7ce088efbc2",
+      "retrieved_at": "2026-10-02T14:33:28.837561+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-0-extend-20261002T143146-79.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.762500%2C23.080000%2C50.790000%2C23.130000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.762500,23.080000,50.790000,23.130000,urn:ogc:def:crs:EPSG::4326",
+      "count": 300,
+      "bytes": 439106,
+      "sha256": "1b8ad60f8cf30613d1a385a4f2816ac4f95d110252af8d646633fb943e7db9c3",
+      "retrieved_at": "2026-10-02T14:33:29.604851+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-0-extend-20261002T143146-80.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.735000%2C23.130000%2C50.762500%2C23.180000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.735000,23.130000,50.762500,23.180000,urn:ogc:def:crs:EPSG::4326",
+      "count": 102,
+      "bytes": 176211,
+      "sha256": "b1545e9785a71cb440183fe945d836a3f1428f7554398ccfd83236ec647aa806",
+      "retrieved_at": "2026-10-02T14:33:29.615831+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-0-extend-20261002T143146-84.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.790000%2C23.030000%2C50.817500%2C23.080000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.790000,23.030000,50.817500,23.080000,urn:ogc:def:crs:EPSG::4326",
+      "count": 419,
+      "bytes": 570943,
+      "sha256": "832bab0ed649a350638e4059297a85dcb1117c52d93c7115ea395784de8582ef",
+      "retrieved_at": "2026-10-02T14:33:36.478898+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-0-extend-20261002T143146-86.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.817500%2C23.030000%2C50.845000%2C23.080000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.817500,23.030000,50.845000,23.080000,urn:ogc:def:crs:EPSG::4326",
+      "count": 237,
+      "bytes": 373672,
+      "sha256": "20a8a326d3e36d85dd87b6c3bf73fce3bf31bc40b896e9d2bc3cf2e88198aa80",
+      "retrieved_at": "2026-10-02T14:33:38.031085+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-0-extend-20261002T143146-88.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.790000%2C23.130000%2C50.817500%2C23.180000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.790000,23.130000,50.817500,23.180000,urn:ogc:def:crs:EPSG::4326",
+      "count": 179,
+      "bytes": 275092,
+      "sha256": "20dd69e8141d8a8da933e9704b6cb7e30c85be14b1a7f4785d57bf8eafe7ec0c",
+      "retrieved_at": "2026-10-02T14:33:51.083283+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-0-extend-20261002T143146-89.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.790000%2C23.180000%2C50.817500%2C23.230000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.790000,23.180000,50.817500,23.230000,urn:ogc:def:crs:EPSG::4326",
+      "count": 170,
+      "bytes": 251114,
+      "sha256": "507654eaa180f1537472d9a46dc4ff965c783bc5263ba718f8c539df2dab3377",
+      "retrieved_at": "2026-10-02T14:33:52.152958+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-0-extend-20261002T143146-87.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.817500%2C23.080000%2C50.845000%2C23.130000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.817500,23.080000,50.845000,23.130000,urn:ogc:def:crs:EPSG::4326",
+      "count": 150,
+      "bytes": 241234,
+      "sha256": "d752e1832639c8678e1f83db9f9274f9119465ba69a1a884ef737f134b8b66ac",
+      "retrieved_at": "2026-10-02T14:33:56.312516+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-0-extend-20261002T143146-91.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.817500%2C23.180000%2C50.845000%2C23.230000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.817500,23.180000,50.845000,23.230000,urn:ogc:def:crs:EPSG::4326",
+      "count": 210,
+      "bytes": 308345,
+      "sha256": "1146989fd9137b8f40b943da75badaf4936ed55815a607da5408cab9a764d0db",
+      "retrieved_at": "2026-10-02T14:33:57.518672+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-1-extend-20261002T143146-92.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.735000%2C23.230000%2C50.762500%2C23.280000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.735000,23.230000,50.762500,23.280000,urn:ogc:def:crs:EPSG::4326",
+      "count": 955,
+      "bytes": 1283045,
+      "sha256": "0097748f239d77d548d2eacc295f6a373c45a65cf64ac7601cbab6e6f5cc7dd2",
+      "retrieved_at": "2026-10-02T14:34:01.206942+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-1-extend-20261002T143146-93.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.735000%2C23.280000%2C50.762500%2C23.330000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.735000,23.280000,50.762500,23.330000,urn:ogc:def:crs:EPSG::4326",
+      "count": 227,
+      "bytes": 354466,
+      "sha256": "8ee98e34056d308ecd34905df9fe1465ae528a8b2c2de14feb2dc90e3a0372ec",
+      "retrieved_at": "2026-10-02T14:34:02.402474+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-1-extend-20261002T143146-95.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.762500%2C23.280000%2C50.790000%2C23.330000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.762500,23.280000,50.790000,23.330000,urn:ogc:def:crs:EPSG::4326",
+      "count": 212,
+      "bytes": 323841,
+      "sha256": "18e256cb806be69ba19d1a0fe936197046fe20824bb28c3144ba72ddd79c5fd1",
+      "retrieved_at": "2026-10-02T14:34:08.976401+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-1-extend-20261002T143146-96.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.735000%2C23.330000%2C50.762500%2C23.380000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.735000,23.330000,50.762500,23.380000,urn:ogc:def:crs:EPSG::4326",
+      "count": 233,
+      "bytes": 334143,
+      "sha256": "db94b47c9271cfcc843d9c1f8e959ef9d746d1a6027ff53bdf300ad39246eb40",
+      "retrieved_at": "2026-10-02T14:34:10.227154+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-0-extend-20261002T143146-90.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.817500%2C23.130000%2C50.845000%2C23.180000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.817500,23.130000,50.845000,23.180000,urn:ogc:def:crs:EPSG::4326",
+      "count": 197,
+      "bytes": 285007,
+      "sha256": "e6d465f308b67521d652b06ff160af6718a623a75c09347e51a08f1368a53ee2",
+      "retrieved_at": "2026-10-02T14:34:10.468060+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-1-extend-20261002T143146-97.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.735000%2C23.380000%2C50.762500%2C23.430000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.735000,23.380000,50.762500,23.430000,urn:ogc:def:crs:EPSG::4326",
+      "count": 113,
+      "bytes": 184770,
+      "sha256": "de4c2c0adede5fdb9a28cc90065b5ccd5b9b611e9f2433905f17a5beccd335e9",
+      "retrieved_at": "2026-10-02T14:34:11.026013+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-1-extend-20261002T143146-98.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.762500%2C23.330000%2C50.790000%2C23.380000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.762500,23.330000,50.790000,23.380000,urn:ogc:def:crs:EPSG::4326",
+      "count": 210,
+      "bytes": 306842,
+      "sha256": "92a936ed36201314fc8bbb8030d7b80a6179d0120884baa70f5c0914254ddbf3",
+      "retrieved_at": "2026-10-02T14:34:11.622073+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-1-extend-20261002T143146-99.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.762500%2C23.380000%2C50.790000%2C23.430000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.762500,23.380000,50.790000,23.430000,urn:ogc:def:crs:EPSG::4326",
+      "count": 385,
+      "bytes": 513434,
+      "sha256": "bf07d1075ab512c764d09f45e8fb4c69501900cc60e62fded7a5e5fad5e2b69e",
+      "retrieved_at": "2026-10-02T14:34:12.726657+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-1-extend-20261002T143146-100.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.790000%2C23.230000%2C50.817500%2C23.280000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.790000,23.230000,50.817500,23.280000,urn:ogc:def:crs:EPSG::4326",
+      "count": 206,
+      "bytes": 306893,
+      "sha256": "f5ddba7da74d870ee45d1dad0b6f4ccce9555f9d43aa04ba387c8854601474a8",
+      "retrieved_at": "2026-10-02T14:34:12.786217+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-1-extend-20261002T143146-101.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.790000%2C23.280000%2C50.817500%2C23.330000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.790000,23.280000,50.817500,23.330000,urn:ogc:def:crs:EPSG::4326",
+      "count": 330,
+      "bytes": 502362,
+      "sha256": "916d6a15f35d0c7d4f68932fb28330b314052a9876198efccbb86ba35c09d132",
+      "retrieved_at": "2026-10-02T14:34:14.342410+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-1-extend-20261002T143146-102.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.817500%2C23.230000%2C50.845000%2C23.280000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.817500,23.230000,50.845000,23.280000,urn:ogc:def:crs:EPSG::4326",
+      "count": 490,
+      "bytes": 686213,
+      "sha256": "bbc17f408658c8b3c2eaceef353b641782180c684ccd6752d4989d7baebda270",
+      "retrieved_at": "2026-10-02T14:34:14.919671+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-1-extend-20261002T143146-103.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.817500%2C23.280000%2C50.845000%2C23.330000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.817500,23.280000,50.845000,23.330000,urn:ogc:def:crs:EPSG::4326",
+      "count": 412,
+      "bytes": 615665,
+      "sha256": "06f9a024f99908e8943b5f30884c9b686c95fcf43356e981564e79f5fd800339",
+      "retrieved_at": "2026-10-02T14:34:16.364264+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-1-extend-20261002T143146-104.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.790000%2C23.330000%2C50.817500%2C23.380000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.790000,23.330000,50.817500,23.380000,urn:ogc:def:crs:EPSG::4326",
+      "count": 328,
+      "bytes": 504346,
+      "sha256": "146e8675a9730210c722fc420dbdf4304d2fd172064d6e558367f93784e7ca9d",
+      "retrieved_at": "2026-10-02T14:34:16.580035+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-1-extend-20261002T143146-106.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.817500%2C23.330000%2C50.845000%2C23.380000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.817500,23.330000,50.845000,23.380000,urn:ogc:def:crs:EPSG::4326",
+      "count": 131,
+      "bytes": 233546,
+      "sha256": "eab23dd3e8c4725f4f53b2194458996f89e6ec7900d4265d4fbdb7642bb4d49a",
+      "retrieved_at": "2026-10-02T14:34:17.593875+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-1-extend-20261002T143146-105.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.790000%2C23.380000%2C50.817500%2C23.430000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.790000,23.380000,50.817500,23.430000,urn:ogc:def:crs:EPSG::4326",
+      "count": 255,
+      "bytes": 385295,
+      "sha256": "443dd00052d31c753e14552029cdaff24a2bf2a7837c0f384396226988c3e247",
+      "retrieved_at": "2026-10-02T14:34:17.740208+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-1-extend-20261002T143146-107.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.817500%2C23.380000%2C50.845000%2C23.430000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.817500,23.380000,50.845000,23.430000,urn:ogc:def:crs:EPSG::4326",
+      "count": 173,
+      "bytes": 273480,
+      "sha256": "99f082ffb2076ce89479a9fb5a34bb260924d5ce9096b8c8b8309ddb020b7635",
+      "retrieved_at": "2026-10-02T14:34:18.660524+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-0-extend-20261002T143146-108.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.795000%2C23.050000%2C50.822500%2C23.100000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.795000,23.050000,50.822500,23.100000,urn:ogc:def:crs:EPSG::4326",
+      "count": 491,
+      "bytes": 670405,
+      "sha256": "eaad6d0e53c15fec459de3dd03a7d688c1642de0ef2e393582f2468250395925",
+      "retrieved_at": "2026-10-02T14:34:19.798981+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-0-extend-20261002T143146-109.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.795000%2C23.100000%2C50.822500%2C23.150000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.795000,23.100000,50.822500,23.150000,urn:ogc:def:crs:EPSG::4326",
+      "count": 198,
+      "bytes": 302705,
+      "sha256": "ee69e4793588f85d25127ae1f74f672a59b6a1ab066ef567cf9be8019ce7e870",
+      "retrieved_at": "2026-10-02T14:34:19.907674+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-12-1-extend-20261002T143146-94.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.762500%2C23.230000%2C50.790000%2C23.280000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.762500,23.230000,50.790000,23.280000,urn:ogc:def:crs:EPSG::4326",
+      "count": 125,
+      "bytes": 208739,
+      "sha256": "9a6cd86ae6b2e85155f581c4b48f4024819644030008d6863ad4b404e02e7799",
+      "retrieved_at": "2026-10-02T14:34:20.553552+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-0-extend-20261002T143146-111.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.822500%2C23.100000%2C50.850000%2C23.150000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.822500,23.100000,50.850000,23.150000,urn:ogc:def:crs:EPSG::4326",
+      "count": 92,
+      "bytes": 157934,
+      "sha256": "4a613b871e2b40c301f87073e37069edd35efaea04762d83892426224d914362",
+      "retrieved_at": "2026-10-02T14:34:20.800666+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-0-extend-20261002T143146-110.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.822500%2C23.050000%2C50.850000%2C23.100000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.822500,23.050000,50.850000,23.100000,urn:ogc:def:crs:EPSG::4326",
+      "count": 193,
+      "bytes": 310892,
+      "sha256": "3d0b3f13a80c469e68eb590af99a187b91cee914614b3c4e4935b21297b6ed71",
+      "retrieved_at": "2026-10-02T14:34:21.011348+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-0-extend-20261002T143146-112.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.795000%2C23.150000%2C50.822500%2C23.200000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.795000,23.150000,50.822500,23.200000,urn:ogc:def:crs:EPSG::4326",
+      "count": 204,
+      "bytes": 300137,
+      "sha256": "b1f7a2b1008fc1b1980d05886305593e949e32a3b1680143cf56cf29f4b4aaaf",
+      "retrieved_at": "2026-10-02T14:34:21.713988+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-0-extend-20261002T143146-113.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.795000%2C23.200000%2C50.822500%2C23.250000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.795000,23.200000,50.822500,23.250000,urn:ogc:def:crs:EPSG::4326",
+      "count": 159,
+      "bytes": 243446,
+      "sha256": "39a4bb55b7b0e19d3fbd42494c0b0cf0bcf73a1664c1b240b010b48e6e5bd746",
+      "retrieved_at": "2026-10-02T14:34:22.029632+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-0-extend-20261002T143146-114.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.822500%2C23.150000%2C50.850000%2C23.200000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.822500,23.150000,50.850000,23.200000,urn:ogc:def:crs:EPSG::4326",
+      "count": 273,
+      "bytes": 387806,
+      "sha256": "b80eb6a830a3b3fac24bc43dceea02496f2052bbbe91c0011921e0a8766fa03b",
+      "retrieved_at": "2026-10-02T14:34:22.346228+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-0-extend-20261002T143146-115.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.822500%2C23.200000%2C50.850000%2C23.250000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.822500,23.200000,50.850000,23.250000,urn:ogc:def:crs:EPSG::4326",
+      "count": 330,
+      "bytes": 479676,
+      "sha256": "c35c378614cce0560bff61d9120d2d047740a5351a73823b74d6d55e20f02e3e",
+      "retrieved_at": "2026-10-02T14:34:23.230846+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-0-extend-20261002T143146-116.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.850000%2C23.050000%2C50.877500%2C23.100000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.850000,23.050000,50.877500,23.100000,urn:ogc:def:crs:EPSG::4326",
+      "count": 317,
+      "bytes": 479206,
+      "sha256": "856494487cadd019b73ba70734137c178e68979dce711bcb3993ebdda77bc279",
+      "retrieved_at": "2026-10-02T14:34:23.617764+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-0-extend-20261002T143146-117.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.850000%2C23.100000%2C50.877500%2C23.150000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.850000,23.100000,50.877500,23.150000,urn:ogc:def:crs:EPSG::4326",
+      "count": 209,
+      "bytes": 349266,
+      "sha256": "7268e1c5a8a099f07738d05a931ca24411ba3a8129ad90dfbf974af794fc5180",
+      "retrieved_at": "2026-10-02T14:34:23.649147+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-0-extend-20261002T143146-118.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.877500%2C23.050000%2C50.905000%2C23.100000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.877500,23.050000,50.905000,23.100000,urn:ogc:def:crs:EPSG::4326",
+      "count": 402,
+      "bytes": 610339,
+      "sha256": "8ded07ffb195da80a4be96fd8cca7b042aad9545eb6529486045b324f972dc98",
+      "retrieved_at": "2026-10-02T14:34:25.071498+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-0-extend-20261002T143146-120.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.850000%2C23.150000%2C50.877500%2C23.200000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.850000,23.150000,50.877500,23.200000,urn:ogc:def:crs:EPSG::4326",
+      "count": 284,
+      "bytes": 417893,
+      "sha256": "c135cd76ea808dc03b838804b319299b7be621ca873f8d3e9f4e092fe9d810cc",
+      "retrieved_at": "2026-10-02T14:34:25.089555+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-0-extend-20261002T143146-119.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.877500%2C23.100000%2C50.905000%2C23.150000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.877500,23.100000,50.905000,23.150000,urn:ogc:def:crs:EPSG::4326",
+      "count": 295,
+      "bytes": 483413,
+      "sha256": "66a91443436669cf38d7426662c554255416efc92b64c44073584165eb2eb6f3",
+      "retrieved_at": "2026-10-02T14:34:25.145916+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-0-extend-20261002T143146-121.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.850000%2C23.200000%2C50.877500%2C23.250000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.850000,23.200000,50.877500,23.250000,urn:ogc:def:crs:EPSG::4326",
+      "count": 359,
+      "bytes": 511206,
+      "sha256": "69bd2f979ddffe8bd8fb128cf3ee0e6b27cacf5b6e4ed534e8e488ce9047fa00",
+      "retrieved_at": "2026-10-02T14:34:26.718661+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-0-extend-20261002T143146-123.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.877500%2C23.200000%2C50.905000%2C23.250000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.877500,23.200000,50.905000,23.250000,urn:ogc:def:crs:EPSG::4326",
+      "count": 325,
+      "bytes": 497794,
+      "sha256": "11468f1c23bff0c39df3b09534eff31969208252117efd073faf69f88495e947",
+      "retrieved_at": "2026-10-02T14:34:26.780320+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-0-extend-20261002T143146-122.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.877500%2C23.150000%2C50.905000%2C23.200000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.877500,23.150000,50.905000,23.200000,urn:ogc:def:crs:EPSG::4326",
+      "count": 471,
+      "bytes": 673634,
+      "sha256": "b2e7eae2f3bf7043f722c04a2d8d899c758e5bcd4e219b8996de84ecced31e57",
+      "retrieved_at": "2026-10-02T14:34:27.164254+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-1-extend-20261002T143146-124.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.795000%2C23.250000%2C50.822500%2C23.300000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.795000,23.250000,50.822500,23.300000,urn:ogc:def:crs:EPSG::4326",
+      "count": 408,
+      "bytes": 578727,
+      "sha256": "c46d0859d376d8077884f26487ec13283f4e2b6768f090e8e90aaf9ea75ca3f3",
+      "retrieved_at": "2026-10-02T14:34:28.593403+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-1-extend-20261002T143146-125.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.795000%2C23.300000%2C50.822500%2C23.350000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.795000,23.300000,50.822500,23.350000,urn:ogc:def:crs:EPSG::4326",
+      "count": 402,
+      "bytes": 611936,
+      "sha256": "72bfa7314d30ec53579254465e94d240f56d0bccc79eb6315bc2cbe778109b5c",
+      "retrieved_at": "2026-10-02T14:34:28.674129+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-1-extend-20261002T143146-126.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.822500%2C23.250000%2C50.850000%2C23.300000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.822500,23.250000,50.850000,23.300000,urn:ogc:def:crs:EPSG::4326",
+      "count": 394,
+      "bytes": 571468,
+      "sha256": "8a8863f3fd629ae056b4da85ee1b9d3119d24e0de81cd74540dd415cc4f3ade4",
+      "retrieved_at": "2026-10-02T14:34:28.966723+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-1-extend-20261002T143146-128.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.795000%2C23.350000%2C50.822500%2C23.400000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.795000,23.350000,50.822500,23.400000,urn:ogc:def:crs:EPSG::4326",
+      "count": 278,
+      "bytes": 419050,
+      "sha256": "b2d191167df99e7f85f17d9e0b36d1dc3d3ffbc4f5b03bf219e490cc11c6d773",
+      "retrieved_at": "2026-10-02T14:34:30.071056+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-1-extend-20261002T143146-127.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.822500%2C23.300000%2C50.850000%2C23.350000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.822500,23.300000,50.850000,23.350000,urn:ogc:def:crs:EPSG::4326",
+      "count": 280,
+      "bytes": 440332,
+      "sha256": "8bed8850cd002dc5af01939bb220ba694708163c6dec8113c7b2c252c6cffe71",
+      "retrieved_at": "2026-10-02T14:34:30.090782+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-1-extend-20261002T143146-129.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.795000%2C23.400000%2C50.822500%2C23.450000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.795000,23.400000,50.822500,23.450000,urn:ogc:def:crs:EPSG::4326",
+      "count": 277,
+      "bytes": 421485,
+      "sha256": "392ca534891ee3ec5a67bb1dd3c9396a5ef06794663635796934579b0499e8f6",
+      "retrieved_at": "2026-10-02T14:34:30.317934+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-1-extend-20261002T143146-130.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.822500%2C23.350000%2C50.850000%2C23.400000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.822500,23.350000,50.850000,23.400000,urn:ogc:def:crs:EPSG::4326",
+      "count": 158,
+      "bytes": 254200,
+      "sha256": "bfbcc065133681269b8dce37c9daff8eb2237304641e88a204917f71a79a67da",
+      "retrieved_at": "2026-10-02T14:34:31.144611+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-1-extend-20261002T143146-131.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.822500%2C23.400000%2C50.850000%2C23.450000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.822500,23.400000,50.850000,23.450000,urn:ogc:def:crs:EPSG::4326",
+      "count": 190,
+      "bytes": 296501,
+      "sha256": "2445c4d9b5c3dcfb8f37ab34f3b96a6b6ce3b3277cb61ef5315d6c1a511fd57d",
+      "retrieved_at": "2026-10-02T14:34:31.216842+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-1-extend-20261002T143146-132.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.850000%2C23.250000%2C50.877500%2C23.300000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.850000,23.250000,50.877500,23.300000,urn:ogc:def:crs:EPSG::4326",
+      "count": 332,
+      "bytes": 512657,
+      "sha256": "487ef76a25f21e9cea33cfa5e9be60ae7cfa188440a3f7a50cb1c9dafd6c3af8",
+      "retrieved_at": "2026-10-02T14:34:31.981318+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-1-extend-20261002T143146-133.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.850000%2C23.300000%2C50.877500%2C23.350000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.850000,23.300000,50.877500,23.350000,urn:ogc:def:crs:EPSG::4326",
+      "count": 199,
+      "bytes": 319941,
+      "sha256": "8b904d0e5d1309d8acd0cfcee8cc5136bdfe389b891e62caefba175e8cd19cd9",
+      "retrieved_at": "2026-10-02T14:34:32.308485+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-1-extend-20261002T143146-134.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.877500%2C23.250000%2C50.905000%2C23.300000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.877500,23.250000,50.905000,23.300000,urn:ogc:def:crs:EPSG::4326",
+      "count": 413,
+      "bytes": 615724,
+      "sha256": "88e30014ff0e8323a349684cf75adc6feef575d5bb9f6b2a7ac138eb48c6db95",
+      "retrieved_at": "2026-10-02T14:34:33.327876+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-13-1-extend-20261002T143146-135.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=50.877500%2C23.300000%2C50.905000%2C23.350000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "50.877500,23.300000,50.905000,23.350000,urn:ogc:def:crs:EPSG::4326",
+      "count": 305,
+      "bytes": 469118,
+      "sha256": "d11aa844b88bb0fded463050a9364b8e49dc218fb6d1639fef709af73f7f2e68",
+      "retrieved_at": "2026-10-02T14:34:34.241291+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-18-1-extend-20261002T143146-137.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.150000%2C23.500000%2C51.177500%2C23.550000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.150000,23.500000,51.177500,23.550000,urn:ogc:def:crs:EPSG::4326",
+      "count": 152,
+      "bytes": 243986,
+      "sha256": "8423e558bf45e82ab2c55ff90ec11a872751af4857fc2739fa717bbf9d7a4a62",
+      "retrieved_at": "2026-10-02T14:34:34.586538+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-18-1-extend-20261002T143146-136.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.150000%2C23.450000%2C51.177500%2C23.500000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.150000,23.450000,51.177500,23.500000,urn:ogc:def:crs:EPSG::4326",
+      "count": 640,
+      "bytes": 874325,
+      "sha256": "b8500dd3f8fdac03db5373a86ed151a15a5638465d6d53d941e339192dd082c3",
+      "retrieved_at": "2026-10-02T14:34:35.236626+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-18-1-extend-20261002T143146-138.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.177500%2C23.450000%2C51.205000%2C23.500000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.177500,23.450000,51.205000,23.500000,urn:ogc:def:crs:EPSG::4326",
+      "count": 196,
+      "bytes": 317921,
+      "sha256": "07b0646c1cbddb5568117f6ae37f1d6b2c03541f612f4791ce1a54b91cc8040e",
+      "retrieved_at": "2026-10-02T14:34:38.438706+00:00"
+    },
+    {
+      "name": "DorohuskCorridor-18-1-extend-20261002T143146-139.gml",
+      "region": "DorohuskCorridor",
+      "url": "https://mapy.geoportal.gov.pl/wss/service/wfsTN/guest?service=WFS&request=GetFeature&version=1.1.0&typeName=tn-ro%3ARoadLink&bbox=51.177500%2C23.500000%2C51.205000%2C23.550000%2Curn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326&maxFeatures=5000&srsName=urn%3Aogc%3Adef%3Acrs%3AEPSG%3A%3A4326",
+      "bbox": "51.177500,23.500000,51.205000,23.550000,urn:ogc:def:crs:EPSG::4326",
+      "count": 257,
+      "bytes": 382736,
+      "sha256": "0f6eca2fde5b1e5e943230524e4c6f4fdf83f82d67059e5e18a2f12d57069bc5",
+      "retrieved_at": "2026-10-02T14:34:38.533560+00:00"
+    }
+  ],
+  "recovery_basis": "Exact public response bytes recovered from CI job 110685699684, cancelled by the 12-minute job limit after data retrieval completed; original Medyka sample preserved separately.",
+  "last_attempt_at": "2026-10-02T14:34:38.549766+00:00"
+}

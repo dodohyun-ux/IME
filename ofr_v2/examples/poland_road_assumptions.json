@@ -1,0 +1,7 @@
+{
+  "speed_kph": 40,
+  "max_gross_weight_kg": 18000,
+  "max_height_m": 4.5,
+  "max_width_m": 3,
+  "toll_per_km": 0
+}

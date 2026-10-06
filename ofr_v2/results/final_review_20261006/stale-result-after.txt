@@ -1,0 +1,28 @@
+- complementary:
+  - generic: 폴란드 구호 플래너
+  - generic: Poland Relief Planner
+  - navigation:
+    - button "01 데이터 입력":
+      - generic: "01"
+      - generic: 데이터 입력
+    - button "02 4주 수요 예측":
+      - generic: "02"
+      - generic: 4주 수요 예측
+    - button "03 구호품 계획":
+      - generic: "03"
+      - generic: 구호품 계획
+    - button "04 최적화 결과" [active]:
+      - generic: "04"
+      - generic: 최적화 결과
+  - generic: 구호소
+  - generic: Medyka
+  - generic: Dorohusk
+  - generic: Korczowa
+- main:
+  - generic: STEP 04
+  - generic: ·
+  - generic: 최적화 결과
+  - heading "4주 구호품 배분 최적화 결과" [level=1]
+  - generic: 아직 최적화 결과가 없습니다.
+  - generic: 구호품 계획에서 입력값을 설정하고 최적화를 실행해주세요.
+  - button "구호품 계획으로 이동"

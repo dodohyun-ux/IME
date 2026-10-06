@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "health": {
+    "status": "ok",
+    "model_available": true,
+    "forecast_mode": "relief_model_live",
+    "model_sha256": "87c8953c7bd6abe5406c0513f23243cebdc305771681a33a488b4e17fbb606aa",
+    "model_format": "poland-relief-bundle/1",
+    "declared_training_end": "2025-05-09"
+  },
+  "forecast_source": "relief_model",
+  "forecast_total": [
+    5006,
+    5031,
+    5029,
+    5060
+  ]
+}

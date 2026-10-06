@@ -1,0 +1,147 @@
+{
+  "utilization_rate": 0.1,
+  "stay_days": 3,
+  "initial_inventory": {
+    "Medyka": {
+      "water": 12000,
+      "food": 800,
+      "hygiene_kit": 150,
+      "blanket": 180
+    }
+  },
+  "weekly_supply": {
+    "water": {
+      "1": 18000,
+      "2": 18000,
+      "3": 16000,
+      "4": 16000
+    },
+    "food": {
+      "1": 1200,
+      "2": 1200,
+      "3": 1000,
+      "4": 1000
+    },
+    "hygiene_kit": {
+      "1": 350,
+      "2": 350,
+      "3": 300,
+      "4": 300
+    },
+    "blanket": {
+      "1": 400,
+      "2": 400,
+      "3": 350,
+      "4": 350
+    }
+  },
+  "unit_cost": {
+    "water": 1.0,
+    "food": 10.0,
+    "hygiene_kit": 25.0,
+    "blanket": 30.0
+  },
+  "total_budget": 110000,
+  "warehouse_capacity_m3": {
+    "Medyka": 45.0
+  },
+  "selected_site": "Medyka",
+  "ml_forecast": {
+    "Medyka": {
+      "1": 3468,
+      "2": 3354,
+      "3": 3226,
+      "4": 3202
+    }
+  },
+  "item_volume_m3": {
+    "water": 0.001,
+    "food": 0.002,
+    "hygiene_kit": 0.01,
+    "blanket": 0.02
+  },
+  "logistics": {
+    "item_weight_kg": {
+      "water": 1.02,
+      "food": 0.6,
+      "hygiene_kit": 0.5,
+      "blanket": 1.5
+    },
+    "procurement_lead_days": {
+      "water": 0,
+      "food": 0,
+      "hygiene_kit": 0,
+      "blanket": 0
+    },
+    "shelf_life_days": {
+      "water": 365,
+      "food": 180,
+      "hygiene_kit": null,
+      "blanket": null
+    },
+    "initial_lots": [
+      {
+        "id": "opening:water",
+        "item": "water",
+        "quantity": 12000,
+        "expiry_week": 20
+      },
+      {
+        "id": "opening:food",
+        "item": "food",
+        "quantity": 800,
+        "expiry_week": 20
+      },
+      {
+        "id": "opening:hygiene_kit",
+        "item": "hygiene_kit",
+        "quantity": 150,
+        "expiry_week": null
+      },
+      {
+        "id": "opening:blanket",
+        "item": "blanket",
+        "quantity": 180,
+        "expiry_week": null
+      }
+    ],
+    "pipeline_lots": [],
+    "disposal_cost": {
+      "water": 0.1,
+      "food": 0.1,
+      "hygiene_kit": 0.1,
+      "blanket": 0.1
+    },
+    "disposal_capacity": {
+      "water": {
+        "1": 100000,
+        "2": 100000,
+        "3": 100000,
+        "4": 100000
+      },
+      "food": {
+        "1": 100000,
+        "2": 100000,
+        "3": 100000,
+        "4": 100000
+      },
+      "hygiene_kit": {
+        "1": 100000,
+        "2": 100000,
+        "3": 100000,
+        "4": 100000
+      },
+      "blanket": {
+        "1": 100000,
+        "2": 100000,
+        "3": 100000,
+        "4": 100000
+      }
+    }
+  },
+  "road_planning": {
+    "warehouse_id": "przemysl-wodna-11",
+    "truck_count": 2,
+    "reference_date": "2026-01-26"
+  }
+}

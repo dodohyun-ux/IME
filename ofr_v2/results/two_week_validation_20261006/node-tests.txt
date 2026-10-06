@@ -1,0 +1,23 @@
+✔ two-week storage migration keeps newest six cells only (2.2359ms)
+✔ CSV dates use reference first regardless of row order (1.1891ms)
+✔ two ordered rows accepted when week column absent (0.3786ms)
+✔ CSV rejects hidden extra weeks and duplicate/missing weeks (0.6272ms)
+✔ CSV rejects nonfinite and negative observed counts (0.6275ms)
+✔ late response is rejected even after inputs change back (0.8836ms)
+✔ unchanged inputs retain result validity (0.1945ms)
+✔ zero demand is valid only with an identified input source (0.2629ms)
+✔ custom and synthetic graphs never inherit official provenance (0.2543ms)
+✔ demand preview rounds people before deriving liters and daily rations (0.2031ms)
+✔ UI road input keeps common inventory conditions, excludes weekly routes and ties planning to forecast (2.721ms)
+✔ old saved drafts preserve weekly input and disabled mode (0.5202ms)
+✔ advanced official road JSON accepted, mismatched and mixed destinations rejected (0.3689ms)
+✔ fleet bounds and physical weight validation (0.2931ms)
+✔ transport controls transmit explicit quote and rest assumptions and reject invalid speed (0.3215ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 213.3763
