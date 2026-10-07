@@ -41,9 +41,10 @@ def planning_calendar(reference_date):
         raise InputValidationError('배차 기준주는 YYYY-MM-DD 형식의 월요일이어야 합니다.') from error
 
 
-@lru_cache(maxsize=1)
+@lru_cache(maxsize=6)
 def geometry_template(warehouse_id, site):
-    """Cache only the most recently used pair, keeping memory bounded."""
+    """Cache every warehouse-site pair (2 warehouses x 3 sites) so switching sites
+    does not re-parse the raw road files on each request."""
     options = road_options()
     registry = json.loads((ROOT / 'facilities.json').read_text(encoding='utf-8'))
     origins = [f for f in registry['warehouse_candidates'] if f['id'] == warehouse_id]
@@ -77,6 +78,17 @@ def geometry_template(warehouse_id, site):
                     missing_tile_count=len(diagnostics['missing_tiles']),
                     node_count=diagnostics['retained_route_nodes'], edge_count=diagnostics['retained_route_directed_edges'])
     return network, metadata
+
+
+def warm_geometry_cache():
+    """Build every warehouse-site road template once at server start-up."""
+    registry = json.loads((ROOT / 'facilities.json').read_text(encoding='utf-8'))
+    for warehouse in registry['warehouse_candidates']:
+        for destination in registry['destinations']:
+            try:
+                geometry_template(warehouse['id'], destination['site'])
+            except InputValidationError:
+                pass
 
 
 def build_ui_logistics(logistics, planning, site):

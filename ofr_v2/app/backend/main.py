@@ -220,6 +220,14 @@ def road_options():
     return options()
 
 
+@app.on_event("startup")
+def warm_road_templates():
+    # Parse the saved road files in the background so the first road plan is not slow.
+    import threading
+    from backend.road_planner import warm_geometry_cache
+    threading.Thread(target=warm_geometry_cache, daemon=True).start()
+
+
 class OptimizeRequest(BaseModel):
     model_config = {'extra': 'forbid', 'strict': True, 'allow_inf_nan': False}
     # JSON week keys are strings. Preserve them until the optimizer checks for

@@ -1,0 +1,6 @@
+# {$DOMAIN} 예: 140-238-1-2.sslip.io  → Let's Encrypt 인증서를 자동으로 발급받아 HTTPS 제공
+{$DOMAIN} {
+	# 도로 배차 결과(최대 약 28MB JSON)를 압축해 전송 시간을 줄인다
+	encode zstd gzip
+	reverse_proxy backend:7860
+}

@@ -1,0 +1,29 @@
+# OFR 백엔드 + HTTPS(Caddy, 응답 압축) — Oracle Cloud Always Free VM용
+# 실행: bash deploy/oracle/setup.sh <서버 공인 IP>
+services:
+  backend:
+    build:
+      context: ../..
+      dockerfile: deploy/oracle/Dockerfile.backend
+    restart: unless-stopped
+    environment:
+      ALLOWED_ORIGINS: "https://ime-olive.vercel.app,http://localhost:8443,http://127.0.0.1:8443"
+
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      DOMAIN: ${DOMAIN}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - backend
+
+volumes:
+  caddy_data:
+  caddy_config:
