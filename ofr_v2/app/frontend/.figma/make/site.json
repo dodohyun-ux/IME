@@ -1,5 +1,7 @@
 {
-  "description": "Simplifies humanitarian logistics by forecasting refugee inflows and optimizing weekly relief supply distribution across key hubs with clear Korean UI.",
+  "title": "폴란드 구호 플래너 | OFR",
+  "language": "ko",
+  "description": "폴란드 국경 구호소의 1~4주 난민 유입을 예측하고, 구호품 조달과 도로 배차 계획을 최적화하는 의사결정 지원 도구",
   "robots": {
     "index": false
   },
